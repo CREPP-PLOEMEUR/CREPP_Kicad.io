@@ -1,5 +1,5 @@
 {
-    "name": "CREPP Library",
+    "name": "CREPP Library V1.0",
     "description": "This addon contains common Symbols, Footprint, and 3D Models used by CREPP members",
     "description_full": "This addon contains common Symbols, Footprint, and 3D Models used by CREPP members",
     "identifier": "com.github.nicolasleguerroue.crepp.library",
@@ -16,7 +16,7 @@
             "web": "nicolasleguerroue@gmail.com"
         }
     },
-    "license": "Apache-2.0",
+    "license": "Unlicense",
     "resources": {
         "homepage": "crepp.org"
     },
@@ -25,10 +25,10 @@
             "version": "1.0.0",
             "status": "stable",
             "kicad_version": "8.0.0",
-            "download_sha256": "a29cc10dcd943d75d49c5b12786e1295efb95f2e095d9be0347d9a7713ed9528",
-            "download_size": 453914,
+            "download_sha256": "def16e86b7e102703dcbedb28845b58ebf6f44aab7da28b7c7a773aeca4912fb",
+            "download_size": 5135,
             "download_url": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad/blob/main/packages/com.github.nicolasleguerroue.crepp.library.zip",
-            "install_size": 3191959
+            "install_size": 7664
         }
     ]
 }
