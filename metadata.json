@@ -1,5 +1,4 @@
 {
-    "$schema": "https://go.kicad.org/pcm/schemas/v1",
     "name": "CREPP Library",
     "description": "This addon contains common Symbols, Footprint, and 3D Models used by CREPP members",
     "description_full": "This addon contains common Symbols, Footprint, and 3D Models used by CREPP members",
@@ -23,13 +22,13 @@
     },
     "versions": [
         {
-            "version": "1.0",
+            "version": "1.0.0",
             "status": "stable",
             "kicad_version": "8.0.0",
-            "download_sha256": "4118573517b58fb7d4e14950c8e39738fb62efb8669abf1c7124a01ed8271836",
-            "download_size": 289527,
-            "download_url": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad/blob/main/resources.zip",
-            "install_size": 3169083
+            "download_sha256": "a29cc10dcd943d75d49c5b12786e1295efb95f2e095d9be0347d9a7713ed9528",
+            "download_size": 453914,
+            "download_url": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad/blob/main/packages/com.github.nicolasleguerroue.crepp.library.zip",
+            "install_size": 3191959
         }
     ]
 }
