@@ -1,0 +1,66 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Elektuur Style Symbol Library",
+    "description": "Generic Elektuur style symbols, primarily intended for circuit diagrams used for documentation and SPICE simulation.",
+    "description_full": "Elektuur style symbols as introduced in the later 1970s (until the early 1990s when they became more angular).\nThe symbol sizes have been increased by 1.6 % (2 mm grid to 80 mil grid) and the pins realigned to a 2.54 mm (100 mil) grid.\nRecommended Schematic Setup: default line width and wire thickness 0.254 mm (10 mil), junction dot size Small (40 mil), text size 1.27 mm (50 mil), grid 2.54 mm (100 mil), automatically place symbol fields unchecked.\nLibrary Paths:\n${KICAD6_3RD_PARTY}/symbols/com_gitlab_franzee_kicad-addons_elektuur/Elektuur.kicad_sym\n${KICAD6_3RD_PARTY}/footprints/com_gitlab_franzee_kicad-addons_elektuur/Elektuur.pretty",
+    "identifier": "com.gitlab.franzee.kicad-addons.elektuur",
+    "type": "library",
+    "author": {
+        "name": "franzee",
+        "contact": {
+        }
+    },
+    "license": "CC0-1.0",
+    "resources": {
+        "Repository": "https://gitlab.com/franzee/kicad-addons/"
+    },
+    "tags": [
+        "elektuur",
+        "elektor",
+        "symbols",
+        "generic",
+        "documentation",
+        "simulation",
+        "spice",
+        "ngspice",
+        "footprints"
+    ],
+    "versions": [
+        {
+            "version": "0.6.0",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_sha256": "48522006cfa20920d6ddedd96ef73ea2453ab3e94059a16437ce11628d66e2df",
+            "download_size": 15962,
+            "install_size": 232723,
+            "download_url": "https://gitlab.com/franzee/kicad-addons/-/raw/main/kicad-elektuur-symbols-0.6.0.zip"
+        },
+        {
+            "version": "0.6.2",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_sha256": "79f85c6dd2480f50fe614af088ecbd8e0215cf8a259b1275ad359b00a178a2f6",
+            "download_size": 17465,
+            "install_size": 264733,
+            "download_url": "https://gitlab.com/franzee/kicad-addons/-/raw/main/kicad-elektuur-symbols-0.6.2.zip"
+        },
+        {
+            "version": "0.6.3",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_sha256": "7eb3c5709f700f81dc34847c21efe4e71aa6ee99b8be0cec6ec7eaefd6c53b72",
+            "download_size": 77609,
+            "install_size": 367469,
+            "download_url": "https://gitlab.com/franzee/kicad-addons/-/raw/main/kicad-elektuur-symbols-0.6.3.zip"
+        },
+        {
+            "version": "0.6.4",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_sha256": "7d2632936cca4bf640b25889031d74dea4538e95ee5a7abbc15a3b8715297513",
+            "download_size": 83746,
+            "install_size": 376628,
+            "download_url": "https://gitlab.com/franzee/kicad-addons/-/raw/main/kicad-elektuur-symbols-0.6.4.zip"
+        }
+    ]
+}

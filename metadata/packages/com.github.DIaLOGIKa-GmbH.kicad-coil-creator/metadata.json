@@ -1,0 +1,87 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "PCB Coil Generator",
+    "description": "Generates multilayer PCB coils for direct placement or as a footprint",
+    "description_full": "The PCB Coil Creator is an addon that allows you to generate multilayer PCB coils directly within KiCad. It features a UI for configuring parameters like layer count, trace width, and coil dimensions.\n\nThe generated coils can be used as footprints or embedded directly into board designs, making it a versatile tool for various PCB projects.",
+    "identifier": "com.github.DIaLOGIKa-GmbH.kicad-coil-creator",
+    "type": "plugin",
+    "author": {
+        "name": "Tim Goll & Jonas Wenner, DIaLOGIKa GmbH",
+        "contact": {
+            "web": "https://github.com/DIaLOGIKa-GmbH"
+        }
+    },
+    "maintainer": {
+        "name": "Tim Goll & Jonas Wenner, DIaLOGIKa GmbH",
+        "contact": {
+            "web": "https://github.com/DIaLOGIKa-GmbH"
+        }
+    },
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/DIaLOGIKa-GmbH/kicad-coil-creator"
+    },
+    "tags": [
+        "coils",
+        "inductors",
+        "toolkit"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "status": "stable",
+            "kicad_version": "7.00",
+            "download_url": "https://github.com/DIaLOGIKa-GmbH/kicad-coil-creator/releases/download/v1.0.0/coil_generator_v1.0.0.zip",
+            "download_sha256": "8b40bafa272671d433dcb56f2e96107f0afc0acd622089e24195389422837b90",
+            "download_size": 17346,
+            "install_size": 38033,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "2.0.0",
+            "status": "stable",
+            "kicad_version": "8.00",
+            "download_url": "https://github.com/DIaLOGIKa-GmbH/kicad-coil-creator/releases/download/v2.0.0/coil_generator_v2.0.0.zip",
+            "download_sha256": "065ac4987312ebb6425509d0b1e1c9da5ac531498eb8512beab3864c5496fc8f",
+            "download_size": 21968,
+            "install_size": 52636,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "2.1.0",
+            "status": "stable",
+            "kicad_version": "8.00",
+            "download_url": "https://github.com/DIaLOGIKa-GmbH/kicad-coil-creator/releases/download/v2.1.0/coil_generator_v2.1.0.zip",
+            "download_sha256": "29bd555d1dc0f60797105d947723c83f248fa2af501f95cb418488ddb332c901",
+            "download_size": 22528,
+            "install_size": 52383,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "2.1.1",
+            "status": "stable",
+            "kicad_version": "8.00",
+            "download_url": "https://github.com/DIaLOGIKa-GmbH/kicad-coil-creator/releases/download/v2.1.1/coil_generator_v2.1.1.zip",
+            "download_sha256": "edfe9aa1334cd64587ee09563f47357e787a07c044a6d6209cf8a7fb0807c9d5",
+            "download_size": 22804,
+            "install_size": 53469,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        }
+    ]
+}

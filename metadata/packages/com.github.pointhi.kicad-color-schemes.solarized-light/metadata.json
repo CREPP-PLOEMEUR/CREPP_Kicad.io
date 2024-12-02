@@ -1,0 +1,35 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Solarized Light Theme",
+    "description": "Based on Solarized colorscheme from Ethan Schoonover",
+    "description_full": "Based on Solarized colorscheme from Ethan Schoonover.\nSee https://ethanschoonover.com/solarized/ for more details.",
+    "identifier": "com.github.pointhi.kicad-color-schemes.solarized-light",
+    "type": "colortheme",
+    "author": {
+        "name": "Thomas Pointhuber",
+        "contact": {
+            "web": "https://github.com/pointhi/kicad-color-schemes/"
+        }
+    },
+    "maintainer": {
+        "name": "Thomas Pointhuber",
+        "contact": {
+            "web": "https://github.com/pointhi/kicad-color-schemes/"
+        }
+    },
+    "license": "CC0-1.0",
+    "resources": {
+        "Github": "https://github.com/pointhi/kicad-color-schemes"
+    },
+    "versions": [
+        {
+            "version": "1.2",
+            "status": "stable",
+            "kicad_version": "5.99",
+            "download_sha256": "0be21e4d43066a1870a88eba7b627a4dac1c2fec20506dd50c78755200b412a3",
+            "download_size": 4390,
+            "download_url": "https://github.com/pointhi/kicad-color-schemes/releases/download/2021-12-05/com.github.pointhi.kicad-color-schemes.solarized-light_v1.2_pcm.zip",
+            "install_size": 5679
+        }
+    ]
+}

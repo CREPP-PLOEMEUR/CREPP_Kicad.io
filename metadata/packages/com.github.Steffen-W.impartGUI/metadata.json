@@ -1,0 +1,83 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "impart GUI for KiCad",
+    "description": "Import library files from Octopart, Samacsys, Ultralibrarian, Snapeda and EasyEDA",
+    "description_full": "Import library files from Octopart, Samacsys, Ultralibrarian, Snapeda and EasyEDA.\n For usage and correct setup please read the Readme: \n https://github.com/Steffen-W/Import-LIB-KiCad-Plugin#use-of-the-application",
+    "identifier": "com.github.Steffen-W.impartGUI",
+    "type": "plugin",
+    "author": {
+        "name": "Steffen Wittemeier",
+        "contact": {
+            "github": "https://github.com/Steffen-W"
+        }
+    },
+    "maintainer": {
+        "name": "Steffen Wittemeier",
+        "contact": {
+            "github": "https://github.com/Steffen-W"
+        }
+    },
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin"
+    },
+    "tags": [
+        "import",
+        "library",
+        "octopart",
+        "samacsys",
+        "ultralibrarian",
+        "snapeda",
+        "easyeda"
+    ],
+    "keep_on_update": [
+        ".*/config.ini"
+    ],
+    "versions": [
+        {
+            "version": "2023.10.20",
+            "status": "stable",
+            "kicad_version": "6.00",
+            "download_sha256": "2d12590b3e6a0d6e0ff0332b62edc5de5d8abf1af91d6b0d39de841d7d2c55c4",
+            "download_size": 27761,
+            "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2023.10.20/Import-LIB-KiCad-Plugin.zip",
+            "install_size": 71362
+        },
+        {
+            "version": "2024.02.24",
+            "status": "stable",
+            "kicad_version": "6.00",
+            "download_sha256": "747bfdbfc34edc160cbf6f77462c16aa5064c68c1adc076930a1a1c7fef0f695",
+            "download_size": 27824,
+            "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.02.24/Import-LIB-KiCad-Plugin.zip",
+            "install_size": 71950
+        },
+        {
+            "version": "2024.04.08",
+            "status": "stable",
+            "kicad_version": "6.00",
+            "download_sha256": "3c4c926d7a00bce0edfcd1ad20ba3be52bb2494f529b2c6198081525dbc32262",
+            "download_size": 27837,
+            "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.04.08/Import-LIB-KiCad-Plugin.zip",
+            "install_size": 72143
+        },
+        {
+            "version": "2024.07.11",
+            "status": "stable",
+            "kicad_version": "6.00",
+            "download_sha256": "d548dfe9deda47b4a718da35a13215b53016f8bef2d671a421ddfaeccb9943ea",
+            "download_size": 27869,
+            "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.07.11/Import-LIB-KiCad-Plugin.zip",
+            "install_size": 72200
+        },
+        {
+            "version": "2024.08.17",
+            "status": "stable",
+            "kicad_version": "8.00",
+            "download_sha256": "ca4714f8ba62d3ed148465791bd66449102a2da0f5c78a23e84b5dd2744965a5",
+            "download_size": 65343,
+            "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.08.17/Import-LIB-KiCad-Plugin.zip",
+            "install_size": 217649
+        }
+    ]
+}

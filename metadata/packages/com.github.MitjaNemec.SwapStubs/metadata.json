@@ -1,0 +1,40 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "SwapStubs",
+    "description": "Swap stubs",
+    "description_full": "Swaps the ratsnest between two pins and also swaps the lables in the schematics to keep the schematis in sync",
+    "identifier": "com.github.MitjaNemec.SwapStubs",
+    "type": "plugin",
+    "author": {
+        "name": "Mitja Nemec",
+        "contact": {
+            "github": "https://github.com/MitjaNemec"
+        }
+    },    
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "https://github.com/MitjaNemec/SwapStubs"
+    },
+    "tags": [
+        "pcbnew",
+        "swap"
+    ],
+    "versions": [
+        {
+            "version": "1.0.7",
+            "status": "stable",
+            "kicad_version": "8.0",
+            "kicad_version_max": "8.1",
+            "download_url": "https://github.com/MitjaNemec/SwapStubs/releases/download/1.0.7/SwapStubs-1.0.7-pcm.zip",
+            "download_sha256": "fff9ceea7eaae2cac4f86369b54dfda8facfbf66f7509ae3c5d9c7b4b4d03bec",
+            "download_size": 19460,
+            "install_size": 47492,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        }
+    ]
+}
+

@@ -1,0 +1,143 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Board2Pdf",
+    "description": "Export a customized pdf of the board",
+    "description_full": "Each enabled template will result in a page in the pdf file that's created by this plugin. You can enable any number of templates to get different views and color modes of the pcb. Each template can be individually configured to give the desired output. It's completely up to you which layers to show, and which colors the layers shall have.",
+    "identifier": "com.gitlab.dennevi.Board2Pdf",
+    "type": "plugin",
+    "author": {
+        "name": "Albin Dennevi",
+		"contact": {
+            "support": "https://forum.kicad.info/"
+        }
+    },
+    "license": "GPL-3.0",
+    "resources": {
+        "Gitlab": "https://gitlab.com/dennevi/Board2Pdf",
+        "Readme": "https://gitlab.com/dennevi/Board2Pdf/-/blob/main/README.md",
+        "Wiki": "http://board2pdf.dennevi.com"
+    },
+    "tags": [
+        "pcbnew",
+        "assembly",
+        "documentation"
+    ],
+    "versions": [
+        {
+            "version": "1.8.0",
+            "status": "stable",
+            "kicad_version": "6.0",
+			"kicad_version_max": "9.0",
+            "download_url": "https://links.dennevi.com/Board2Pdf_v1.8.0.zip",
+            "download_sha256": "9c2e50dd35b568162a44411bd39a2cdf5e678e89912ef46a082683a0206cf979",
+            "download_size": 405406,
+            "install_size": 1659671,
+			"platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "1.7.2",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v1.7.2.zip",
+            "download_sha256": "a0d7126e1f48bb16408e4b542efba08a595900b9ce83ac57479e0b1edd943fd6",
+            "download_size": 394471,
+            "install_size": 1633554,
+			"platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "1.7.1",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v1.7.1.zip",
+            "download_sha256": "9be4dda36ff7d6c18a59b244be9d8d03dcb156d1f9770d01fdd86f4e0b561497",
+            "download_size": 394333,
+            "install_size": 1632746,
+			"platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "1.6",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v1.6.zip",
+            "download_sha256": "d09e7ec88a22537955887243fb45781d92b2ce0fd71cc59d5003d9fed4da0772",
+            "download_size": 400266,
+            "install_size": 1888174,
+			"platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "1.3",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v1.3.zip",
+            "download_sha256": "3cf9966dddb3d45aee338383a03bece34a5d387063e43608c038debb1f3751c0",
+            "download_size": 354169,
+            "install_size": 1872902,
+			"platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "1.2",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v1.2.zip",
+            "download_sha256": "a15ff0537ce436cbc2eab0c8fd3eb4f2a50d857fcbaac6372c712842e009c96f",
+            "download_size": 129477,
+            "install_size": 769144,
+			"platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "1.1",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v1.1.zip",
+            "download_sha256": "7f774bcad2b56d9df72fb625cefb7153c700ad65fc3f5370224251083f560606",
+            "download_size": 61342,
+            "install_size": 445706,
+			"platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "0.7",
+            "status": "testing",
+            "kicad_version": "6.0",
+			"kicad_version_max": "6.1",
+            "download_url": "https://gitlab.com/dennevi/kicad-plugins-releases/-/raw/main/Board2Pdf/releases/Board2Pdf_v0.7.zip",
+            "download_sha256": "1aa55bc50f7cfbb16fa5ee8fb86a6c47dbe526b1d487d7066153e21bb2838c3b",
+            "download_size": 108872,
+            "install_size": 646866,
+			"platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        }
+
+
+    ]
+}

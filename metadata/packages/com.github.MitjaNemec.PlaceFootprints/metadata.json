@@ -1,0 +1,71 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Place Footprints",
+    "description": "Arrange footprints on a line, circle or grid.",
+    "description_full": "Arrange sequentially numbered footprints or footprints from multiple hierarchical sheets in linear, circular or matrix arrangement. This plugin works on footprints already present in the layout, so that layout and schematics stay in sync.\nThe placement of footprints from multiple hierarchical sheets works well together with ReplicateLayout plugin",
+    "identifier": "com.github.MitjaNemec.PlaceFootprints",
+    "type": "plugin",
+    "author": {
+        "name": "Mitja Nemec",
+        "contact": {
+            "github": "https://github.com/MitjaNemec"
+        }
+    },
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "https://github.com/MitjaNemec/PlaceFootprints"
+    },
+    "tags": [
+        "pcbnew",
+        "footprints",
+        "arrange"
+    ],
+    "versions": [
+        {
+            "version": "1.2.12",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "kicad_version_max": "6.1",
+            "download_url": "https://github.com/MitjaNemec/PlaceFootprints/releases/download/1.2.12/PlaceFootprints-1.2.12-pcm.zip",
+            "download_sha256": "a6a838d34fbe07fba0909c22d0bfeed27c5430250dc837f1348c0578237031a8",
+            "download_size": 22668,
+            "install_size": 78947,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "2.1.3",
+            "status": "stable",
+            "kicad_version": "7.0",
+            "kicad_version_max": "7.1",
+            "download_url": "https://github.com/MitjaNemec/PlaceFootprints/releases/download/2.1.3/PlaceFootprints-2.1.3-pcm.zip",
+            "download_sha256": "b7c63488bf8f670b3d0a1da32f7a88443ede6c83be6111a1f0d4392e2f2f32f2",
+            "download_size": 23999,
+            "install_size": 93076,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "3.0.0",
+            "status": "stable",
+            "kicad_version": "7.99",
+            "kicad_version_max": "8.1",
+            "download_url": "https://github.com/MitjaNemec/PlaceFootprints/releases/download/3.0.0/PlaceFootprints-3.0.0-pcm.zip",
+            "download_sha256": "3a9a1a22369b68c83a585f096de74f5b42176fa91cbb6b7756b060d10d6ec60e",
+            "download_size": 23871,
+            "install_size": 93545,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        }
+    ]
+}
+

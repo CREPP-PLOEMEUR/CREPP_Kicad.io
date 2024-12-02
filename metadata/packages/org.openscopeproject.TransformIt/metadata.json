@@ -1,0 +1,36 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Transform It",
+    "description": "Batch resize, scale, mirror graphics, tracks, zones, footprints and other items in the PCB editor.",
+    "description_full": "Batch resize, scale, mirror graphics, tracks, zones, footprints and other items in the PCB editor.\nInspired by free transform tool in graphics editors.\nImportant notes:\n\u2022 Mirror does not change layers, it transforms in place\n\u2022 When a singular footprint is selected it's items are scaled so the footprint itself will become larger/smaller\n\u2022 When more than one item is selected footprints are not changed or rescaled, only repositioned/rotated\n\u2022 Pads are not rescaled, only repositioned/rotated\n\u2022 Rotation center is geometrical center of combined bounding box of all selected items",
+    "identifier": "org.openscopeproject.TransformIt",
+    "type": "plugin",
+    "author": {
+        "name": "qu1ck",
+        "contact": {
+            "email": "mail@qu1ck.org"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "Github": "https://github.com/openscopeproject/TransformIt",
+        "Forum": "https://forum.kicad.info/t/transformit-plugin-batch-scale-mirror-rotate-all-the-things/40336"
+    },
+    "tags": [
+        "scale",
+        "rotate",
+        "mirror",
+        "graphics"
+    ],
+    "versions": [{
+            "version": "1.2",
+            "status": "stable",
+            "kicad_version": "7.0",
+            "download_url": "https://github.com/openscopeproject/TransformIt/releases/download/v1.2/TransformIt_v1.2_pcm.zip",
+            "download_sha256": "7d93db4f0444ada004861ce19ce5c6c99f00c5b8e4cd3c32e02e45a7faa3f189",
+            "download_size": 10063,
+            "install_size": 24964,
+            "platforms": ["linux", "macos", "windows"]
+        }
+    ]
+}

@@ -3,7 +3,7 @@
     "name": "CREPP Library",
     "description": "This addon contains common Symbols, Footprint, and 3D Models used by CREPP members",
     "description_full": "This addon contains common Symbols, Footprint, and 3D Models used by CREPP members",
-    "identifier": "com.github.espressif.kicad-libraries",
+    "identifier": "com.github.nicolasleguerroue.crepp.library",
     "type": "library",
     "author": {
         "name": "Nicolas Le Guerroué",
@@ -26,10 +26,10 @@
             "version": "1.0",
             "status": "stable",
             "kicad_version": "8.0.0",
-            "download_sha256": "ed1ec6448536fe904788e950b528464bc2ba7a3b39bceb363a6acfb4014c8209",
-            "download_size": 47937097,
-            "download_url": "https://github.com/espressif/kicad-libraries/releases/download/3.0.1/espressif-kicad-addon.zip",
-            "install_size": 230247684
+            "download_sha256": "4118573517b58fb7d4e14950c8e39738fb62efb8669abf1c7124a01ed8271836",
+            "download_size": 442060,
+            "download_url": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad/blob/main/resources.zip",
+            "install_size": 3160891
         }
     ]
 }

@@ -1,0 +1,35 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Simple Libraries",
+    "description": "User-friendly library package for beginners",
+    "description_full": "Simple Libraries library pack is a collection of common electronic components libraries for the free and open-source KiCAD PCB design software. The goal of Simple Libraries is to provide a user-friendly library package  for beginners. Components like resistors and capacitors are name base on the values like 10k,100ohm, 22uF… So users can directly search for the value and directly add it to their design. ",
+    "identifier": "com.github.Sajitha-Aldeniya.KiCad-Simple-Libraries",
+    "type": "library",
+    "author": {
+        "name": "Sajitha Aldeniya",
+        "contact": {
+            "web": "https://github.com/Sajitha-Aldeniya"
+        }
+    },
+    "maintainer": {
+        "name": "Sajitha Aldeniya",
+        "contact": {
+            "web": "https://github.com/Sajitha-Aldeniya/KiCad-Simple-Libraries"
+        }
+    },
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "GitHub": "https://github.com/Sajitha-Aldeniya/KiCad-Simple-Libraries"
+    },
+    "versions": [
+        {
+            "version": "0.5",
+            "status": "development",
+            "kicad_version": "7",
+            "download_sha256": "ce506a2c13bd9284470fb76d9399f40f06e4d942ff38812c0f108234056602f8",
+            "download_size": 32873247,
+            "download_url": "https://github.com/Sajitha-Aldeniya/KiCad-Simple-Libraries/releases/download/v0.5/KiCad_Simple_Libraries_v0.5.zip",
+            "install_size": 168306828
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Sierra Quote Plugin",
+    "description": "Get an instant quote and order without leaving KiCad.",
+    "description_full": "Our plugin saves you time since you no longer need to output the data to send it to the PCB house. This also spares you from the errors that come with this step. Because, trust us, as a manufacturer, we see designers sending the wrong data every day, causing delays and money.\n So here's how it works: once you have completed the layout, all you need to do is go to Tools and External Plugins, and select Sierra Circuits Quote.\n A window will pop-up and show the specifications. Our plugin reads the design for a smooth quote process. Most of the board information will be automatically filled out, such as the dimensions and layer number. It is then up to you to choose the thickness, surface finish, etc. \n Review the parameters, pick the quantity and turn time, get assembly if needed, and place your order.This is as simple as it sounds!",
+    "identifier": "sierra.kicad.order",
+    "type": "plugin",
+    "author": {
+        "name": "Sierra Circuits",
+        "contact": {
+            "email": "kicad-support@protoexpress.com"
+        }
+    },
+    "maintainer": {
+        "name": "Sierra Support",
+        "contact": {
+            "email": "kicad-support@protoexpress.com"
+        }
+    },
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://www.protoexpress.com/kicad-quote-plugin/"
+    },
+    "versions": [
+        {
+            "version": "4.2",
+            "status": "stable",
+            "kicad_version": "6.0.0",  
+            "download_sha256": "0c009335dfa42b412ff6f610b31e90bdf648818bcb34086e08b1550b317a5cf6",
+            "download_size": 213895,
+            "download_url": "https://kicad-plugin-build-download-link.s3.amazonaws.com/sierra.kicad.order.v4.2.zip",
+            "install_size": 2055998,
+            "platforms": [
+                "macos",
+                "windows",
+                "linux"
+            ]
+        },
+        {
+            "version": "4.1",
+            "status": "stable",
+            "kicad_version": "6.0.0",
+            "download_sha256": "9f28ea1a1a4f1414e51ac92445e9fd657f23781187f1aa69c68eff167a59aea6",
+            "download_size": 212872,
+            "download_url": "https://kicad-plugin-build-download-link.s3.amazonaws.com/sierra.kicad.order.v4.1.zip",
+            "install_size": 2050175,
+            "platforms": [
+                "macos",
+                "windows",
+                "linux"
+            ]
+        },
+        {
+            "version": "4.0",
+            "status": "stable",
+            "kicad_version": "6.0.0",
+            "download_sha256": "8a9e6e4e3b8a9915380d41b266f8a759319ecdb0c77ae93736306872c1ab12eb",
+            "download_size": 212742,
+            "download_url": "https://kicad-plugin-build-download-link.s3.amazonaws.com/sierra.kicad.order.v4.0.zip",
+            "install_size": 2048570,
+            "platforms": [
+                "macos",
+                "windows",
+                "linux"
+            ]
+
+        }
+    ]
+}

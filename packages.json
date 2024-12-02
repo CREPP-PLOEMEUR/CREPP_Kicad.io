@@ -1,22 +1,21 @@
 {
-    "$schema": "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository",
     "maintainer": {
         "contact": {
             "web": "nicolasleguerroue@gmail.com"
         },
         "name": "Nicolas Le Guerroué"
     },
-    "name": "kicad-color-schemes repository by @pointhi",
+    "name": "Kicad for CREPP users",
     "packages": {
-        "sha256": "fe8596418cff699726757be58ad0d61f682dbf587bb0cb48ab3080f67c6eaec6",
-        "update_time_utc": "2021-12-05 13:11:42",
+        "sha256": "4118573517b58fb7d4e14950c8e39738fb62efb8669abf1c7124a01ed8271836",
+        "update_time_utc": "2024-12-01 13:11:42",
         "update_timestamp": 1638709902,
         "url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/packages.json"
     },
     "resources": {
-        "sha256": "620853ca579fdb1c773d94ff18004fdc5c31866b2b611498c9ccc747cad8b095",
+        "sha256": "4118573517b58fb7d4e14950c8e39738fb62efb8669abf1c7124a01ed8271836",
         "update_time_utc": "2021-12-05 13:11:42",
         "update_timestamp": 1638709902,
-        "url": "https://raw.githubusercontent.com/pointhi/kicad-color-schemes/master/resources.zip"
+        "url": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad/blob/main/resources.zip"
     }
 }

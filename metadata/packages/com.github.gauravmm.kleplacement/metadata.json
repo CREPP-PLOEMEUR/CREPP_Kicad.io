@@ -1,0 +1,37 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "KLEPlacement",
+    "description": "Place keys according to a KLE specificaiton",
+    "description_full": "Places footprints according to a keyboard-layout-editor.com specification. Only moves keys that are not at a valid position, so swapping keys is simple!",
+    "identifier": "com.github.gauravmm.kleplacement",
+    "type": "plugin",
+    "author": {
+        "name": "Gaurav Manek",
+        "contact": {
+            "web": "https://gauravmanek.com/",
+            "email": "gaurav@gauravmanek.com"
+        }
+    },
+    "maintainer": {
+        "name": "Gaurav Manek",
+        "contact": {
+            "web": "https://gauravmanek.com/",
+            "email": "gaurav@gauravmanek.com"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/gauravmm/KLEPlacement"
+    },
+    "versions": [
+        {
+            "version": "1.0.1",
+            "status": "stable",
+            "kicad_version": "7.0",
+            "download_sha256": "41bc9614738721739459401a2822ce68f17ae0e6258ce0e745ded6eea7bd1793",
+            "download_size": 10044,
+            "download_url": "https://github.com/gauravmm/KLEPlacement/releases/download/1.0.1/package.zip",
+            "install_size": 19494
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "KiMesh",
+    "description": "A security mesh generator for KiCad",
+    "description_full": "This is the footprint package for the KiMesh security mesh generator.",
+    "identifier": "de.jaseg.kimesh.footprints",
+    "type": "library",
+    "author": {
+        "name": "jaseg",
+        "contact": {
+            "web": "https://jaseg.de/"
+        }
+    },
+    "license": "CERN-OHL",
+    "resources": {
+        "homepage": "https://jaseg.de/projects/kimesh",
+        "git": "https://git.jaseg.de/kimesh.git",
+        "issues": "https://github.com/jaseg/kimesh/issues"
+    },
+    "versions": [
+        {
+            "version": "1.0.0",
+            "status": "stable",
+            "kicad_version": "7.99",
+            "download_sha256": "e0c1a2752090def465afa6f6c38baeb74a6544e79e87de3019087c41a3f2790e",
+            "download_size": 822342,
+            "download_url": "https://git.jaseg.de/kimesh.git/plain/de.jaseg.kimesh.footprints-v1.0.0.zip?h=v1.0.0",
+            "install_size": 4803868
+        },
+        {
+            "version": "1.0.1",
+            "status": "stable",
+            "kicad_version": "7.99",
+            "download_sha256": "00bc9b6e264ee4f72324909e40dbc2d7d2ec6e91d150639d52492fe305c17620",
+            "download_size": 822997,
+            "download_url": "https://git.jaseg.de/kimesh.git/plain/de.jaseg.kimesh.footprints-v1.0.1.zip?h=v1.0.1",
+            "install_size": 4803868
+        },
+        {
+            "version": "1.1.0",
+            "status": "stable",
+            "kicad_version": "7.99",
+            "download_sha256": "ce2c4849fafc3b3aa0ce7c2c9c5a7256181f5e24a59cb5b901da06a8ffb9e0a7",
+            "download_size": 912925,
+            "download_url": "https://git.jaseg.de/kimesh.git/plain/de.jaseg.kimesh.footprints-v1.1.0.zip?h=v1.1.0",
+            "install_size": 5091564
+        }
+    ]
+}

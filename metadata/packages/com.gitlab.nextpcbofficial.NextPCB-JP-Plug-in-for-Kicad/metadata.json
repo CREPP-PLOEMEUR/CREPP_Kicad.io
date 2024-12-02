@@ -1,0 +1,26 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "NextPCB JP Kicad用プラグイン",
+    "description": "ワンクリックでファイルをNextPCBに送信し、製造を開始します。",
+    "description_full": "このプラグインを押すことでNextPCBはお客様のご要望に最大限の範囲でお応えします。\n\n NextPCBプラグインボタンを押すと、プロジェクトファイルをエクスポートします。\n\n 1. 製品用の正しい形式のガーバファイル\n 2. IPCネットリストファイル\n3. 部品の全ての情報を含んだBOMファイル(デジグネータ、数量、MPN/部品番号、パッケージ、フットプリントの記載が必須です。)\n 4. 組み立てに使われるPick&Placeファイル\n\n ファイルをアップロード後\"Save to Cart\"をクリックすることですぐに注文できます。 ( アップロードには数秒かかります), 製造前に当社のエンジニアによる二度の検査が行われます。\n\n NextPCBについて\n\n NextPCBは中国に本社を置く、ワンストップサービスでの基板の組み立てと実装を得意とするメーカーです。 通常のPCBなら24時間以内の製造を可能としています。TG150-160の高品質素材を$5/10pcsの低価格で提供し、アフターサービスも充実させています。KiCADのスポンサーとして、あなたの開発を全力でサポートします。",
+    "identifier": "com.gitlab.nextpcbofficial.NextPCB-JP-Plug-in-for-Kicad",
+    "type": "plugin",
+    "author": {
+        "name": "jp.nextpcb.com",
+        "contact": {
+            "web": "https://jp.nextpcb.com"
+        }
+    },
+    "maintainer": {
+        "name": "jp.nextpcb.com",
+        "contact": {
+            "web": "https://jp.nextpcb.com"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://gitlab.com/nextpcbofficial/NextPCB-JP-Plug-in-for-Kicad"
+    },
+    "versions": [
+    ]
+}

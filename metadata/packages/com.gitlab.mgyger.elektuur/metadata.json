@@ -1,0 +1,39 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Elektuur Style Symbol Library",
+    "description": "Generic Elektuur style symbols, primarily intended for circuit diagrams used for documentation and SPICE simulation.",
+    "description_full": "Elektuur style symbols as introduced in the later 1970s (until the early 1990s when they became more angular).\nThe symbol sizes have been increased by 1.6 % (2 mm grid to 80 mil grid) and the pins realigned to a 2.54 mm (100 mil) grid.\nRecommended Schematic Setup: default line width and wire thickness 0.254 mm (10 mil), junction dot size Small (40 mil), text size 1.27 mm (50 mil), grid 2.54 mm (100 mil), automatically place symbol fields unchecked.",
+    "identifier": "com.gitlab.mgyger.elektuur",
+    "type": "library",
+    "author": {
+        "name": "mgyger",
+        "contact": {
+        }
+    },
+    "license": "CC0-1.0",
+    "resources": {
+        "Repository": "https://gitlab.com/mgyger/kicad-addons/"
+    },
+    "tags": [
+        "elektuur",
+        "elektor",
+        "symbols",
+        "generic",
+        "documentation",
+        "simulation",
+        "spice",
+        "ngspice",
+        "footprints"
+    ],
+    "versions": [
+        {
+            "version": "0.7.0",
+            "status": "stable",
+            "kicad_version": "7.0",
+            "download_sha256": "7c8320973fb7bec5e71ffd24bf57e7f90d0ad4a2069320439ef387f8c71ad116",
+            "download_size": 87066,
+            "install_size": 366398,
+            "download_url": "https://gitlab.com/mgyger/kicad-addons/-/raw/main/kicad-elektuur-symbols-0.7.0.zip"
+        }
+    ]
+}

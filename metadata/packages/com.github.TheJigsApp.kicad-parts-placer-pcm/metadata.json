@@ -1,0 +1,55 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "Parts Placer",
+  "description": "Declaratively place components using a spreadsheet",
+  "description_full": "Flip, mirror, move, rotate, and move components based off inputs from a spreadsheet. Enforce a form-factor, keep mechanical placements under version control, and allow updating of a templated based design. Easily enforce grids or maintain test point patterns.",
+  "identifier": "com.github.TheJigsApp.kicad-parts-placer-pcm",
+  "type": "plugin",
+  "author": {
+    "name": "The JigsApp",
+    "contact": {
+      "web": "https://www.thejigsapp.com",
+      "github": "https://github.com/TheJigsApp"
+    }
+  },
+  "maintainer": {
+    "name": "The JigsApp",
+    "contact": {
+      "web": "https://www.thejigsapp.com",
+      "github": "https://github.com/TheJigsApp"
+    }
+  },
+  "license": "LGPL-2.1",
+  "resources": {
+    "homepage": "https://github.com/TheJigsApp/kicad-parts-placer-pcm"
+  },
+  "versions": [
+    {
+      "version": "0.1.1",
+      "status": "stable",
+      "kicad_version": "8.0",
+      "download_url": "https://github.com/TheJigsApp/kicad-parts-placer-pcm/releases/download/v0.1.1/kicad-parts-placer-0.1.1-pcm.zip",
+      "download_sha256": "c03b7f8d9129adffeaa6c3a21f8f10c34366ff0935188c75a434d32ada79befe",
+      "download_size": 17658,
+      "install_size": 39528
+    },
+    {
+      "version": "0.1.2",
+      "status": "stable",
+      "kicad_version": "8.0",
+      "download_url": "https://github.com/TheJigsApp/kicad-parts-placer-pcm/releases/download/v0.1.2/kicad-parts-placer-0.1.2-pcm.zip",
+      "download_sha256": "7fd7dcfc4cddcc2cca5a31608a97cdca5a38a5345da20374503d03a96159efba",
+      "download_size": 13520,
+      "install_size": 30689 
+    },
+    {
+      "version": "0.1.11",
+      "status": "stable",
+      "kicad_version": "8.0",
+      "download_url": "https://github.com/TheJigsApp/kicad-parts-placer-pcm/releases/download/v0.1.11/kicad-parts-placer-0.1.11-pcm.zip",
+      "download_sha256": "5218581233047f5b5a766f1196cea764aeff5a3d65a886b240897f0ba45a4c6d",
+      "download_size": 14983,
+      "install_size": 35404
+    }
+  ]
+}

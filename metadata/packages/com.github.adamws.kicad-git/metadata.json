@@ -1,0 +1,49 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Git plugin",
+    "description": "KiCad plugin for git",
+    "description_full": "Git actions directly from KiCad's PCB editor window",
+    "identifier": "com.github.adamws.kicad-git",
+    "type": "plugin",
+    "author": {
+        "name": "adamws",
+        "contact": {
+            "web": "https://adamws.github.io"
+        }
+    },
+    "license": "GPL-3.0",
+    "resources": {
+        "Homepage": "https://github.com/adamws/kicad-git",
+        "Bug Tracker": "https://github.com/adamws/kicad-git/issues",
+        "Sponsor": "https://ko-fi.com/adamws"
+    },
+    "versions": [
+        {
+            "version": "0.1",
+            "status": "stable",
+            "kicad_version": "7.0",
+            "download_sha256": "a5e3135204c562e216cfce92cd13714a89287c5a63cc5a6f24835ceef6484061",
+            "download_size": 16807,
+            "install_size": 15885,
+            "download_url": "https://github.com/adamws/kicad-git/releases/download/v0.1/kicad_git-0.1.zip"
+        },
+        {
+            "version": "0.2",
+            "status": "stable",
+            "kicad_version": "7.0",
+            "download_sha256": "f0ac36a2cfef71f0f5756ae74011a4bc7e849fcb7f59f75172036ff93b1bc101",
+            "download_size": 8605,
+            "install_size": 7797,
+            "download_url": "https://github.com/adamws/kicad-git/releases/download/v0.2/kicad_git-0.2.zip"
+        },
+        {
+            "version": "0.3",
+            "status": "stable",
+            "kicad_version": "7.0",
+            "download_sha256": "54a0a5882e5bc4c557424f352f88877303c6bc95e86d6a66cd804f2cf17cdf7d",
+            "download_size": 8755,
+            "install_size": 7947,
+            "download_url": "https://github.com/adamws/kicad-git/releases/download/v0.3/kicad_git-0.3.zip"
+        }
+    ]
+}

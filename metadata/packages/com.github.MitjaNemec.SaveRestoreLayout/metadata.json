@@ -1,0 +1,71 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Save/Restore Layout",
+    "description": "The plugin can save and restore partial layout of footprints from one hierarchical sheet",
+    "description_full": "This plugin implements footprint modules or snippets feature. The plugin saves partial layout corresponding to footprints from one hirearchical sheet so that it can be restored in other projects. All projects have to use the same hierarchical sheet schematics. If the schematics has been edited, the plugin will refuse to restore the layout. So in projects where you need to change the schematics slightly, first restore the layout and then change the schematics.",
+    "identifier": "com.github.MitjaNemec.SaveRestoreLayout",
+    "type": "plugin",
+    "author": {
+        "name": "Mitja Nemec",
+        "contact": {
+            "github": "https://github.com/MitjaNemec"
+        }
+    },
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "https://github.com/MitjaNemec/SaveRestoreLayout"
+    },
+    "tags": [
+        "pcbnew",
+        "footprints",
+        "arrange"
+    ],
+    "versions": [
+        {
+            "version": "1.1.11",
+            "status": "stable",
+            "kicad_version": "6.0.3",
+            "kicad_version_max": "6.1",
+            "download_url": "https://github.com/MitjaNemec/SaveRestoreLayout/releases/download/1.1.11/SaveRestoreLayout-1.1.11-pcm.zip",
+            "download_sha256": "d559e12cce0b0ebe8b9c313ce62d0b358ef462fba53de5e063ebed3f0e9cb982",
+            "download_size": 27742,
+            "install_size": 86195,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "2.1.2",
+            "status": "stable",
+            "kicad_version": "6.99",
+            "kicad_version_max": "7.1",
+            "download_url": "https://github.com/MitjaNemec/SaveRestoreLayout/releases/download/2.1.2/SaveRestoreLayout-2.1.2-pcm.zip",
+            "download_sha256": "2794187b9a55d1add132e8b35ebe6b525fba831f6fbfc123d673257bbeb52ecc",
+            "download_size": 28692,
+            "install_size": 91184,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "version": "3.0.1",
+            "status": "stable",
+            "kicad_version": "7.99",
+            "kicad_version_max": "8.1",
+            "download_url": "https://github.com/MitjaNemec/SaveRestoreLayout/releases/download/3.0.1/SaveRestoreLayout-3.0.1-pcm.zip",
+            "download_sha256": "ca748f3f39b51d477099e6c382ce87100575277e5b34c727ffab8a9d9d8acd8b",
+            "download_size": 29560,
+            "install_size": 95998,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        }
+    ]
+}
+

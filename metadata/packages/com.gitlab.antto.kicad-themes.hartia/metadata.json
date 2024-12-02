@@ -1,0 +1,35 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Hartia Theme",
+    "description": "Schematic theme that mimics Pen and Paper",
+    "description_full": "Dark ink for the symbols, blue ink for the wires and values, red ink for the labels, vibrant yellow for the selected objects. Use Lines for the grid!",
+    "identifier": "com.gitlab.antto.kicad-themes.hartia",
+    "type": "colortheme",
+    "author": {
+        "name": "Anton Savov",
+        "contact": {
+            "web": "http://antonsavov.net"
+        }
+    },
+    "maintainer": {
+        "name": "antto",
+        "contact": {
+            "web": "https://gitlab.com/antto/kicad-themes"
+        }
+    },
+    "license": "CC0-1.0",
+    "resources": {
+        "homepage": "https://gitlab.com/antto/kicad-themes"
+    },
+    "versions": [
+        {
+            "version": "1.1",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_sha256": "12be4d6f0b2c2056ed363db94ee8c20b1d4a7e51243f035b85cbc8255746b439",
+            "download_size": 9387,
+            "download_url": "https://gitlab.com/antto/kicad-themes/-/raw/main/hartia/com.gitlab.antto.kicad-themes.hartia.zip",
+            "install_size": 14877
+        }
+    ]
+}
