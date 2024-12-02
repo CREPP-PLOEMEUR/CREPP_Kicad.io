@@ -1,0 +1,38 @@
+{
+    "packages": [
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "author": {
+                "contact": {
+                    "email": "nicolasleguerroue@gmail.com"
+                },
+                "name": "Nicolas Le Guerroué"
+            },
+            "description": "CREPP Library",
+            "description_full": "This package contains footprints and symbols for CREPP.\n",
+            "identifier": "com.github.nicolasleguerroue.crepp-kicad-library",
+            "license": "Apache-2.0",
+            "name": "CREPP Library",
+            "resources": {
+                "Github": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad.git"
+            },
+            "tags": [
+                "footprint",
+                "library",
+                "crepp",
+                "3D"
+            ],
+            "type": "library",
+            "versions": 
+                {
+                    "download_sha256": "b38d56323acb91ad660567340ca938c5b4a83a27eea52308ef14aa7857b0071b",
+                    "download_size": 7808392,
+                    "download_url": "https://github.com/kiswitch/keyswitch-kicad-library/releases/download/v2.4/keyswitch-kicad-library.zip",
+                    "install_size": 37552156,
+                    "kicad_version": "5.1",
+                    "status": "stable",
+                    "version": "2.4"
+                }
+        }
+    ]
+}
