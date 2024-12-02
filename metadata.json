@@ -25,9 +25,9 @@
             "version": "1.0.0",
             "status": "stable",
             "kicad_version": "8.0.0",
-            "download_sha256": "def16e86b7e102703dcbedb28845b58ebf6f44aab7da28b7c7a773aeca4912fb",
-            "download_size": 5135,
-            "download_url": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad/blob/main/packages/com.github.nicolasleguerroue.crepp.library.zip",
+            "download_sha256": "c741d5b32081b8339273be95454ddcd7f3a6fc0bca3509ecfab0dfcaa3c5b947",
+            "download_size": 289594,
+            "download_url": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad/blob/main/crepp.zip",
             "install_size": 7664
         }
     ]
