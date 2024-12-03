@@ -1,0 +1,25 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "CREPP Library",
+    "description": "SED Beacons Library",
+    "description_full": "CREPP Library (schematics, footprints, 3d models)",
+    "identifier": "com.github.crepp.library",
+    "type": "library",
+    "author": {
+        "name": "Nicolas Le Guerroué",
+        "contact": {
+            "email": "nicolasleguerroue@gmail.com"
+        }
+    },
+    "license": "unrestricted",
+    "resources": {
+        "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
+    },
+    "versions": [
+        {
+            "version": "0.1",
+            "status": "development",
+            "kicad_version": "8.00"
+        }
+    ]
+}

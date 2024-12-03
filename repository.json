@@ -1,23 +1,17 @@
 {
-    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+    "$schema": "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository",
     "maintainer": {
         "contact": {
-            "web": "crepp.org"
+            "web": "https://forge.kannad.fr/projects/kicadlibs/"
         },
-        "name": "Nicolas Le Guerroué"
+        "name": "Library"
     },
-    "author": {"name": "Nicolas",
-"contact": {
-            "name": "DEDE"
-        }},
-    "license": "Apache-2.0",
-    "name": "CREPP repository",
-    "description": "dede",
-    "description_full": "dede",
-    "identifier": "library",
-    "type": "library",
+    "name": "Library official repository",
     "packages": {
-        "sha256": "24ee5617154eaedcefdba32774de3cf5c3d2c50f57fa06f8375c4d55d7dfa6d8",
-        "url": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad/blob/main/packages.json"
-    }   
+        "sha256": "8fcd0c69988129b446387416aa2cb73ea0f8a2355412e28db4b1f0a517b08f1e",//SHA256 hash of the file package.json
+        "update_time_utc": "2024-11-29 14:40:19",
+        "update_timestamp": 1732887619,
+        "url": "package.json"
+    }
 }
+

@@ -1,0 +1,33 @@
+{
+    "packages": [
+    {
+        "$schema": "https://go.kicad.org/pcm/schemas/v1",
+        "name": "CREPP symobols, footprints, 3D models",
+        "description": "CREPP symobols, footprints, 3D models",
+        "description_full": "CREPP symobols, footprints, 3D models",
+        "identifier": "com.github.crepp.library",
+        "type": "library",
+        "author": {
+            "name": "Nicolas Le Guerroué",
+            "contact": {
+                "email": "nicolasleguerroue@gmail.com"
+            }
+        },
+        "license": "unrestricted",
+        "resources": {
+            "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
+        },
+        "versions": [
+            {
+                "version": "0.1",
+                "status": "development",
+                "kicad_version": "8.00",
+                "download_sha256": "74c2778bcdf2ec08f7d42bbed39537d94fd9b685d88dacb2e049ce80c6fa3ab0",//SHA256 hash of the file zip
+                "download_size": 145590,
+                "download_url": ".../3/kicadlibs.zip", //URL of zip
+                "install_size": 1873398
+            }
+        ]
+    }
+    ]
+}
