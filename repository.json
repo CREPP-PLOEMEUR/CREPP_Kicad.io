@@ -9,12 +9,12 @@
     "name": "CREPP repository",
     "packages": {
         "sha256": "2fa62aac4a10011eea2605bb172c3fa670e08c170a7ab798d628bda38fb1f006",
-        "update_time_utc": "2024-11-25 11:01:29",
-        "update_timestamp": 1732532489,
-        "url": "https://gitlab.com/kicad/addons/repository/-/raw/main/packages.json"
+        "update_time_utc": "2024-12-03 01:09:29",
+        "update_timestamp": 1733188169,
+        "url": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad/blob/main/packages.json"
     },
     "resources": {
-        "sha256": "552e370b18d6c84bb8f25a8f7ab7181324f694cfbec9edc5a8b4146e2afa9038",
+        "sha256": "74c2778bcdf2ec08f7d42bbed39537d94fd9b685d88dacb2e049ce80c6fa3ab0",
         "update_time_utc": "2024-11-25 11:01:29",
         "update_timestamp": 1732532489,
         "url": "https://gitlab.com/kicad/addons/repository/-/jobs/artifacts/main/raw/artifacts/resources.zip?job=update"
