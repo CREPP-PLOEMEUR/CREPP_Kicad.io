@@ -17,7 +17,7 @@
     "identifier": "library",
     "type": "library",
     "packages": {
-        "sha256": "2fa62aac4a10011eea2605bb172c3fa670e08c170a7ab798d628bda38fb1f006",
+        "sha256": "24ee5617154eaedcefdba32774de3cf5c3d2c50f57fa06f8375c4d55d7dfa6d8",
         "url": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad/blob/main/packages.json"
     }   
 }
