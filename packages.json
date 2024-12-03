@@ -23,7 +23,7 @@
                 "keyboard"
             ],
             "type": "library",
-            "versions": [
+            "versions": 
                 {
                     "download_sha256": "b38d56323acb91ad660567340ca938c5b4a83a27eea52308ef14aa7857b0071b",
                     "download_size": 7808392,
@@ -32,26 +32,8 @@
                     "kicad_version": "5.1",
                     "status": "stable",
                     "version": "2.4"
-                },
-                {
-                    "download_sha256": "869fe4ce7e988f6cbbf8c0411d94c1a5c32244bdef6eca589048e7cc31e341a5",
-                    "download_size": 7922892,
-                    "download_url": "https://github.com/kiswitch/keyswitch-kicad-library/releases/download/v2.3/keyswitch-kicad-library.zip",
-                    "install_size": 38217581,
-                    "kicad_version": "5.1",
-                    "status": "stable",
-                    "version": "2.3"
-                },
-                {
-                    "download_sha256": "e3cfede28eb7cf1d590d149bfc292fa8d772bc3b33bc52b83a87bcae1ba3f7e8",
-                    "download_size": 7539262,
-                    "download_url": "https://github.com/kiswitch/keyswitch-kicad-library/releases/download/v2.2/keyswitch-kicad-library.zip",
-                    "install_size": 36095418,
-                    "kicad_version": "5.1",
-                    "status": "stable",
-                    "version": "2.2"
                 }
-            ]
+            
         }
     ]
 }
