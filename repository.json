@@ -2,13 +2,13 @@
     "$schema": "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository",
     "maintainer": {
         "contact": {
-            "web": "https://forge.kannad.fr/projects/kicadlibs/"
+            "web": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
         },
         "name": "Library"
     },
     "name": "CREPP library",
     "packages": {
-        "sha256": "2e30248aefc1f3f45473dc9a26cd8b9f66e2b75aacf3d9d270f4bbf6e776db6b",
+        "sha256": "cc2946f2937568cca1f5601e2e67fb5c0b2f85d71f7756489235a4c2c668ad8e",
         "update_time_utc": "2024-11-29 14:40:19",
         "update_timestamp": 1732887619,
         "url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/package.json"
