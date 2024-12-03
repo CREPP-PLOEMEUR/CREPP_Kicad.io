@@ -13,7 +13,7 @@
                 "email": "nicolasleguerroue@gmail.com"
             }
         },
-        "license": "unrestricted",
+        "license": "Apache-2.0",
         "resources": {
             "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
         },
@@ -24,7 +24,7 @@
                 "kicad_version": "8.00",
                 "download_sha256": "74c2778bcdf2ec08f7d42bbed39537d94fd9b685d88dacb2e049ce80c6fa3ab0",
                 "download_size": 453214,
-                "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main//library.zip",
+                "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/library.zip",
                 "install_size": 3196055
             }
         ]
