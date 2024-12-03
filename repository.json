@@ -6,7 +6,7 @@
         },
         "name": "Library"
     },
-    "name": "Library official repository",
+    "name": "CREPP library",
     "packages": {
         "sha256": "3eb064f055be553e10e8000852a8d03daae6213da17520aa7ffe33ab5b1f5853",
         "update_time_utc": "2024-11-29 14:40:19",
