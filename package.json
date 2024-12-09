@@ -3,8 +3,8 @@
     {
         "$schema": "https://go.kicad.org/pcm/schemas/v1",
         "name": "CREPP symobols, footprints, 3D models",
-        "description": "CREPP symobols, footprints, 3D models",
-        "description_full": "CREPP symobols, footprints, 3D models",
+        "description": "CREPP symbols, footprints, 3D models",
+        "description_full": "CREPP symbols, footprints, 3D models",
         "identifier": "com.github.crepp.library",
         "type": "library",
         "author": {
@@ -22,10 +22,10 @@
                 "version": "0.1",
                 "status": "development",
                 "kicad_version": "8.00",
-                "download_sha256": "bc162dcca9c5d2ed77815ea648ea8b320367388dd5bd69846c92d802570fa76d",
-                "download_size": 452978,
+                "download_sha256": "edf4b550f8d2f138374ef767c091346c51a62f25612db997e80c9a90ce71b2fc",
+                "download_size": 1775377,
                 "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/Library.zip",
-                "install_size": 3191959
+                "install_size": 11483889
             }
         ]
     }
