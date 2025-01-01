@@ -1,6 +1,9 @@
 #Update repo
 
 
+#Zip library
+zip -r Library.zip CREPP.Components/3dmodels CREPP.Components/footprints CREPP.Components/symbols 
+
 JSON_PACKAGE="package.json"
 
 # Crée une copie de sauvegarde du fichier original
