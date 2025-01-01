@@ -26,7 +26,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CREPP_Heatsinks:HeastSink_MOSFET_15mm_10mm_20mm"
 			(at 0.3048 0 0)
 			(effects
 				(font
@@ -54,15 +54,6 @@
 			)
 		)
 		(property "ki_keywords" "thermal heat temperature - CREPP"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Heatsink_*"
 			(at 0 0 0)
 			(effects
 				(font

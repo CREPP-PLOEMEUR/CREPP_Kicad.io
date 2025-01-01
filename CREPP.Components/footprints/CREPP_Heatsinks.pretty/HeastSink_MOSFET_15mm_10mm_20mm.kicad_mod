@@ -15,10 +15,10 @@
 			)
 		)
 	)
-	(property "Value" "HeatSink_NLG"
+	(property "Value" "HeatSink_TO-220"
 		(at 0 1 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "Dwgs.User")
 		(uuid "902b1363-a24c-4b8c-a0d4-fbe0a7d901cd")
 		(effects
 			(font

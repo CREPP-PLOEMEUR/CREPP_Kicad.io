@@ -1,0 +1,137 @@
+(footprint "SG90_Servo"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "31e76437-bb2a-4451-a9ea-a98df78e5b4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SG90_Servo"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "de55561f-2d83-4eae-85ec-75da56753f32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76eb0f14-271c-438b-91b8-83f0a13adc6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99c7d9ea-4033-4ebf-8e6d-24e482e6b6a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6afee3c-7926-4fcd-81c8-298ca136cfc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -5.7912 -8.2296)
+		(end 6.0088 23.9704)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "40a42858-9e99-449a-bb21-b1a3856ef818")
+	)
+	(fp_rect
+		(start -5.7912 -3.2004)
+		(end 6.0088 18.9996)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "3433c6ef-488c-420d-ae61-9f0458dd78db")
+	)
+	(fp_circle
+		(center 0 21.336)
+		(end 1.0668 21.336)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "5716579f-678e-453a-8ae1-7569cca43a1e")
+	)
+	(fp_circle
+		(center 0.0508 -5.7404)
+		(end 1.1176 -5.7404)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "978799c1-2808-4cd0-a825-b3b190f481d9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "7d8a5e4b-6cfe-4647-83b4-d509f0851acb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/3dmodels/CREPP_Servo/SG90.STEP"
+		(offset
+			(xyz 28 -1 -21.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

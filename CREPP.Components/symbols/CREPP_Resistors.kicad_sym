@@ -27,7 +27,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
 			(at -1.778 0 90)
 			(effects
 				(font

@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "Heatsink [CREPP]"
+	(symbol "Heatsink"
 		(pin_names
 			(offset 1.016)
 		)
@@ -26,7 +26,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CREPP_Heatsinks:HeastSink_MOSFET_15mm_10mm_20mm"
 			(at 0.3048 0 0)
 			(effects
 				(font
@@ -53,7 +53,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "thermal heat temperature"
+		(property "ki_keywords" "thermal heat temperature - CREPP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62,16 +62,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Heatsink_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Heatsink [CREPP]_0_1"
+		(symbol "Heatsink_0_1"
 			(polyline
 				(pts
 					(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)

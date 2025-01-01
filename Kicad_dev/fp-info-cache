@@ -1,4 +1,4 @@
-8542068458579
+31235930314038
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2540,10 +2540,45 @@ BK-18650-PC2_18650_Holder_THT [CREPP]
 0
 2
 2
+CREPP_DIP
+DIP-8_W7.62mm
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+0
+0
 CREPP_Heatsinks
 HeastSink_MOSFET_15mm_10mm_20mm
 
 
+0
+0
+0
+CREPP_Jumpers
+Jumper_2.54mm_black
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+0
+0
+CREPP_Jumpers
+Jumper_2.54mm_blue
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+0
+0
+CREPP_Jumpers
+Jumper_2.54mm_green
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+0
+0
+CREPP_Jumpers
+Jumper_2.54mm_red
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
 0
 0
 0
@@ -2554,6 +2589,69 @@ display OLED SSD1306 128x64
 0
 4
 4
+CREPP_Servo
+SG90_Servo
+
+
+0
+0
+0
+CREPP_Spacers
+Spacer_M3_FF_05mm
+
+
+0
+0
+0
+CREPP_Spacers
+Spacer_M3_FF_10mm
+
+
+0
+0
+0
+CREPP_Spacers
+Spacer_M3_FF_15mm
+
+
+0
+0
+0
+CREPP_Spacers
+Spacer_M3_FF_20mm
+
+
+0
+0
+0
+CREPP_Spacers
+Spacer_M3_MF_05mm
+
+
+0
+0
+0
+CREPP_Spacers
+Spacer_M3_MF_10mm
+
+
+0
+0
+0
+CREPP_Spacers
+Spacer_M3_MF_15mm
+
+
+0
+0
+0
+CREPP_Spacers
+Spacer_M3_MF_20mm
+
+
+0
+0
+0
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -67318,13 +67416,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PCM_CREPP
-VIRTUAL_FOOTPRINT
-
-
-0
-0
-0
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54

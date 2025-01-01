@@ -1,0 +1,127 @@
+(footprint "Spacer_M3_FF_10mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "a865664c-752d-4075-aea4-2c78874550f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Spacer_M3_FF_10mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "db1a7f0e-fea2-4263-8d47-f79f5f5cbe1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c0f7078-c72b-4b50-b049-21b1f717dead")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b5fee04-606d-43a5-b9a9-7b32f78c1bc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b18f95f5-fffb-4c38-bbf0-9d8630258e3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.8448)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "63a4a6d4-13fc-4e55-be5c-06d4f5cde5ab")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.6416)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "f9a8f29f-8979-40fd-b7d8-6513f7451837")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.048423 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "30a11cba-95ee-4d88-936c-5a30d9521190")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "67787ec1-f65a-463c-8f5f-3d2900c25fd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/3dmodels/CREPP_Spacers/M3_F_TO_F_10MM_STANDOFF.STEP"
+		(offset
+			(xyz 0 0 -6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 -180)
+		)
+	)
+)
