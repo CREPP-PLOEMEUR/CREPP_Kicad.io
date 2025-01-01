@@ -4,7 +4,7 @@
 #Zip library
 #zip -r -D Library.zip CREPP.Components/3dmodels CREPP.Components/footprints CREPP.Components/symbols 
 #zip -r -j Library.zip CREPP.Components/*
-(cd CREPP.Components; zip -r ../Library.zip ./)
+(cd CREPP.Components; zip -q -r ../Library.zip ./)
 JSON_PACKAGE="package.json"
 
 # Crée une copie de sauvegarde du fichier original
@@ -29,11 +29,12 @@ for ((INDEX=0; INDEX<TOTAL_PACKAGES; INDEX++)); do
 
     NEW_SHA256=$(sha256sum "$FILE_NAME" | awk '{print $1}')
     echo " : done"
+    echo $NEW_SHA256
 
     #Compressed zip storage
     size_zip=`du -sb $FILE_NAME | cut -f1`
 
-    unzip temp_file_$INDEX.zip -d tmp_unzip_dir
+    unzip temp_file_$INDEX.zip -q -d tmp_unzip_dir
     size_unzip=`du -sb tmp_unzip_dir | cut -f1`
     echo $size_unzip
     rm -r tmp_unzip_dir
