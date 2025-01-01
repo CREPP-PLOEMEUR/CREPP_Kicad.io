@@ -8,7 +8,7 @@
     },
     "name": "CREPP library",
     "packages": {
-        "sha256": "045eca42006313f6f1d0804c617dd4b397b1faef0df54edf548d71f57caf686e",
+        "sha256": "e39cce6612676e8356e9d78c066de04d17368c1b7e8228e259e003ebacae4ab5",
         "update_time_utc": "2024-11-29 14:40:19",
         "update_timestamp": 1732887619,
         "url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/package.json"
