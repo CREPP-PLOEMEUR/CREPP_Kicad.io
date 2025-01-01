@@ -35,7 +35,7 @@
       "description": "CREPP drawing sheet template",
       "description_full": "CREPP drawing sheet template",
       "identifier": "com.github.crepp.drawing",
-      "type": "colortheme",
+      "type": "library",
       "author": {
         "name": "Nicolas Le Guerroué",
         "contact": {
