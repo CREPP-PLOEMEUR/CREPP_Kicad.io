@@ -1,8 +1,0 @@
-.vscode/
-*.pyc
-*.old
-schema.json
-tmp/
-artifacts/
-.coverage
-htmlcov/

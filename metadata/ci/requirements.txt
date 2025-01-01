@@ -1,5 +1,0 @@
-jsonschema
-tqdm
-munch
-requests
-pillow
