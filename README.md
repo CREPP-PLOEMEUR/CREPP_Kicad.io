@@ -1,4 +1,6 @@
+# Organisation de la bibliothèque
 
+![Capture d'écran 1](resources/Git_flowchart.png)
 
 # Installation d'une bibliothèque via le PCM de KiCad
 
