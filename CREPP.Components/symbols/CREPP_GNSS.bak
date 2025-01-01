@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX-8Q [CREPP] GNSS"
+		(property "Value" "MAX-8Q"
 			(at 11.43 16.51 0)
 			(effects
 				(font
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_GPS:ublox_MAX"
+		(property "Footprint" "CREPP_GNSS:ublox_MAX"
 			(at 10.16 -16.51 0)
 			(effects
 				(font
@@ -427,7 +427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_GPS:ublox_NEO"
+		(property "Footprint" "CREPP_GNSS:ublox_NEO"
 			(at 10.16 -21.59 0)
 			(effects
 				(font
