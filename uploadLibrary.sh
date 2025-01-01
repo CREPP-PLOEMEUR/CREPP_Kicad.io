@@ -2,8 +2,9 @@
 
 
 #Zip library
-zip -r Library.zip CREPP.Components/3dmodels CREPP.Components/footprints CREPP.Components/symbols 
-
+#zip -r -D Library.zip CREPP.Components/3dmodels CREPP.Components/footprints CREPP.Components/symbols 
+#zip -r -j Library.zip CREPP.Components/*
+(cd CREPP.Components; zip -r ../Library.zip ./)
 JSON_PACKAGE="package.json"
 
 # Crée une copie de sauvegarde du fichier original
