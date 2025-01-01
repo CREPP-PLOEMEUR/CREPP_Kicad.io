@@ -15,7 +15,8 @@
       },
       "license": "Apache-2.0",
       "resources": {
-        "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
+        "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad",
+        "icon": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/resources/logo_lib.png"
       },
       "versions": [
         {
