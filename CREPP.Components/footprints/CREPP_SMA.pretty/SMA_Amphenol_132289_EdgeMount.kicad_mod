@@ -357,13 +357,13 @@
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Molex_73251-1153_EdgeMount_Horizontal.step"
 		(offset
-			(xyz 1.5 0 0)
+			(xyz -2 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 -180)
 		)
 	)
 )

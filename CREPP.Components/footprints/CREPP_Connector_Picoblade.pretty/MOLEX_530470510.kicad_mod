@@ -406,7 +406,7 @@
 		(remove_unused_layers no)
 		(uuid "c7b0f0f4-b356-4cbb-908c-a1f62a2eb134")
 	)
-	(model "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/3dmodels/CREPP_Picoblade/53047-0510.STEP"
+	(model "../../3dmodels/CREPP_Picoblade/53047-0510.STEP"
 		(offset
 			(xyz -2.5 -0.5 3)
 		)

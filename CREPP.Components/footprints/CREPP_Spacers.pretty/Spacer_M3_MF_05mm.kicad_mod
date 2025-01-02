@@ -113,7 +113,7 @@
 			)
 		)
 	)
-	(model "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/3dmodels/CREPP_Spacers/M3_M_TO_F_5MM_STANDOFF.STEP"
+	(model "../../3dmodels/CREPP_Spacers/M3_M_TO_F_5MM_STANDOFF.STEP"
 		(offset
 			(xyz 0 0 -4.5)
 		)

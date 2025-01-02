@@ -363,7 +363,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "e0c3a4b8-7a6f-4496-9100-a22f06b586ea")
 	)
-	(model "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/3dmodels/CREPP_GNSS/MAX-M8Q.STEP"
+	(model "../../3dmodels/CREPP_GNSS/MAX-M8Q.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

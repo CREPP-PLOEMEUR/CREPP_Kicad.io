@@ -123,7 +123,7 @@
 			)
 		)
 	)
-	(model "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/3dmodels/CREPP_Servo/SG90.STEP"
+	(model "../../3dmodels/CREPP_Servo/SG90.STEP"
 		(offset
 			(xyz 28 -1 -21.5)
 		)

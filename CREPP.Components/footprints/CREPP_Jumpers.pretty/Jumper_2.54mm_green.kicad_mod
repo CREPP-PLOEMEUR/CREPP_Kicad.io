@@ -115,7 +115,7 @@
 		(layer "Dwgs.User")
 		(uuid "4862cb63-0472-41cc-a8df-0b9bad363bce")
 	)
-	(model "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/3dmodels/CREPP_Jumpers_2.54mm/Jumper-green.step"
+	(model "../../3dmodels/CREPP_Jumpers_2.54mm/Jumper-green.step"
 		(offset
 			(xyz 0 -1.5 0.5)
 		)
