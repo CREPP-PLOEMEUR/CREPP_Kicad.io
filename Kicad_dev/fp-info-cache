@@ -1,4 +1,4 @@
-41650409130271
+43388980106219
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2582,6 +2582,13 @@ HeastSink_MOSFET_15mm_10mm_20mm
 0
 0
 0
+CREPP_Joysticks
+XDCR_COM-09032
+
+
+0
+14
+14
 CREPP_Jumpers
 Jumper_2.54mm_black
 Through hole straight pin header, 1x02, 2.54mm pitch, single row

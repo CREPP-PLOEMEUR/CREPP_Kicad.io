@@ -12,4 +12,5 @@
   (lib (name "CREPP_Connector_Picoblade")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Connector_Picoblade.pretty")(options "")(descr ""))
   (lib (name "CREPP_SMA")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_SMA.pretty")(options "")(descr ""))
   (lib (name "CREPP_BNC")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_BNC.pretty")(options "")(descr ""))
+  (lib (name "CREPP_Joysticks")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Joysticks.pretty/CREPP_Joysticks.pretty")(options "")(descr ""))
 )
