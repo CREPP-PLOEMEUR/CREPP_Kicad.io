@@ -13,6 +13,10 @@
           "email": "nicolasleguerroue@gmail.com"
         }
       },
+      "install": {
+    "path": "3DModels_TEST",
+    "environment_variable": "MY_3D_MODELS_USER"
+    },
       "license": "Apache-2.0",
       "resources": {
         "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
