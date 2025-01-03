@@ -14,9 +14,9 @@
         }
       },
       "install": {
-    "path": "3DModels_TEST",
-    "environment_variable": "MY_3D_MODELS_USER"
-    },
+        "path": "3DModels_TEST",
+        "environment_variable": "MY_3D_MODELS_USER"
+      },
       "license": "Apache-2.0",
       "resources": {
         "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
@@ -26,8 +26,8 @@
           "version": "0.1",
           "status": "development",
           "kicad_version": "8.00",
-          "download_sha256": "69a013f8e89dc77b92f5d2532d3fd61844d7518f217d555268194c3cffc49f2e",
-          "download_size": 5111545,
+          "download_sha256": "c94a519dcf7e275730db17a81193f6796e77433735d42916025a1844b2bd5e2b",
+          "download_size": 5111717,
           "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/Library.zip",
           "install_size": 4096
         }
