@@ -1,4 +1,4 @@
-45131886430838
+46867903240988
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2533,6 +2533,13 @@ speaker CUI
 0
 2
 2
+CREPP_BMS
+SOP127P600X175-9N
+
+
+0
+9
+9
 CREPP_BNC
 BNC_Amphenol_B6252HB-NPP3G-50_Horizontal
 http://www.farnell.com/datasheets/612848.pdf
@@ -2541,7 +2548,7 @@ BNC Amphenol Horizontal
 4
 2
 CREPP_Battery_Holders
-BK-18650-PC2_18650_Holder_THT
+BK-18650-PC2_18650_Holder_THT [CREPP]
 
 
 0
@@ -2554,6 +2561,13 @@ MOLEX_530470510
 0
 5
 5
+CREPP_Connectors_USB
+USB_C_Receptacle_GCT_USB4085
+USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf
+USB Type-C Receptacle Through-hole Right angle
+0
+20
+17
 CREPP_DIP
 DIP-8_W7.62mm
 8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
@@ -2583,13 +2597,6 @@ HeastSink_MOSFET_15mm_10mm_20mm
 0
 0
 CREPP_Joysticks
-XDCR_COM-09032
-
-
-0
-14
-14
-CREPP_Joysticks_1
 XDCR_COM-09032
 
 

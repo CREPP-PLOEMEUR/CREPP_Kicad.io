@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CREPP_Connectors_USB")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Connectors_USB.pretty")(options "")(descr ""))
+  (lib (name "CREPP_BMS")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_BMS.pretty")(options "")(descr ""))
+)

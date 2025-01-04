@@ -55,4 +55,7 @@
   (lib (name "CREPP_Joysticks")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_Joysticks.kicad_sym")(options "")(descr ""))
   (lib (name "CREPP_Accelerometers")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_Accelerometers.kicad_sym")(options "")(descr ""))
   (lib (name "mpu-6050")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/mpu-6050.kicad_sym")(options "")(descr ""))
+  (lib (name "usb_c_receptacle")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/usb_c_receptacle.kicad_sym")(options "")(descr ""))
+  (lib (name "CREPP_Connectors_USB_C")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_Connectors_USB_C.kicad_sym")(options "")(descr ""))
+  (lib (name "CREPP_BMS")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_BMS.kicad_sym")(options "")(descr ""))
 )
