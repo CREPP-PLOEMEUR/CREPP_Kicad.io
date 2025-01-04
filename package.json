@@ -26,8 +26,8 @@
           "version": "0.1",
           "status": "development",
           "kicad_version": "8.00",
-          "download_sha256": "26c52fcd0a4e7a9196b2278f9746db9dac897e8583760cbf9b572ae3962dd143",
-          "download_size": 5189759,
+          "download_sha256": "ae21cd1998c7451e83cb1a3e1d8a10b9e8f68dc145731d18bdbe75a18eb49778",
+          "download_size": 5190002,
           "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/Library.zip",
           "install_size": 4096
         }
