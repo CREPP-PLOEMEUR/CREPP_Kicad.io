@@ -3,7 +3,7 @@
     "name": "CREPP Library",
     "description": "CREPP Library Library",
     "description_full": "CREPP Library (schematics, footprints, 3d models, drawings)",
-    "identifier": "com.github.crepp.library",
+    "identifier": "com.github.crepp.library", 
     "type": "library",
     "author": {
         "name": "Nicolas Le Guerroué",
@@ -15,6 +15,11 @@
     "resources": {
         "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
     },
+    "environment": {
+    "vars": {
+      "TEST": "NICOLAS"
+    }
+  },
     "versions": [
         {
             "version": "0.1",
