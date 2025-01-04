@@ -1,4 +1,4 @@
-43395885041012
+45131886430838
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2541,7 +2541,7 @@ BNC Amphenol Horizontal
 4
 2
 CREPP_Battery_Holders
-BK-18650-PC2_18650_Holder_THT [CREPP]
+BK-18650-PC2_18650_Holder_THT
 
 
 0
@@ -2583,6 +2583,13 @@ HeastSink_MOSFET_15mm_10mm_20mm
 0
 0
 CREPP_Joysticks
+XDCR_COM-09032
+
+
+0
+14
+14
+CREPP_Joysticks_1
 XDCR_COM-09032
 
 
