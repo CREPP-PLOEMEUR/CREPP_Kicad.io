@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "COM-09032:XDCR_COM-09032"
+		(property "Footprint" "CREPP_Joysticks:XDCR_COM-09032"
 			(at 0 0 0)
 			(effects
 				(font
@@ -172,6 +172,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Joysticks 2 axis CREPP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
