@@ -632,7 +632,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "07656727-63de-422c-a503-d6b9200c8fe1")
 	)
-	(model "../../3dmodels/CREPP_Joysticks/COM-09032.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CREPP_Joysticks/COM-09032.step"
 		(offset
 			(xyz 0 0 0)
 		)

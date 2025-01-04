@@ -388,7 +388,7 @@
 		(remove_unused_layers no)
 		(uuid "03805aeb-4386-472e-850d-449dbb7b9565")
 	)
-	(model "../../3dmodels/CREPP_BNC/73100-0131.STEP"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CREPP_BNC/73100-0131.STEP"
 		(offset
 			(xyz 0 16 6.5)
 		)

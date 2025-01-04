@@ -355,15 +355,15 @@
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "e18fd33f-be34-4a66-a5ae-cfc11eff5687")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Molex_73251-1153_EdgeMount_Horizontal.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CRPP_SMA/132415.STEP"
 		(offset
-			(xyz -2 0 0)
+			(xyz -4.5 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -180)
+			(xyz 90 0 -90)
 		)
 	)
 )

@@ -394,7 +394,7 @@
 		(remove_unused_layers no)
 		(uuid "ac9234d9-b20b-4b07-b860-e7a3bd34a69c")
 	)
-	(model "../../3dmodels/CREPP_RotaryEncoders/EC11_Rotary_Encoder_Switched.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CREPP_RotaryEncoders/EC11_Rotary_Encoder_Switched.step"
 		(offset
 			(xyz 7.5 -2.5 -0.5)
 		)

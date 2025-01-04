@@ -100,7 +100,7 @@
 			)
 		)
 	)
-	(model "../../3dmodels/CREPP_Heatsinks/HeatSink_TO-220.step"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CREPP_Heatsinks/HeatSink_TO-220.step"
 		(offset
 			(xyz 0 2 0)
 		)

@@ -7433,7 +7433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CREPP_BNC:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
+		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
 			(at 119.38 142.24 0)
 			(effects
 				(font
@@ -8040,6 +8040,126 @@
 		)
 	)
 	(symbol
+		(lib_id "CREPP_Connectors_PicoBlade:530470510_Picoblade")
+		(at 76.2 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a904cae2-1a81-4674-80d0-0f43f251633c")
+		(property "Reference" "J4"
+			(at 85.09 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "530470510_Picoblade"
+			(at 85.09 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CREPP_Connector_Picoblade:MOLEX_530470510"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.2 mm"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ca8df086-7105-4861-ad08-7e376b87ee50")
+		)
+		(pin "2"
+			(uuid "1d3a40ba-1d8a-465c-b37a-64d2c3ac780a")
+		)
+		(pin "1"
+			(uuid "17b3fe48-d572-49e5-aea3-e0a509428f7e")
+		)
+		(pin "4"
+			(uuid "638ba755-7761-4320-bcd6-11d6ea69c4f8")
+		)
+		(pin "5"
+			(uuid "468abaa0-a3db-4ad2-97c7-33c49e2cc4c2")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CREPP_Bluetooth:Bluetooth HC-05 [CREPP_VIRTUAL]")
 		(at 232.41 154.94 0)
 		(unit 1)
@@ -8339,7 +8459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CREPP_BNC:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
+		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
 			(at 113.03 149.86 0)
 			(effects
 				(font
@@ -8543,7 +8663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CREPP_BNC:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
+		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
 			(at 102.87 151.13 0)
 			(effects
 				(font
@@ -8970,7 +9090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CREPP_BNC:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
+		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
 			(at 130.81 134.62 0)
 			(effects
 				(font
@@ -9007,126 +9127,6 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CREPP_Connectors_PicoBlade:530470510_Picoblade")
-		(at 31.75 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa50db6c-03d1-48d6-9371-2e24314f3315")
-		(property "Reference" "J4"
-			(at 40.64 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "530470510_Picoblade"
-			(at 40.64 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CREPP_Connector_Picoblade:MOLEX_530470510"
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.2 mm"
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "42c20c02-089b-4118-b054-e77f72cf83d1")
-		)
-		(pin "4"
-			(uuid "141802ca-a2eb-49b5-b291-41e709301e6d")
-		)
-		(pin "3"
-			(uuid "a17ce30c-134e-44eb-87ca-8bdc4b2e68e7")
-		)
-		(pin "1"
-			(uuid "3798af99-0241-474d-a357-707b575c8d98")
-		)
-		(pin "5"
-			(uuid "2e550d00-75cd-4db7-a28d-b1c966a57734")
-		)
-		(instances
-			(project "Kicad_dev"
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "J4")
 					(unit 1)
 				)
 			)

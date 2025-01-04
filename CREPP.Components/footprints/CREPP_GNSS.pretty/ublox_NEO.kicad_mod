@@ -425,7 +425,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "73a4c945-76b5-415e-a26b-d80ba78b2166")
 	)
-	(model "../../3dmodels/CREPP_GNSS/NEO_M8Q.STEP"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CREPP_GNSS/NEO_M8Q.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
