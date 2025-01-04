@@ -8923,6 +8923,227 @@
 		)
 	)
 	(symbol
+		(lib_id "CREPP_Joysticks:COM-09032")
+		(at 275.59 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc3f91f1-73e8-4230-acf5-98ff7900f4fb")
+		(property "Reference" "U12"
+			(at 284.48 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "COM-09032"
+			(at 284.48 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CREPP_Joysticks:XDCR_COM-09032"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "SparkFun Electronics"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "30.1mm"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/COM-09032/SparkFun/view-part/?ref=eda"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/COM-09032/SparkFun/view-part/?ref=snap"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "COM-09032"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Joystick, 2 - Axis Analog (Resistive) Output\n                        \n"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SparkFun Electronics"
+			(at 275.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "H2"
+			(uuid "3faefaf8-1715-4b05-ba91-009821eb6c6f")
+		)
+		(pin "S4"
+			(uuid "388368ff-1f21-46a6-b267-81cfcaee4c45")
+		)
+		(pin "S3"
+			(uuid "5514d6e9-32da-4d39-a1d4-8dba7034f3b5")
+		)
+		(pin "H1"
+			(uuid "8ddd9258-1b45-42c9-94d0-994b8ea1eb70")
+		)
+		(pin "B2A"
+			(uuid "ee11eddf-a06a-49ea-b781-a6fddceb1c38")
+		)
+		(pin "B1A"
+			(uuid "26203bf1-81bf-4db2-b242-184a103074e4")
+		)
+		(pin "S1"
+			(uuid "c01aa0b4-acba-4f05-b569-97bf8def636c")
+		)
+		(pin "S2"
+			(uuid "b0760286-2cdc-4504-bca2-a531e793f32b")
+		)
+		(pin "H3"
+			(uuid "b6002123-12f7-47d9-84c2-0afd15ce48bb")
+		)
+		(pin "V1"
+			(uuid "ec4cd7fb-dbf0-478e-9d82-554d35ca1e17")
+		)
+		(pin "V3"
+			(uuid "6a0768c2-8e1f-4fef-a68e-8042b4b097b3")
+		)
+		(pin "V2"
+			(uuid "4cb54b6b-360f-4f0c-8d46-a7f1a4ff53b8")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRF540N")
 		(at 104.14 71.12 0)
 		(unit 1)
