@@ -91,4 +91,8 @@
   (lib (name "CREPP_Buttons_SMT")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_Buttons_SMT.kicad_sym")(options "")(descr ""))
   (lib (name "CREPP_Buttons_THT")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_Buttons_THT.kicad_sym")(options "")(descr ""))
   (lib (name "sw_dpst_x2")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/sw_dpst_x2.kicad_sym")(options "")(descr ""))
+  (lib (name "ds3231m")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/ds3231m.kicad_sym")(options "")(descr ""))
+  (lib (name "ds1307+")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/ds1307+.kicad_sym")(options "")(descr ""))
+  (lib (name "CREPP_RTC")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_RTC.kicad_sym")(options "")(descr ""))
+  (lib (name "battery_cell")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/battery_cell.kicad_sym")(options "")(descr ""))
 )
