@@ -38,7 +38,7 @@ for ((INDEX=0; INDEX<TOTAL_PACKAGES; INDEX++)); do
 
     NEW_SHA256=$(sha256sum "$FILE_NAME" | awk '{print $1}')
     echo " : done"
-    echo $NEW_SHA256
+    echo ">>> "$NEW_SHA256
 
     #Compressed zip storage
     size_zip=`du -sb $FILE_NAME | cut -f1`
@@ -55,6 +55,7 @@ for ((INDEX=0; INDEX<TOTAL_PACKAGES; INDEX++)); do
     mv temp.json "$JSON_PACKAGE"
     
     rm "$FILE_NAME"
+    echo -e "Library is updated !"
 
 done
 
