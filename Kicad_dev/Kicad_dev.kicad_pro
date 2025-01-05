@@ -478,7 +478,8 @@
       "CREPP_RotaryEncoders",
       "CREPP_Sensors",
       "CREPP_NRF24",
-      "CREPP_Spacers"
+      "CREPP_Spacers",
+      "CREPP_LED"
     ]
   },
   "meta": {
