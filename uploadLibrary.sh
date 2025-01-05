@@ -1,7 +1,21 @@
 #Zip library
-#zip -r -D Library.zip CREPP.Components/3dmodels CREPP.Components/footprints CREPP.Components/symbols 
-#zip -r -j Library.zip CREPP.Components/*
+
 JSON_PACKAGE="package.json"
+LIBRARY_COMPONENTS="Library.zip"
+
+function commit() 
+{
+
+    git add .
+    git commit -am "$1"
+    branch=$(git rev-parse --abbrev-ref HEAD)
+    git push origin $branch
+}
+
+
+(cd CREPP.Components; zip -q -r ../$LIBRARY_COMPONENTS ./)
+
+commit "$1"
 
 # Crée une copie de sauvegarde du fichier original
 cp "$JSON_PACKAGE" "${JSON_PACKAGE}.bak"
@@ -50,3 +64,5 @@ echo -n "Update the SHA256 of package.json into repository.json"
 SHA256=$(sha256sum package.json | awk '{print $1}') && \
 sed -i "s/\"sha256\": \".*\"/\"sha256\": \"$SHA256\"/" repository.json
 echo -e " : done"
+
+commit "$1 - ($SHA256)"
