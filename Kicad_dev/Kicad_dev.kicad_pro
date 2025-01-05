@@ -481,7 +481,9 @@
       "CREPP_Spacers",
       "CREPP_LED",
       "CREPP_Capacitors_SMT",
-      "CREPP_Capacitors_THT"
+      "CREPP_Capacitors_THT",
+      "CREPP_Voltage_regulators_SMT",
+      "CREPP_Voltage_regulators_THT"
     ]
   },
   "meta": {

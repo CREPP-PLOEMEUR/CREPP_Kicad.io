@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CREPP_Joysticks:XDCR_COM-09032_V2"
+		(property "Footprint" "CREPP_Joysticks_SW:XDCR_COM-09032"
 			(at 0 0 0)
 			(effects
 				(font

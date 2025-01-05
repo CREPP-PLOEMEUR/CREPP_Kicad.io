@@ -1,4 +1,4 @@
-48606104930602
+53814770646169
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2554,6 +2554,13 @@ BK-18650-PC2_18650_Holder_THT [CREPP]
 0
 2
 2
+CREPP_Capacitors_THT
+C_Radial_D10.0mm_H20.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor
+0
+2
+2
 CREPP_Connector_Picoblade
 MOLEX_530470510
 
@@ -2596,6 +2603,13 @@ HeastSink_MOSFET_15mm_10mm_20mm
 0
 0
 0
+CREPP_Joysticks
+XDCR_COM-09032
+
+
+0
+14
+14
 CREPP_Joysticks
 XDCR_COM-09032_V2
 
@@ -2652,6 +2666,13 @@ SMA
 0
 5
 2
+CREPP_Screens
+SSD1306_OLED_Display(128x64)
+Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
+display OLED SSD1306 128x64
+0
+4
+4
 CREPP_Screens
 SSD1306_OLED_Display_VIRTUAL_128_64
 Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
