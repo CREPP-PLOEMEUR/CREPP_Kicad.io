@@ -1,4 +1,4 @@
-65971905786412
+69444120967598
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2553,6 +2553,20 @@ http://www.farnell.com/datasheets/612848.pdf
 BNC Amphenol Horizontal
 0
 4
+2
+CREPP_Batteries_holders
+BK-18650
+
+
+0
+2
+2
+CREPP_Batteries_holders
+MPD_BC501SM-TR
+
+
+0
+2
 2
 CREPP_Battery_Holders
 BK-18650
