@@ -5,7 +5,10 @@ LIBRARY_COMPONENTS="Library.zip"
 
 function commit() 
 {
+    if [[ -e "$1" ]]; then
+        echo "dedede"
 
+    fi
     git add .
     git commit -am "$1"
     branch=$(git rev-parse --abbrev-ref HEAD)
