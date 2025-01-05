@@ -441,7 +441,8 @@
       "CREPP_Heatsinks",
       "CREPP_BNC",
       "CREPP_Spacers",
-      "CREPP_Connectors_USB"
+      "CREPP_Connectors_USB",
+      "CREPP_Joysticks_SW"
     ],
     "pinned_symbol_libs": [
       "CREPP_Accelerometers",

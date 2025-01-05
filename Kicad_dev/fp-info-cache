@@ -1,4 +1,4 @@
-48606086259929
+48606104930602
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2597,14 +2597,14 @@ HeastSink_MOSFET_15mm_10mm_20mm
 0
 0
 CREPP_Joysticks
-XDCR_COM-09032
+XDCR_COM-09032_V2
 
 
 0
 14
 14
-CREPP_Joysticks
-XDCR_COM-09032_V2
+CREPP_Joysticks_SW
+XDCR_COM-09032
 
 
 0
@@ -2653,7 +2653,7 @@ SMA
 5
 2
 CREPP_Screens
-SSD1306_OLED_Display_VIRTUAL
+SSD1306_OLED_Display_VIRTUAL_128_64
 Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
 display OLED SSD1306 128x64
 0

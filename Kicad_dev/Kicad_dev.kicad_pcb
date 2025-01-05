@@ -1244,7 +1244,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SSOP?14* TSSOP?14*")
-		(path "/ac98b116-a8fe-4fc5-96e7-924225973d63")
+		(path "/bce8fb56-531c-4b34-8861-6a04b18501e9")
 		(sheetname "Racine")
 		(sheetfile "Kicad_dev.kicad_sch")
 		(attr through_hole)
@@ -6408,6 +6408,241 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "f40b4f3d-c597-4d8e-98ea-fa83cd5c9388")
+		)
+	)
+	(footprint "CREPP_Screens:SSD1306_OLED_Display_VIRTUAL_128_64"
+		(layer "F.Cu")
+		(uuid "75d1529f-ab76-459a-bcec-4ca501c9ca3c")
+		(at 197.612 93.472)
+		(descr "Display 0.96\" OLED 128x64 pixel with SSD1306 controller and I2C interface")
+		(tags "display OLED SSD1306 128x64")
+		(property "Reference" "OLED1"
+			(at -0.2286 10.8712 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6fb563d8-3716-4135-b887-c4dabac11595")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -7.874 4.699 0)
+			(layer "F.Fab")
+			(uuid "658b9d6a-3521-4686-b176-aa2624717406")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "CREPP_Screens:SSD1306_OLED_Display_VIRTUAL_128_64"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5a695d9-ece9-44de-9c21-235df28b4566")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3118bd9c-007a-4c2e-b0c1-2aa3c4359885")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06ef01cd-6ed6-45ea-8d32-2bd7fa79af0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/17b1ec1e-244a-4654-9036-089ba5737053")
+		(sheetname "Racine")
+		(sheetfile "Kicad_dev.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -13.716 -1.397)
+			(end 13.716 -1.397)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "fd386da4-ad17-4fad-989b-ae03de9c6535")
+		)
+		(fp_line
+			(start -13.716 3.81)
+			(end 13.716 3.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "d6d9b2f4-4c33-49c4-a830-a31fb5199ad0")
+		)
+		(fp_line
+			(start -13.716 20.701)
+			(end 13.716 20.701)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "4b842da9-ea8a-4ac2-ba3c-b74763cf9e32")
+		)
+		(fp_line
+			(start -13.716 25.781)
+			(end -13.589 -1.397)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "1e1c359d-c0ce-44ad-a6e6-cbacf91308a7")
+		)
+		(fp_line
+			(start 13.716 25.781)
+			(end -13.716 25.781)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "6bcac876-bc0c-40ed-bcba-07e71bac1265")
+		)
+		(fp_line
+			(start 13.716 25.781)
+			(end 13.716 -1.397)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "0a246758-06f8-414b-95ed-3db67f29e200")
+		)
+		(fp_circle
+			(center -11.2268 23.7744)
+			(end -9.8044 23.7744)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "7109d714-c3ab-42fa-a1ac-5a8f6c8ba05c")
+		)
+		(fp_circle
+			(center -11.176 0.6096)
+			(end -9.7536 0.6096)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "b9fc834e-12f0-4fc4-986e-2fb227ce2398")
+		)
+		(fp_circle
+			(center 11.176 0.6604)
+			(end 12.5984 0.6604)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "029ac9e4-294d-46bb-8882-a583f31cca4a")
+		)
+		(fp_circle
+			(center 11.2268 23.7744)
+			(end 12.6492 23.7744)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "7c12f3a9-e8af-4f52-84a6-23e2a5c3f3c8")
+		)
+		(fp_line
+			(start -5.08 -1.27)
+			(end 5.08 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "14abc1ce-1aa9-47d1-ab0a-1817a37c1a95")
+		)
+		(fp_line
+			(start -5.08 0.635)
+			(end -5.08 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "787086c9-1f72-4c2c-a933-006cf251f191")
+		)
+		(fp_line
+			(start -4.445 1.27)
+			(end -5.08 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cf4bbc81-2b83-4d12-9c1f-e7cd7e08b351")
+		)
+		(fp_line
+			(start 5.08 -1.27)
+			(end 5.08 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "357550dd-dde8-45a6-b255-d97b081b0611")
+		)
+		(fp_line
+			(start 5.08 1.27)
+			(end -4.445 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a7dc189a-6a02-4caf-8707-1c5c72fe013a")
+		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CREPP_Screens/SSD1306_OLED_Display(128x64).step"
+			(offset
+				(xyz 0 -12 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
