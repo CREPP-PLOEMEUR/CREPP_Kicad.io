@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8"
 			(at 0 0 0)
 			(effects
 				(font

@@ -51,7 +51,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "switch lever"
+		(property "ki_keywords" "switch lever cerpp SMT"
 			(at 0 0 0)
 			(effects
 				(font

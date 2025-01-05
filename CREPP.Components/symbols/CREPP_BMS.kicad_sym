@@ -46,7 +46,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BMS device for Lithium cell"
 			(at 0 0 0)
 			(effects
 				(font

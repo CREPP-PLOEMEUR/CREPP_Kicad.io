@@ -144,7 +144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "Single-cell battery holder - Lithium "
 			(at 0 0 0)
 			(effects
 				(font
@@ -153,7 +153,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "battery cell"
+		(property "ki_keywords" "battery cell CREPP Lithium"
 			(at 0 0 0)
 			(effects
 				(font
