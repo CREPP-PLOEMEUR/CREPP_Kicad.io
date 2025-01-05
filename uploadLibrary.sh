@@ -5,10 +5,6 @@ LIBRARY_COMPONENTS="Library.zip"
 
 function commit() 
 {
-    if [[ -e "$1" ]]; then
-        echo "dedede"
-
-    fi
     git add .
     git commit -am "$1"
     branch=$(git rev-parse --abbrev-ref HEAD)
@@ -20,7 +16,7 @@ function commit()
 
 commit "$1"
 
-# Crée une copie de sauvegarde du fichier original
+#
 cp "$JSON_PACKAGE" "${JSON_PACKAGE}.bak"
 
 if [ ! -f package.json ]; then

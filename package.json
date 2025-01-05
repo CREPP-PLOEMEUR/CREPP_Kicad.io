@@ -13,51 +13,18 @@
           "email": "nicolasleguerroue@gmail.com"
         }
       },
-      "install": {
-        "path": "3DModels_TEST",
-        "environment_variable": "MY_3D_MODELS_USER"
-      },
       "license": "Apache-2.0",
       "resources": {
         "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
       },
       "versions": [
         {
-          "version": "0.1",
+          "version": "0.2",
           "status": "development",
           "kicad_version": "8.00",
           "download_sha256": "003a845479d8b2bcad7c1651809d618b4b778143630a56a7ffec370325d92643",
           "download_size": 8039600,
           "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/Library.zip",
-          "install_size": 4096
-        }
-      ]
-    },
-    {
-      "$schema": "https://go.kicad.org/pcm/schemas/v1",
-      "name": "CREPP drawing sheet",
-      "description": "CREPP drawing sheet template",
-      "description_full": "CREPP drawing sheet template",
-      "identifier": "com.github.crepp.drawing",
-      "type": "library",
-      "author": {
-        "name": "Nicolas Le Guerroué",
-        "contact": {
-          "email": "nicolasleguerroue@gmail.com"
-        }
-      },
-      "license": "Apache-2.0",
-      "resources": {
-        "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
-      },
-      "versions": [
-        {
-          "version": "0.1",
-          "status": "development",
-          "kicad_version": "8.00",
-          "download_sha256": "af8c6e8105803d4526dc3080e79e8f06be32c04ee5edc015616a291b1f4dbd6a",
-          "download_size": 13882,
-          "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/Drawings.zip",
           "install_size": 4096
         }
       ]
