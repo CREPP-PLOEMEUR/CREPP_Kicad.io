@@ -12,4 +12,5 @@
   (lib (name "CREPP_Batteries_hodelrs")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Batteries_hodelrs.pretty")(options "")(descr ""))
   (lib (name "CREPP_Batteries_holders")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Batteries_holders.pretty")(options "")(descr ""))
   (lib (name "CREPP_Connectors_MURATA")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Connectors_MURATA.pretty")(options "")(descr ""))
+  (lib (name "CREPP_Sensors_distance")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Sensors_distance.pretty")(options "")(descr ""))
 )

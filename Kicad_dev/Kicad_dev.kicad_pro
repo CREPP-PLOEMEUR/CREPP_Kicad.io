@@ -450,7 +450,8 @@
       "CREPP_Buttons_SMT",
       "CREPP_Temperature_sensors",
       "CREPP_Batteries_holders",
-      "CREPP_Connectors_MURATA"
+      "CREPP_Connectors_MURATA",
+      "CREPP_Sensors_distance"
     ],
     "pinned_symbol_libs": [
       "CREPP_Accelerometers",

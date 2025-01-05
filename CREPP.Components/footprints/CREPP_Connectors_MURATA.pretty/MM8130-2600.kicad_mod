@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -2.032 -1.8796 0)
 		(layer "F.SilkS")
 		(uuid "2494e98b-99d5-48e8-9858-64d4026dd822")
 		(effects
@@ -233,5 +233,16 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "7f2f182b-1b56-4da6-a7d8-7094dafae7d7")
+	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CREPP_Connectors_MURATA/MM8130-2600.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
