@@ -3,5 +3,5 @@ echo "INIT"
 
 ./compressLib.sh
 ./gitCommit.sh "Add repo of lib Kicad before analyzing..."
-./uploadLib.sh
+./uploadLibrary.sh
 ./gitCommit.sh "Add lib"
