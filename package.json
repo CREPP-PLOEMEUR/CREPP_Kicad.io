@@ -68,7 +68,7 @@
       "description": "CREPP projects steps plugins",
       "description_full": "CREPP projects steps plugins",
       "identifier": "com.github.crepp.steps",
-      "type": "plugin",
+      "type": "library",
       "author": {
         "name": "Nicolas Le Guerroué",
         "contact": {
