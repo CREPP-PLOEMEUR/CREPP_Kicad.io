@@ -24,7 +24,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
+		(property "Footprint" "CREPP_BNC:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,7 +51,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+		(property "ki_keywords" "BNC CREPP RF 50 ohms THT"
 			(at 0 0 0)
 			(effects
 				(font

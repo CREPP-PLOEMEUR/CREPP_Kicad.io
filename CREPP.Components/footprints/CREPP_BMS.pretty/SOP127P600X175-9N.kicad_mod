@@ -267,4 +267,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "b250d84d-1c7d-49e8-930a-17ffc695ffd1")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1004,7 +1004,7 @@
 				)
 			)
 		)
-		(symbol "CREPP_Connectors_SMA:Conn_Coaxial"
+		(symbol "CREPP_Connectors_SMA:Connecteur_SMA"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1018,7 +1018,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_Coaxial"
+			(property "Value" "Connecteur_SMA"
 				(at 2.921 0 90)
 				(effects
 					(font
@@ -1026,7 +1026,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "CREPP_SMA:SMA_Amphenol_132289_EdgeMount"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1053,7 +1053,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+			(property "ki_keywords" "SMA coaxial connector CREPP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1071,7 +1071,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_Coaxial_0_1"
+			(symbol "Connecteur_SMA_0_1"
 				(arc
 					(start -1.778 -0.508)
 					(mid 0.2311 -1.8066)
@@ -1132,7 +1132,7 @@
 					)
 				)
 			)
-			(symbol "Conn_Coaxial_1_1"
+			(symbol "Connecteur_SMA_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -7406,76 +7406,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CREPP_Connectors_BNC:BNC")
-		(at 119.38 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67884603-1904-4319-a782-97b5760d5236")
-		(property "Reference" "J7"
-			(at 123.19 141.2631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BNC"
-			(at 123.19 143.8031 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 119.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" " ~"
-			(at 119.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 119.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9296b10e-0614-4c93-bf60-242658b0c588")
-		)
-		(pin "1"
-			(uuid "df13995e-431e-48bb-89a4-3e4ee4e421e0")
-		)
-		(instances
-			(project "Kicad_dev"
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CREPP_Spacers:Spacer_M3_Parametric")
 		(at 143.51 157.48 0)
 		(unit 1)
@@ -7612,6 +7542,76 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_Connectors_BNC:BNC")
+		(at 111.76 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c94fb50-703b-46f6-a4dd-ec73d0cca366")
+		(property "Reference" "J6"
+			(at 115.57 155.2331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BNC"
+			(at 115.57 157.7731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
+			(at 111.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 111.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 111.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b6f5922-db86-4944-a047-9147f0a54ad9")
+		)
+		(pin "1"
+			(uuid "5e29d594-4324-4473-8bd8-eaa7f4a06f7d")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7857,6 +7857,76 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_Connectors_SMA:Connecteur_SMA")
+		(at 90.17 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8752283e-1e83-4664-be4a-0556908cda46")
+		(property "Reference" "J5"
+			(at 92.71 169.2031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connecteur_SMA"
+			(at 92.71 171.7431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CREPP_SMA:SMA_Amphenol_132289_EdgeMount"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a43fc8b4-fd26-400f-9397-943edf430a67")
+		)
+		(pin "1"
+			(uuid "94d8b2ae-f8f5-41e5-afde-48d8a8a7373a")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8432,146 +8502,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CREPP_Connectors_BNC:BNC")
-		(at 113.03 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c34851a8-8bdc-4b0d-a1b5-fa70cbc53509")
-		(property "Reference" "J8"
-			(at 116.84 148.8831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BNC"
-			(at 116.84 151.4231 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 113.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" " ~"
-			(at 113.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 113.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3fc1c13-059c-4926-9b9c-35dea56cb7de")
-		)
-		(pin "1"
-			(uuid "9f99667c-5d38-42e1-b423-46da78ecef40")
-		)
-		(instances
-			(project "Kicad_dev"
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CREPP_Connectors_SMA:Conn_Coaxial")
-		(at 129.54 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6f7c7fe-c872-43af-9259-77e9350b724e")
-		(property "Reference" "J5"
-			(at 133.35 120.9431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 133.35 123.4831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CREPP_SMA:SMA_Amphenol_132289_EdgeMount"
-			(at 129.54 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" " ~"
-			(at 129.54 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 129.54 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8617cf03-0774-4b4d-ad6f-42fa59edfd04")
-		)
-		(pin "2"
-			(uuid "84103f4f-eaa6-44e3-87e7-3647ea6a3878")
-		)
-		(instances
-			(project "Kicad_dev"
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CREPP_Motors:Motor_3V_6V")
 		(at 128.27 68.58 0)
 		(unit 1)
@@ -8630,76 +8560,6 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "M1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CREPP_Connectors_BNC:BNC")
-		(at 102.87 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbe57962-19ed-4fa8-84a0-716a3c0b6ebb")
-		(property "Reference" "J9"
-			(at 106.68 150.1531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BNC"
-			(at 106.68 152.6931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 102.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" " ~"
-			(at 102.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 102.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "589caf9d-ebcf-46a8-868a-60b602fbef01")
-		)
-		(pin "1"
-			(uuid "671dc32a-7e5b-4fde-88e4-5c85b07256c8")
-		)
-		(instances
-			(project "Kicad_dev"
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -9278,76 +9138,6 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "HS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CREPP_Connectors_BNC:BNC")
-		(at 130.81 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2de376c-1cb9-4de1-a4e2-1f37ecc1dcd8")
-		(property "Reference" "J6"
-			(at 134.62 133.6431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BNC"
-			(at 134.62 136.1831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 130.81 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" " ~"
-			(at 130.81 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 130.81 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9c5426ff-625b-4ab2-a122-ee356e380f36")
-		)
-		(pin "1"
-			(uuid "20ebec6e-23a8-4a14-a43b-e6e8462397fb")
-		)
-		(instances
-			(project "Kicad_dev"
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "J6")
 					(unit 1)
 				)
 			)

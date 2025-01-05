@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TP4056:SOP127P600X175-9N"
+		(property "Footprint" "CREPP_BMS:SOP127P600X175-9N"
 			(at 0 0 0)
 			(effects
 				(font
