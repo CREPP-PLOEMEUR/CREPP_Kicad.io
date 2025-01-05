@@ -483,7 +483,9 @@
       "CREPP_Capacitors_SMT",
       "CREPP_Capacitors_THT",
       "CREPP_Voltage_regulators_SMT",
-      "CREPP_Voltage_regulators_THT"
+      "CREPP_Voltage_regulators_THT",
+      "CREPP_Diodes_SMT",
+      "CREPP_Potentiometers_THT"
     ]
   },
   "meta": {

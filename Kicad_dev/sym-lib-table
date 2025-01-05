@@ -71,4 +71,8 @@
   (lib (name "CREPP_Voltage_regulators_THT")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_Voltage_regulators_THT.kicad_sym")(options "")(descr ""))
   (lib (name "CREPP_Voltage_regulators_SMT")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_Voltage_regulators_SMT.kicad_sym")(options "")(descr ""))
   (lib (name "lm7805_to220")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/lm7805_to220.kicad_sym")(options "")(descr ""))
+  (lib (name "ss24")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/ss24.kicad_sym")(options "")(descr ""))
+  (lib (name "CREPP_Diodes_SMT")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_Diodes_SMT.kicad_sym")(options "")(descr ""))
+  (lib (name "CREPP_Potentiometers_THT")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_Potentiometers_THT.kicad_sym")(options "")(descr ""))
+  (lib (name "r_potentiometer")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/r_potentiometer.kicad_sym")(options "")(descr ""))
 )
