@@ -5,6 +5,259 @@
 	(uuid "8104dfe2-da9a-40cd-b518-c622bfb26061")
 	(paper "A4")
 	(lib_symbols
+		(symbol "CREPP_AOP_SMT:LM358"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM358"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM358_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CREPP_AOP_THT:LM358"
 			(pin_names
 				(offset 0.127)
@@ -772,105 +1025,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "CREPP_Batteries:BK-18650-PC2_18650_Holder_THT [CREPP]"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "CREPP_Battery_Holders:BK-18650-PC2_18650_Holder_THT [CREPP]"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BK-18650-PC2_18650_Holder_THT [CREPP]_0_1"
-				(rectangle
-					(start -1.27 2.54)
-					(end 1.27 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BK-18650-PC2_18650_Holder_THT [CREPP]_1_1"
-				(pin output line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -11.43 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17938,76 +18092,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CREPP_Batteries:Battery_Cell")
-		(at 149.86 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c7d5827-1648-4c68-8eb9-57dc4da91553")
-		(property "Reference" "BT1"
-			(at 153.67 55.3084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 153.67 57.8484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BC501SM:MPD_BC501SM-TR"
-			(at 149.86 56.896 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 56.896 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d59650ff-c38b-43b0-a824-7498a498eaa7")
-		)
-		(pin "1"
-			(uuid "1b8e7f17-ef61-4439-bc85-5d29f671200f")
-		)
-		(instances
-			(project "Kicad_dev"
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CREPP_Optocoupler:PC817_SMD")
 		(at 27.94 170.18 0)
 		(unit 1)
@@ -18916,6 +19000,76 @@
 		)
 	)
 	(symbol
+		(lib_id "CREPP_Batteries:Battery_Cell")
+		(at 153.67 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34c933da-a0cc-4a9e-ad00-669278de2a0d")
+		(property "Reference" "BT1"
+			(at 157.48 66.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 157.48 69.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BC501SM:MPD_BC501SM-TR"
+			(at 153.67 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "877966e1-2bca-4037-be75-3ea57b51ce1f")
+		)
+		(pin "2"
+			(uuid "be7cce92-4b2b-4b80-a86d-95b965d2d6c0")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CREPP_Buttons_THT:SW_DPST_x2")
 		(at -17.78 226.06 0)
 		(unit 1)
@@ -19559,6 +19713,92 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_AOP_SMT:LM358")
+		(at 138.43 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5084973c-0916-45e3-ba19-971d52a18945")
+		(property "Reference" "U25"
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "ea4d2eea-ff28-48e3-a60b-f71acaea253e")
+		)
+		(pin "5"
+			(uuid "49e99ebc-f501-4ea5-8746-ef8428405ed9")
+		)
+		(pin "7"
+			(uuid "c9470a1a-3bc1-4344-8cb8-73476de1b366")
+		)
+		(pin "3"
+			(uuid "3e128657-3c30-4094-81df-2b80eac00e9b")
+		)
+		(pin "2"
+			(uuid "0b40a164-e643-4eff-b847-3398eba9789a")
+		)
+		(pin "4"
+			(uuid "fbd8a699-8149-44fc-b13b-858d4b09b92d")
+		)
+		(pin "1"
+			(uuid "3060bed9-c480-478f-a995-93cac1c8420f")
+		)
+		(pin "6"
+			(uuid "14995736-fb41-4ec6-8f11-e4c49fb50218")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -20312,76 +20552,6 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CREPP_Batteries:BK-18650-PC2_18650_Holder_THT [CREPP]")
-		(at 74.93 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61be1513-52fb-4981-a60d-b2ee5c3547bf")
-		(property "Reference" "U9"
-			(at 77.47 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 77.47 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CREPP_Battery_Holders:BK-18650-PC2_18650_Holder_THT [CREPP]"
-			(at 74.93 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6332455-20b0-4076-8010-cab350ca1b8a")
-		)
-		(pin "1"
-			(uuid "ed505025-a14f-4142-b381-4d81898eb00b")
-		)
-		(instances
-			(project "Kicad_dev"
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -21488,6 +21658,94 @@
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "J5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_AOP_SMT:LM358")
+		(at 109.22 54.61 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89060c28-2fc1-48c9-aca8-fae85d9b6c25")
+		(property "Reference" "U25"
+			(at 107.95 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM358"
+			(at 107.95 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "ea4d2eea-ff28-48e3-a60b-f71acaea253e")
+		)
+		(pin "5"
+			(uuid "49e99ebc-f501-4ea5-8746-ef8428405ed9")
+		)
+		(pin "7"
+			(uuid "c9470a1a-3bc1-4344-8cb8-73476de1b366")
+		)
+		(pin "3"
+			(uuid "3e128657-3c30-4094-81df-2b80eac00e9b")
+		)
+		(pin "2"
+			(uuid "0b40a164-e643-4eff-b847-3398eba9789a")
+		)
+		(pin "4"
+			(uuid "fbd8a699-8149-44fc-b13b-858d4b09b92d")
+		)
+		(pin "1"
+			(uuid "3060bed9-c480-478f-a995-93cac1c8420f")
+		)
+		(pin "6"
+			(uuid "14995736-fb41-4ec6-8f11-e4c49fb50218")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "U25")
+					(unit 3)
 				)
 			)
 		)
@@ -23799,6 +24057,92 @@
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "R3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_AOP_SMT:LM358")
+		(at 120.65 55.88 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2928d1d-0578-4d34-b4b6-aa7d74ebeeec")
+		(property "Reference" "U25"
+			(at 120.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "ea4d2eea-ff28-48e3-a60b-f71acaea253e")
+		)
+		(pin "5"
+			(uuid "49e99ebc-f501-4ea5-8746-ef8428405ed9")
+		)
+		(pin "7"
+			(uuid "c9470a1a-3bc1-4344-8cb8-73476de1b366")
+		)
+		(pin "3"
+			(uuid "3e128657-3c30-4094-81df-2b80eac00e9b")
+		)
+		(pin "2"
+			(uuid "0b40a164-e643-4eff-b847-3398eba9789a")
+		)
+		(pin "4"
+			(uuid "fbd8a699-8149-44fc-b13b-858d4b09b92d")
+		)
+		(pin "1"
+			(uuid "3060bed9-c480-478f-a995-93cac1c8420f")
+		)
+		(pin "6"
+			(uuid "14995736-fb41-4ec6-8f11-e4c49fb50218")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "U25")
+					(unit 2)
 				)
 			)
 		)
