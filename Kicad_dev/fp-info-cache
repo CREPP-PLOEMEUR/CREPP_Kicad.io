@@ -1,4 +1,4 @@
-53814820646716
+57287035923498
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2553,6 +2553,20 @@ BK-18650-PC2_18650_Holder_THT [CREPP]
 
 0
 2
+2
+CREPP_Buttons_SMT
+SW_SPST_PTS645
+C&K Components SPST SMD PTS645 Series 6mm Tact Switch
+SPST Button Switch
+0
+4
+2
+CREPP_Buttons_THT
+SW_PUSH_6mm_H4.3mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm
+tact sw push 6mm
+0
+4
 2
 CREPP_Capacitors_THT
 C_Radial_D10.0mm_H20.0mm_P5.00mm
