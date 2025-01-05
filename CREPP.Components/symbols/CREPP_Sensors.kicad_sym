@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CREPP_Sensors_distance:HC-SR04"
 			(at 0 0 0)
 			(effects
 				(font

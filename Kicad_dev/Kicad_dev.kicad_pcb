@@ -657,7 +657,7 @@
 	(net 575 "unconnected-(RV1-Pad1)")
 	(net 576 "unconnected-(TP1-PadC)")
 	(net 577 "unconnected-(TP1-PadG)")
-	(net 578 "unconnected-(TP1-PadR)")
+	(net 578 "Net-(TP1-PadR)")
 	(net 579 "Net-(J11-VBUS-PadA4)")
 	(net 580 "unconnected-(J11-D--PadA7)")
 	(net 581 "unconnected-(J11-SHIELD-PadS1)")
@@ -669,145 +669,8 @@
 	(net 587 "unconnected-(J11-CC2-PadB5)")
 	(net 588 "unconnected-(J11-D+-PadA6)")
 	(net 589 "unconnected-(J11-D+-PadB6)")
-	(footprint "CREPP_Servo:SG90_Servo"
-		(layer "F.Cu")
-		(uuid "01be5fc1-500b-40d0-94e0-6237e4ca6d67")
-		(at 106.3942 120.7746)
-		(property "Reference" "SERVO_SG1"
-			(at 0 -0.5 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9b65cb25-1d10-4c00-966d-b97c48121f6c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1 0)
-			(unlocked yes)
-			(layer "Dwgs.User")
-			(uuid "e8e11899-86bd-476a-ba0a-a0c415763a4b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "CREPP_Servo:SG90_Servo"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6a4a9f8-496d-4231-90eb-edf84f20d21a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.friendlywire.com/projects/ne555-servo-safe/SG90-datasheet.pdf"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d244bca4-b7d5-4956-b703-6226999603bd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "39ffb192-9765-40c1-921e-2155376a5be2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/29f30def-3668-4fa1-84e7-5cd85a064fac")
-		(sheetname "Racine")
-		(sheetfile "Kicad_dev.kicad_sch")
-		(fp_rect
-			(start -5.7912 -8.2296)
-			(end 6.0088 23.9704)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill none)
-			(layer "Dwgs.User")
-			(uuid "35fafc9c-e3cc-4720-ad2b-d4e403d09698")
-		)
-		(fp_rect
-			(start -5.7912 -3.2004)
-			(end 6.0088 18.9996)
-			(stroke
-				(width 0.1)
-				(type dot)
-			)
-			(fill none)
-			(layer "Dwgs.User")
-			(uuid "64eee20e-5afb-4f5b-8642-784064617c34")
-		)
-		(fp_circle
-			(center 0 21.336)
-			(end 1.0668 21.336)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill none)
-			(layer "Dwgs.User")
-			(uuid "56166789-8035-4818-b51b-45abd737bd78")
-		)
-		(fp_circle
-			(center 0.0508 -5.7404)
-			(end 1.1176 -5.7404)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill none)
-			(layer "Dwgs.User")
-			(uuid "1a79123b-bbc8-4a4f-80f5-690914c6fe3e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
-			(unlocked yes)
-			(layer "Dwgs.User")
-			(uuid "a3f541a4-af9a-4bfb-8166-58b4f18d77d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(model "../../3dmodels/CREPP_Servo/SG90.STEP"
-			(offset
-				(xyz 28 -1 -21.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
-	)
+	(net 590 "unconnected-(TP2-PadR)")
+	(net 591 "unconnected-(TP2-PadC)")
 	(footprint "CREPP_Spacers:Spacer_M3_FF_15mm"
 		(layer "F.Cu")
 		(uuid "049e1d6b-bf34-4c55-9d7b-23ce183ece60")
@@ -1003,7 +866,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SSOP?14* TSSOP?14*")
-		(path "/62f49d7e-f7c1-4915-b34b-4227177abb11")
+		(path "/bce8fb56-531c-4b34-8861-6a04b18501e9")
 		(sheetname "Racine")
 		(sheetfile "Kicad_dev.kicad_sch")
 		(attr through_hole)
@@ -3441,6 +3304,274 @@
 			)
 		)
 	)
+	(footprint "CREPP_Connectors_MURATA:MM8130-2600"
+		(layer "F.Cu")
+		(uuid "2a28b86c-7505-4af7-8292-5362871e727e")
+		(at 160.773 111.826)
+		(property "Reference" "TP2"
+			(at -2.032 -1.8796 0)
+			(layer "F.SilkS")
+			(uuid "6ab8fd5b-d0f3-447a-9199-3e04293c922d")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MM8130-2600"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b1eba6f1-a09f-44d2-be4d-1d022a308d34")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "CREPP_Connectors_MURATA:MM8130-2600"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e7c2714-fbb6-4647-80f4-569a9cafdc16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6d67505-b7bb-41dd-8660-69eae7b8e7c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Subminiature Coaxial Switch testpoint"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acb68910-36c5-4093-8c49-e29c9c96f1d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/56e1359e-8346-4db4-9df0-4846c3139720")
+		(sheetname "Racine")
+		(sheetfile "Kicad_dev.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.325 0.43)
+			(end -1.325 -0.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "402a7d75-6cc1-45d4-b617-d0ec8133c67e")
+		)
+		(fp_line
+			(start -0.525 -1.225)
+			(end -0.375 -1.075)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ca881a31-400a-4e21-98d3-32d916d5a62d")
+		)
+		(fp_line
+			(start -0.525 1.25)
+			(end -0.525 0.57)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e61e0e94-fa3f-4105-902d-2ad3e874b9dd")
+		)
+		(fp_line
+			(start -0.525 1.25)
+			(end -0.36 1.25)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7724214c-b7c0-4f33-9f59-e86bd7ea0c1d")
+		)
+		(fp_line
+			(start -0.52 0.57)
+			(end 0.525 0.57)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a5d3c858-56c7-4b23-a71c-fecc2afb9688")
+		)
+		(fp_line
+			(start 0.36 1.25)
+			(end 0.525 1.25)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7c20a036-1e42-47c6-b279-27728717359d")
+		)
+		(fp_line
+			(start 0.375 -1.075)
+			(end 0.525 -1.225)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ab06cdb-b29e-4071-9776-ad47b923d8e1")
+		)
+		(fp_line
+			(start 0.525 1.25)
+			(end 0.525 0.57)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4b25bc26-0434-4007-adcd-b7a74c4cff1f")
+		)
+		(fp_line
+			(start 1.325 0.43)
+			(end 1.325 -0.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5292bdbe-800d-422d-ade3-d0d3f6b81fab")
+		)
+		(fp_line
+			(start -1.325 -1.275)
+			(end 1.325 -1.275)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7880746d-ce23-4881-9ab4-218685c85871")
+		)
+		(fp_line
+			(start -1.325 1.275)
+			(end -1.325 -1.275)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "37da2925-b76f-4988-97b3-a2352b2c302a")
+		)
+		(fp_line
+			(start 1.325 -1.275)
+			(end 1.325 1.275)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e7ac8b1f-fb6a-49c7-8efe-7cb42c6ff437")
+		)
+		(fp_line
+			(start 1.325 1.275)
+			(end -1.325 1.275)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3f6ed027-d2aa-4fe9-a8b7-11b2a8b2c750")
+		)
+		(pad "C" smd rect
+			(at 0 -1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 591 "unconnected-(TP2-PadC)")
+			(pinfunction "C")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "d9aa48bf-f456-4184-84a5-19b09936a484")
+		)
+		(pad "G" smd rect
+			(at -1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 578 "Net-(TP1-PadR)")
+			(pinfunction "G")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "ff43204a-57aa-41e0-bca9-996bb14d7655")
+		)
+		(pad "G" smd rect
+			(at -1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 578 "Net-(TP1-PadR)")
+			(pinfunction "G")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7dbd79a9-d1ef-4a51-b23c-5ad51c31ad3e")
+		)
+		(pad "G" smd rect
+			(at 1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 578 "Net-(TP1-PadR)")
+			(pinfunction "G")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "b7ab93fb-3217-497e-8f4c-8dfd02a84094")
+		)
+		(pad "G" smd rect
+			(at 1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 578 "Net-(TP1-PadR)")
+			(pinfunction "G")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "88f03893-23ae-44f7-a381-1f4db1ade6ed")
+		)
+		(pad "R" smd rect
+			(at 0 1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 590 "unconnected-(TP2-PadR)")
+			(pinfunction "R")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7d8a8dcf-dd35-4c56-a69d-47ed2fea77fc")
+		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CREPP_Connectors_MURATA/MM8130-2600.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "CREPP_Jumpers:Jumper_2.54mm_blue"
 		(layer "F.Cu")
 		(uuid "2a97ab94-7d83-4c86-82eb-1892d05d3437")
@@ -4597,7 +4728,7 @@
 			(at 0 1.16)
 			(size 0.5 0.58)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 578 "unconnected-(TP1-PadR)")
+			(net 578 "Net-(TP1-PadR)")
 			(pinfunction "R")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -7031,145 +7162,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "CREPP_Servo:SG90_Servo"
-		(layer "F.Cu")
-		(uuid "5120de7c-dd9e-4b59-8c19-957be9cee913")
-		(at 163.1482 122.7226)
-		(property "Reference" "SERVO_SG2"
-			(at 0 -0.5 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e65372bf-b740-440d-a664-a1b9422a29dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1 0)
-			(unlocked yes)
-			(layer "Dwgs.User")
-			(uuid "8b5deeea-7d53-45f6-9913-564c8b63f58d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "CREPP_Servo:SG90_Servo"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e7878115-9237-40c5-b8f6-15c9fd8571f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.friendlywire.com/projects/ne555-servo-safe/SG90-datasheet.pdf"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aba0a16d-e66c-4698-8837-ca17c366f7fa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac18c95d-2b12-4c74-a1f5-31005422bee5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/4ace1a43-b224-48ac-82d8-4726d17f6254")
-		(sheetname "Racine")
-		(sheetfile "Kicad_dev.kicad_sch")
-		(fp_rect
-			(start -5.7912 -8.2296)
-			(end 6.0088 23.9704)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill none)
-			(layer "Dwgs.User")
-			(uuid "31d6b704-d845-4e25-98f2-0fee252b45a8")
-		)
-		(fp_rect
-			(start -5.7912 -3.2004)
-			(end 6.0088 18.9996)
-			(stroke
-				(width 0.1)
-				(type dot)
-			)
-			(fill none)
-			(layer "Dwgs.User")
-			(uuid "eab1e3ba-5754-4628-83bb-4ec198670750")
-		)
-		(fp_circle
-			(center 0 21.336)
-			(end 1.0668 21.336)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill none)
-			(layer "Dwgs.User")
-			(uuid "cb2b43c2-aab9-45bc-a4f7-eff7cd28fdbc")
-		)
-		(fp_circle
-			(center 0.0508 -5.7404)
-			(end 1.1176 -5.7404)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill none)
-			(layer "Dwgs.User")
-			(uuid "b3eeb4e8-b55c-4a52-832f-c9f30633dfc4")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
-			(unlocked yes)
-			(layer "Dwgs.User")
-			(uuid "f9cc2a07-228d-43d6-abc8-5d4c060a9b67")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(model "../../3dmodels/CREPP_Servo/SG90.STEP"
-			(offset
-				(xyz 28 -1 -21.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
 			)
 		)
 	)
@@ -13561,6 +13553,145 @@
 			)
 		)
 	)
+	(footprint "CREPP_Servo:SG90_Servo"
+		(layer "F.Cu")
+		(uuid "78b4a82e-b88f-45ba-86a3-6dc484202401")
+		(at 106.5712 120.3996)
+		(property "Reference" "SERVO_SG3"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eafd7da4-b270-4182-858b-80dbc9e67de1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "Dwgs.User")
+			(uuid "b1dc97ec-97a6-4f22-99ac-f897d8e7167a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "CREPP_Servo:SG90_Servo"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eef42940-942d-4daf-b87c-e835ac8c8d84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.friendlywire.com/projects/ne555-servo-safe/SG90-datasheet.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be8aed12-91b6-436e-8843-bd7d1d27d35f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca3a5624-6e5c-43e2-b7e3-8913d47aa93a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ce690b05-8b9e-4c22-b8ca-cb0508b0a924")
+		(sheetname "Racine")
+		(sheetfile "Kicad_dev.kicad_sch")
+		(fp_rect
+			(start -5.7912 -8.2296)
+			(end 6.0088 23.9704)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "318f538c-bd0e-4ac5-a6e7-31debe5661a3")
+		)
+		(fp_rect
+			(start -5.7912 -3.2004)
+			(end 6.0088 18.9996)
+			(stroke
+				(width 0.1)
+				(type dot)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "225106a8-2be1-4e85-9218-066584cf4523")
+		)
+		(fp_circle
+			(center 0 21.336)
+			(end 1.0668 21.336)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "22cb5a39-0cc8-4796-9e95-5635f9f22af9")
+		)
+		(fp_circle
+			(center 0.0508 -5.7404)
+			(end 1.1176 -5.7404)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "9cba8b57-35cb-4cdc-b09d-9bab89785eb9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "Dwgs.User")
+			(uuid "d31ed01f-bf79-419d-b8d3-2a469de8bca3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CREPP_Servo/SG90.STEP"
+			(offset
+				(xyz 28 -1 -21.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
+	)
 	(footprint "Package_DIP:SMDIP-4_W9.53mm"
 		(layer "F.Cu")
 		(uuid "80af7642-0c54-448b-a8f4-d0eb07a1c685")
@@ -15684,7 +15815,7 @@
 		(descr "USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf")
 		(tags "USB Type-C Receptacle Through-hole Right angle")
 		(property "Reference" "J11"
-			(at 2.975 -1.8 270)
+			(at 2.975 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "08876058-744e-466d-ba93-6a205a0bc5a1")
 			(effects
@@ -15695,7 +15826,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle"
-			(at 2.975 9.925 270)
+			(at 2.975 9.925 -90)
 			(layer "F.Fab")
 			(uuid "07380cbd-5b01-482c-984a-6818fb77dd7c")
 			(effects
@@ -15897,7 +16028,7 @@
 			(uuid "c5511215-0ae7-4ff3-b09f-fd255106cf18")
 		)
 		(fp_text user "PCB Edge"
-			(at 2.975 6.1 270)
+			(at 2.975 6.1 -90)
 			(layer "Dwgs.User")
 			(uuid "eeea52a7-449e-47c7-a69f-8b7e4cc7c8fa")
 			(effects
@@ -15908,7 +16039,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.975 4.025 270)
+			(at 2.975 4.025 -90)
 			(layer "F.Fab")
 			(uuid "a7ad3bb7-28bb-4fdc-bc8e-5781fca59067")
 			(effects
