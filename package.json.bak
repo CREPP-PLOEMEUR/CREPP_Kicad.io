@@ -61,35 +61,6 @@
           "install_size": 4096
         }
       ]
-    },
-    {
-      "$schema": "https://go.kicad.org/pcm/schemas/v1",
-      "name": "CREPP steps for Kicad projects",
-      "description": "CREPP projects steps plugins",
-      "description_full": "CREPP projects steps plugins",
-      "identifier": "com.github.crepp.steps",
-      "type": "library",
-      "author": {
-        "name": "Nicolas Le Guerroué",
-        "contact": {
-          "email": "nicolasleguerroue@gmail.com"
-        }
-      },
-      "license": "Apache-2.0",
-      "resources": {
-        "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
-      },
-      "versions": [
-        {
-          "version": "0.1",
-          "status": "development",
-          "kicad_version": "8.00",
-          "download_sha256": "2e86f578d5edf42c29f2d14ba48ddc2b67ca0d27a2818f3335f3166053b54e44",
-          "download_size": 1003,
-          "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/Steps.zip",
-          "install_size": 4096
-        }
-      ]
     }
   ]
 }
