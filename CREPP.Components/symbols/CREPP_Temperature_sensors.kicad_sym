@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CREPP_Temperature_sensors:BME280_Breakout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41,6 +41,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "BME280 breakout (virtual) 3.3V CREPP"
 			(at 0 0 0)
 			(effects
 				(font

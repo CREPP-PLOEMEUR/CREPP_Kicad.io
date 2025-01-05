@@ -1,4 +1,4 @@
-64235776408977
+65971905446007
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2780,6 +2780,13 @@ Spacer_M3_MF_15mm
 0
 CREPP_Spacers
 Spacer_M3_MF_20mm
+
+
+0
+0
+0
+CREPP_Temperature_sensors
+BME280_Breakout
 
 
 0
