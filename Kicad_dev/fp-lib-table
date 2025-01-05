@@ -7,4 +7,5 @@
   (lib (name "CREPP_temperature_sensors")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_temperature_sensors.pretty")(options "")(descr ""))
   (lib (name "CREPP_Buttons_THT")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Buttons_THT.pretty")(options "")(descr ""))
   (lib (name "CREPP_Buttons_SMT")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Buttons_SMT.pretty")(options "")(descr ""))
+  (lib (name "CREPP_Potentiometers")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Potentiometers.pretty")(options "")(descr ""))
 )

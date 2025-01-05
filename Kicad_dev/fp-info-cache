@@ -1,4 +1,4 @@
-60763547119907
+64235756942977
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2562,6 +2562,13 @@ BK-18650
 2
 2
 CREPP_Battery_Holders
+BK-18650-PC2_18650_Holder_THT [CREPP]
+
+
+0
+2
+2
+CREPP_Battery_Holders
 MPD_BC501SM-TR
 
 
@@ -2680,6 +2687,13 @@ Through hole pin header THT 1x02 2.54mm single row
 0
 0
 0
+CREPP_Potentiometers
+Potentiometer_Alps_RK09Y11_Single_Horizontal
+Potentiometer, horizontal, Long Life, Alps RK09Y11 Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09y11/rk09y11.pdf
+Potentiometer horizontal Alps RK09Y11 Single
+0
+3
+3
 CREPP_RotaryEncoders
 RotaryEncoder
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html

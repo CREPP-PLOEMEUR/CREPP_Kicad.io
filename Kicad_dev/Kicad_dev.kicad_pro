@@ -445,7 +445,9 @@
       "CREPP_Joysticks_SW",
       "CREPP_temperature_sensors",
       "CREPP_Buttons_THT",
-      "CREPP_Capacitors_THT"
+      "CREPP_Capacitors_THT",
+      "CREPP_Potentiometers",
+      "CREPP_Buttons_SMT"
     ],
     "pinned_symbol_libs": [
       "CREPP_Accelerometers",

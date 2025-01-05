@@ -5,6 +5,178 @@
 	(uuid "8104dfe2-da9a-40cd-b518-c622bfb26061")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Battery_Cell_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "CREPP_Battery_Holders:MPD_BC501SM-TR"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_1_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CREPP_AOP_SMT:LM358"
 			(pin_names
 				(offset 0.127)
@@ -1025,6 +1197,105 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CREPP_Batteries:BK-18650-PC2_18650_Holder_THT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CREPP_Battery_Holders:BK-18650"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BK-18650-PC2_18650_Holder_THT_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BK-18650-PC2_18650_Holder_THT_1_1"
+				(pin output line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -18237,6 +18508,77 @@
 		)
 	)
 	(symbol
+		(lib_name "Battery_Cell_1")
+		(lib_id "CREPP_Batteries:Battery_Cell")
+		(at 74.93 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "189ccc74-d24d-4eba-99c6-4ba09df5bfda")
+		(property "Reference" "BT2"
+			(at 78.74 93.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 78.74 95.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CREPP_Battery_Holders:MPD_BC501SM-TR"
+			(at 74.93 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3bea9d1f-45f9-4413-b73d-1995d89ad411")
+		)
+		(pin "1"
+			(uuid "2407f98a-2719-49b9-9022-8f4f7f6f39db")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CREPP_MCU_STM32:STM32F030CCTx")
 		(at -138.43 318.77 0)
 		(unit 1)
@@ -20727,6 +21069,76 @@
 		)
 	)
 	(symbol
+		(lib_id "CREPP_Batteries:BK-18650-PC2_18650_Holder_THT")
+		(at 66.04 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67e651a6-9ac8-42c9-8f04-c11f5e01db25")
+		(property "Reference" "U9"
+			(at 68.58 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 68.58 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CREPP_Battery_Holders:BK-18650"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "866a0db8-cd59-43e7-9c26-7b400b663896")
+		)
+		(pin "1"
+			(uuid "a0c18194-4441-46dd-9ecb-26a245a9aa7a")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CREPP_Spacers:Spacer_M3_Parametric")
 		(at 143.51 157.48 0)
 		(unit 1)
@@ -21718,28 +22130,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "ea4d2eea-ff28-48e3-a60b-f71acaea253e")
+			(uuid "ea4d2eea-ff28-48e3-a60b-f71acaea253f")
 		)
 		(pin "5"
-			(uuid "49e99ebc-f501-4ea5-8746-ef8428405ed9")
+			(uuid "49e99ebc-f501-4ea5-8746-ef8428405eda")
 		)
 		(pin "7"
-			(uuid "c9470a1a-3bc1-4344-8cb8-73476de1b366")
+			(uuid "c9470a1a-3bc1-4344-8cb8-73476de1b367")
 		)
 		(pin "3"
-			(uuid "3e128657-3c30-4094-81df-2b80eac00e9b")
+			(uuid "3e128657-3c30-4094-81df-2b80eac00e9c")
 		)
 		(pin "2"
-			(uuid "0b40a164-e643-4eff-b847-3398eba9789a")
+			(uuid "0b40a164-e643-4eff-b847-3398eba9789b")
 		)
 		(pin "4"
-			(uuid "fbd8a699-8149-44fc-b13b-858d4b09b92d")
+			(uuid "fbd8a699-8149-44fc-b13b-858d4b09b92e")
 		)
 		(pin "1"
-			(uuid "3060bed9-c480-478f-a995-93cac1c8420f")
+			(uuid "3060bed9-c480-478f-a995-93cac1c84210")
 		)
 		(pin "6"
-			(uuid "14995736-fb41-4ec6-8f11-e4c49fb50218")
+			(uuid "14995736-fb41-4ec6-8f11-e4c49fb50219")
 		)
 		(instances
 			(project "Kicad_dev"
@@ -24115,28 +24527,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "ea4d2eea-ff28-48e3-a60b-f71acaea253e")
+			(uuid "ea4d2eea-ff28-48e3-a60b-f71acaea2540")
 		)
 		(pin "5"
-			(uuid "49e99ebc-f501-4ea5-8746-ef8428405ed9")
+			(uuid "49e99ebc-f501-4ea5-8746-ef8428405edb")
 		)
 		(pin "7"
-			(uuid "c9470a1a-3bc1-4344-8cb8-73476de1b366")
+			(uuid "c9470a1a-3bc1-4344-8cb8-73476de1b368")
 		)
 		(pin "3"
-			(uuid "3e128657-3c30-4094-81df-2b80eac00e9b")
+			(uuid "3e128657-3c30-4094-81df-2b80eac00e9d")
 		)
 		(pin "2"
-			(uuid "0b40a164-e643-4eff-b847-3398eba9789a")
+			(uuid "0b40a164-e643-4eff-b847-3398eba9789c")
 		)
 		(pin "4"
-			(uuid "fbd8a699-8149-44fc-b13b-858d4b09b92d")
+			(uuid "fbd8a699-8149-44fc-b13b-858d4b09b92f")
 		)
 		(pin "1"
-			(uuid "3060bed9-c480-478f-a995-93cac1c8420f")
+			(uuid "3060bed9-c480-478f-a995-93cac1c84211")
 		)
 		(pin "6"
-			(uuid "14995736-fb41-4ec6-8f11-e4c49fb50218")
+			(uuid "14995736-fb41-4ec6-8f11-e4c49fb5021a")
 		)
 		(instances
 			(project "Kicad_dev"
