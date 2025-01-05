@@ -85,178 +85,6 @@
 				)
 			)
 		)
-		(symbol "Battery_Cell_1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "CREPP_Battery_Holders:MPD_BC501SM-TR"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_1_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "CREPP_AOP_SMT:LM358"
 			(pin_names
 				(offset 0.127)
@@ -1625,7 +1453,7 @@
 				)
 			)
 		)
-		(symbol "CREPP_Batteries:BK-18650-PC2_18650_Holder_THT"
+		(symbol "CREPP_Batteries_holders:BK-18650-PC2_18650_Holder_THT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1645,7 +1473,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CREPP_Battery_Holders:BK-18650"
+			(property "Footprint" "CREPP_Batteries_holders:BK-18650"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1724,7 +1552,7 @@
 				)
 			)
 		)
-		(symbol "CREPP_Batteries:Battery_Cell"
+		(symbol "CREPP_Batteries_holders:Battery_Cell"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -1749,7 +1577,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "BC501SM:MPD_BC501SM-TR"
+			(property "Footprint" "CREPP_Batteries_holders:MPD_BC501SM-TR"
 				(at 0 1.524 90)
 				(effects
 					(font
@@ -18816,6 +18644,596 @@
 				)
 			)
 		)
+		(symbol "CREPP_Transistors_NMOS_CMS:2N7002"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel Switching MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CREPP_Transistors_NMOS_THT:2N7000_THT"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7000_THT"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET Logic-Level THT CREPP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7000_THT_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N7000_THT_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CREPP_Voltage_regulators_SMT:LM317_SOT-223"
 			(pin_names
 				(offset 0.254)
@@ -19980,7 +20398,7 @@
 	)
 	(symbol
 		(lib_id "CREPP_Optocoupler:PC817_SMD")
-		(at 27.94 170.18 0)
+		(at 116.84 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19989,7 +20407,7 @@
 		(fields_autoplaced yes)
 		(uuid "100a265e-97ae-47c7-93b6-7c11f156959c")
 		(property "Reference" "U6"
-			(at 27.94 161.29 0)
+			(at 116.84 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19997,7 +20415,7 @@
 			)
 		)
 		(property "Value" "PC817_SMD"
-			(at 27.94 163.83 0)
+			(at 116.84 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20005,7 +20423,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
-			(at 22.86 175.26 0)
+			(at 111.76 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20016,7 +20434,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
-			(at 27.94 170.18 0)
+			(at 116.84 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20026,7 +20444,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, SMDIP-4"
-			(at 27.94 170.18 0)
+			(at 116.84 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20124,79 +20542,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Battery_Cell_1")
-		(lib_id "CREPP_Batteries:Battery_Cell")
-		(at 74.93 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "189ccc74-d24d-4eba-99c6-4ba09df5bfda")
-		(property "Reference" "BT2"
-			(at 78.74 93.4084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 78.74 95.9484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CREPP_Battery_Holders:MPD_BC501SM-TR"
-			(at 74.93 94.996 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 94.996 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 74.93 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3bea9d1f-45f9-4413-b73d-1995d89ad411")
-		)
-		(pin "1"
-			(uuid "2407f98a-2719-49b9-9022-8f4f7f6f39db")
-		)
-		(instances
-			(project "Kicad_dev"
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "BT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CREPP_MCU_STM32:STM32F030CCTx")
-		(at -138.43 318.77 0)
+		(at -181.61 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20205,7 +20552,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ac99708-4d4f-4ab1-878d-153ea0d2fb77")
 		(property "Reference" "U19"
-			(at -133.6959 356.87 0)
+			(at -176.8759 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20214,7 +20561,7 @@
 			)
 		)
 		(property "Value" "STM32F030CCTx"
-			(at -133.6959 359.41 0)
+			(at -176.8759 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20223,7 +20570,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at -151.13 354.33 0)
+			(at -194.31 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20233,7 +20580,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f030cc.pdf"
-			(at -138.43 318.77 0)
+			(at -181.61 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20242,7 +20589,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0 MCU, 256KB flash, 32KB RAM, 48 MHz, 2.4-3.6V, 37 GPIO, LQFP48"
-			(at -138.43 318.77 0)
+			(at -181.61 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21023,78 +21370,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CREPP_Batteries:Battery_Cell")
-		(at 153.67 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34c933da-a0cc-4a9e-ad00-669278de2a0d")
-		(property "Reference" "BT1"
-			(at 157.48 66.7384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 157.48 69.2784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BC501SM:MPD_BC501SM-TR"
-			(at 153.67 68.326 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 68.326 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 153.67 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "877966e1-2bca-4037-be75-3ea57b51ce1f")
-		)
-		(pin "2"
-			(uuid "be7cce92-4b2b-4b80-a86d-95b965d2d6c0")
-		)
-		(instances
-			(project "Kicad_dev"
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CREPP_Buttons_THT:SW_DPST_x2")
-		(at -17.78 226.06 0)
+		(at 6.35 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21103,7 +21380,7 @@
 		(fields_autoplaced yes)
 		(uuid "36dbbd90-a980-4219-b94c-3c8bd46b9830")
 		(property "Reference" "SW4"
-			(at -17.78 219.71 0)
+			(at 6.35 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21111,7 +21388,7 @@
 			)
 		)
 		(property "Value" "SW_DPST_x2"
-			(at -17.78 222.25 0)
+			(at 6.35 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21119,7 +21396,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at -17.78 226.06 0)
+			(at 6.35 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21128,7 +21405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -17.78 226.06 0)
+			(at 6.35 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21137,7 +21414,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at -17.78 226.06 0)
+			(at 6.35 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21335,6 +21612,82 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_Transistors_NMOS_CMS:2N7002")
+		(at 109.22 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4734ea90-e70b-4dff-b91d-faeea0c9175f")
+		(property "Reference" "Q3"
+			(at 115.57 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 115.57 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 114.3 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 109.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5346764-9f82-420b-9d65-ff9c1005d33d")
+		)
+		(pin "1"
+			(uuid "aae2b6c2-41d4-43dd-81e5-1411178c5f02")
+		)
+		(pin "3"
+			(uuid "a794b8b7-c008-4591-b3bc-59ab87fbf8bb")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -21921,7 +22274,7 @@
 	)
 	(symbol
 		(lib_id "CREPP_MCU_STM32:STM32F723ZETx")
-		(at -22.86 369.57 0)
+		(at -106.68 356.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21930,7 +22283,7 @@
 		(fields_autoplaced yes)
 		(uuid "5706b8da-cd66-4a12-a2db-c67abb5b29ca")
 		(property "Reference" "U21"
-			(at -18.1259 458.47 0)
+			(at -101.9459 445.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21939,7 +22292,7 @@
 			)
 		)
 		(property "Value" "STM32F723ZETx"
-			(at -18.1259 461.01 0)
+			(at -101.9459 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21948,7 +22301,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-144_20x20mm_P0.5mm"
-			(at -50.8 455.93 0)
+			(at -134.62 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21958,7 +22311,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f723ze.pdf"
-			(at -22.86 369.57 0)
+			(at -106.68 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21967,7 +22320,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 512KB flash, 256KB RAM, 216 MHz, 1.7-3.6V, 112 GPIO, LQFP144"
-			(at -22.86 369.57 0)
+			(at -106.68 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22418,7 +22771,7 @@
 	)
 	(symbol
 		(lib_id "CREPP_Buttons_SMT:SW_DPST_x2")
-		(at 16.51 224.79 0)
+		(at 40.64 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22427,7 +22780,7 @@
 		(fields_autoplaced yes)
 		(uuid "589a6ca1-7a99-49d9-9c3e-3c7669e8d9f8")
 		(property "Reference" "SW3"
-			(at 16.51 218.44 0)
+			(at 40.64 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22435,7 +22788,7 @@
 			)
 		)
 		(property "Value" "SW_DPST_x2"
-			(at 16.51 220.98 0)
+			(at 40.64 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22443,7 +22796,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
-			(at 16.51 224.79 0)
+			(at 40.64 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22452,7 +22805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 224.79 0)
+			(at 40.64 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22461,7 +22814,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 16.51 224.79 0)
+			(at 40.64 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22778,76 +23131,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CREPP_Batteries:BK-18650-PC2_18650_Holder_THT")
-		(at 66.04 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67e651a6-9ac8-42c9-8f04-c11f5e01db25")
-		(property "Reference" "U9"
-			(at 68.58 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 68.58 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CREPP_Battery_Holders:BK-18650"
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "866a0db8-cd59-43e7-9c26-7b400b663896")
-		)
-		(pin "1"
-			(uuid "a0c18194-4441-46dd-9ecb-26a245a9aa7a")
-		)
-		(instances
-			(project "Kicad_dev"
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CREPP_Spacers:Spacer_M3_Parametric")
 		(at 143.51 157.48 0)
 		(unit 1)
@@ -22907,6 +23190,82 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_Transistors_NMOS_THT:2N7000_THT")
+		(at 78.74 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7378c8a4-232e-41f7-ab04-ae9f99a20113")
+		(property "Reference" "Q2"
+			(at 85.09 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7000_THT"
+			(at 85.09 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 83.82 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0e0f343-fc53-4948-a86f-2576e526d861")
+		)
+		(pin "3"
+			(uuid "e1fcaf47-ac00-4190-b1db-4a89f99ab950")
+		)
+		(pin "2"
+			(uuid "0e134f7d-0714-49bf-b77b-2d1db691be6e")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -23216,7 +23575,7 @@
 	)
 	(symbol
 		(lib_id "CREPP_Optocoupler:PC817_THT")
-		(at 43.18 170.18 0)
+		(at 132.08 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23225,7 +23584,7 @@
 		(fields_autoplaced yes)
 		(uuid "78aeb459-fb50-404b-9edb-700b3aad2073")
 		(property "Reference" "U7"
-			(at 43.18 161.29 0)
+			(at 132.08 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23233,7 +23592,7 @@
 			)
 		)
 		(property "Value" "PC817_THT"
-			(at 43.18 163.83 0)
+			(at 132.08 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23241,7 +23600,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 38.1 175.26 0)
+			(at 127 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23252,7 +23611,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
-			(at 43.18 170.18 0)
+			(at 132.08 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23262,7 +23621,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
-			(at 43.18 170.18 0)
+			(at 132.08 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23286,6 +23645,76 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_Batteries_holders:Battery_Cell")
+		(at 24.13 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c6ecad4-be00-4f7d-9e5a-d776249c02a1")
+		(property "Reference" "BT2"
+			(at 27.94 107.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 27.94 109.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CREPP_Batteries_holders:MPD_BC501SM-TR"
+			(at 24.13 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 24.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2851aba8-33c3-44d0-8064-2639f620d43b")
+		)
+		(pin "2"
+			(uuid "4bb5cb2b-00a1-4f7e-901e-17cde1a93fb2")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -23363,7 +23792,7 @@
 	)
 	(symbol
 		(lib_id "CREPP_Buttons_SMT:SW_DPST_x2")
-		(at 16.51 233.68 0)
+		(at 40.64 250.19 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23372,7 +23801,7 @@
 		(fields_autoplaced yes)
 		(uuid "803dd6ce-0bc7-4094-9d87-b496bc981164")
 		(property "Reference" "SW3"
-			(at 16.51 227.33 0)
+			(at 40.64 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23380,7 +23809,7 @@
 			)
 		)
 		(property "Value" "SW_DPST_x2"
-			(at 16.51 229.87 0)
+			(at 40.64 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23388,7 +23817,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
-			(at 16.51 233.68 0)
+			(at 40.64 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23397,7 +23826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 233.68 0)
+			(at 40.64 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23406,7 +23835,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 16.51 233.68 0)
+			(at 40.64 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24341,7 +24770,7 @@
 	)
 	(symbol
 		(lib_id "CREPP_Buttons_THT:SW_DPST_x2")
-		(at -17.78 234.95 0)
+		(at 6.35 251.46 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24350,7 +24779,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5463b9a-8b5c-4400-91a3-b70061b0e8ee")
 		(property "Reference" "SW4"
-			(at -17.78 228.6 0)
+			(at 6.35 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24358,7 +24787,7 @@
 			)
 		)
 		(property "Value" "SW_DPST_x2"
-			(at -17.78 231.14 0)
+			(at 6.35 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24366,7 +24795,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at -17.78 234.95 0)
+			(at 6.35 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24375,7 +24804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -17.78 234.95 0)
+			(at 6.35 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24384,7 +24813,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at -17.78 234.95 0)
+			(at 6.35 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25675,7 +26104,7 @@
 	)
 	(symbol
 		(lib_id "CREPP_MCU_STM32:STM32F446VETx")
-		(at -92.71 347.98 0)
+		(at -173.99 330.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25684,7 +26113,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5d87be9-2fc5-425f-8520-118fafc86c7d")
 		(property "Reference" "U20"
-			(at -87.9759 414.02 0)
+			(at -169.2559 396.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25693,7 +26122,7 @@
 			)
 		)
 		(property "Value" "STM32F446VETx"
-			(at -87.9759 416.56 0)
+			(at -169.2559 398.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25702,7 +26131,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at -110.49 411.48 0)
+			(at -191.77 393.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25712,7 +26141,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f446ve.pdf"
-			(at -92.71 347.98 0)
+			(at -173.99 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25721,7 +26150,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 81 GPIO, LQFP100"
-			(at -92.71 347.98 0)
+			(at -173.99 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26456,6 +26885,76 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_Batteries_holders:BK-18650-PC2_18650_Holder_THT")
+		(at 19.05 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1132cdf-3609-4d61-b100-8e76245942f9")
+		(property "Reference" "U9"
+			(at 21.59 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 21.59 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CREPP_Batteries_holders:BK-18650"
+			(at 19.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 19.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15087784-ef27-48dd-a8d4-291cdb1dbf8b")
+		)
+		(pin "1"
+			(uuid "9e7ea55c-8105-4292-bd68-e772c81f4d49")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
+					(reference "U9")
 					(unit 1)
 				)
 			)

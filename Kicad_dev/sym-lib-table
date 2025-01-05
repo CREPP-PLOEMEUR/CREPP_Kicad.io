@@ -100,4 +100,5 @@
   (lib (name "l")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/l.kicad_sym")(options "")(descr ""))
   (lib (name "CREPP_Batteries_holders")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_Batteries_holders.kicad_sym")(options "")(descr ""))
   (lib (name "bk-18650-pc2_18650_holder_tht")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/bk-18650-pc2_18650_holder_tht.kicad_sym")(options "")(descr ""))
+  (lib (name "CREPP_Connectors_MURATA")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/symbols/CREPP_Connectors_MURATA.kicad_sym")(options "")(descr ""))
 )
