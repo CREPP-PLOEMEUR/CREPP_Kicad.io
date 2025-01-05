@@ -496,7 +496,9 @@
       "CREPP_MCU_STM32",
       "CREPP_Buttons_SMT",
       "CREPP_Buttons_THT",
-      "CREPP_RTC"
+      "CREPP_RTC",
+      "CREPP_AOP_SMT",
+      "CREPP_Filters"
     ]
   },
   "meta": {
