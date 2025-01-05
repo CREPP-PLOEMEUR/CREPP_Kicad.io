@@ -655,6 +655,14 @@
     [
       "8104dfe2-da9a-40cd-b518-c622bfb26061",
       "Racine"
+    ],
+    [
+      "233c38d7-f502-4562-9288-001249354de2",
+      "Connectors"
+    ],
+    [
+      "bc3d5978-a829-4a5b-90fd-487dbf3d2f6f",
+      "MCU"
     ]
   ],
   "text_variables": {}
