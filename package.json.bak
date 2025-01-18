@@ -1,34 +1,33 @@
 {
-    "packages": [
-      {
-        "$schema": "https://go.kicad.org/pcm/schemas/v1",
-        "name": "CREPP symbols, footprints, 3D models",
-        "description": "CREPP symbols, footprints, 3D models",
-        "description_full": "CREPP symbols, footprints, 3D models",
-        "identifier": "com.github.crepp.library",
-        "type": "library",
-        "author": {
-          "name": "Nicolas Le Guerroué",
-          "contact": {
-            "email": "nicolasleguerroue@gmail.com"
-          }
-        },
-        "license": "Apache-2.0",
-        "resources": {
-          "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
-        },
-        "versions": [
-          {
-            "version": "0.2",
-            "status": "development",
-            "kicad_version": "8.00",
-            "download_sha256": "003a845479d8b2bcad7c1651809d618b4b778143630a56a7ffec370325d92643",
-            "download_size": 8039600,
-            "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/Library.zip",
-            "install_size": 4096
-          }
-        ]
-      }
-    ]
-  }
-  
+  "packages": [
+    {
+      "$schema": "https://go.kicad.org/pcm/schemas/v1",
+      "name": "CREPP symbols, footprints, 3D models",
+      "description": "CREPP symbols, footprints, 3D models",
+      "description_full": "CREPP symbols, footprints, 3D models",
+      "identifier": "com.github.crepp.library",
+      "type": "library",
+      "author": {
+        "name": "Nicolas Le Guerroué",
+        "contact": {
+          "email": "nicolasleguerroue@gmail.com"
+        }
+      },
+      "license": "Apache-2.0",
+      "resources": {
+        "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
+      },
+      "versions": [
+        {
+          "version": "0.2",
+          "status": "development",
+          "kicad_version": "8.00",
+          "download_sha256": "e793eadd3460a9ed958d82022bb5c9b3421e06dfa3bba4a5a75b7255db4e6d98",
+          "download_size": 7863729,
+          "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/Library.zip",
+          "install_size": 0
+        }
+      ]
+    }
+  ]
+}
