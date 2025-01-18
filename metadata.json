@@ -15,11 +15,6 @@
     "resources": {
         "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
     },
-    "environment": {
-    "vars": {
-      "TEST": "NICOLAS"
-    }
-  },
     "versions": [
         {
             "version": "0.1",
