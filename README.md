@@ -10,7 +10,7 @@ Ce tutoriel explique comment installer une bibliothèque à partir d'un fichier 
 
 - Avoir installé **KiCad 8** ou une version compatible avec le PCM.
 - Disposer de l'adresse du fichier JSON de la bibliothèque :  
-  `https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/refs/heads/main/repository.json`
+  `https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad.io/refs/heads/main/repository.json`
 
 ---
 
@@ -35,7 +35,7 @@ Ce tutoriel explique comment installer une bibliothèque à partir d'un fichier 
 ## Étape 3 : Saisir l'URL du dépôt
 
 1. Collez l'adresse suivante dans le champ dédié :  
-   `https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/refs/heads/main/repository.json`
+   `https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad.io/refs/heads/main/repository.json`
 2. Cliquez sur **OK** pour valider.
 ![Capture d'écran 4](resources/PCM4.png)
 3. Puis faire **Enregistrer**
