@@ -15,7 +15,7 @@
       },
       "license": "Apache-2.0",
       "resources": {
-        "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
+        "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad.io"
       },
       "versions": [
         {
@@ -24,7 +24,7 @@
           "kicad_version": "8.00",
           "download_sha256": "4ba4b8573568766dcf27aa0137d698e6754e6871d1b95864f605d181a92f5502",
           "download_size": 7863729,
-          "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/Library.zip",
+          "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad.io/main/Library.zip",
           "install_size": 4096
         }
       ]
@@ -44,7 +44,7 @@
       },
       "license": "Apache-2.0",
       "resources": {
-        "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad"
+        "homepage": "https://github.com/CREPP-PLOEMEUR/CREPP_Kicad.io"
       },
       "versions": [
         {
@@ -53,7 +53,7 @@
           "kicad_version": "8.00",
           "download_sha256": "4ba4b8573568766dcf27aa0137d698e6754e6871d1b95864f605d181a92f5502",
           "download_size": 7863729,
-          "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad/main/Library.zip",
+          "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad.io/main/Library.zip",
           "install_size": 4096
         }
       ]
