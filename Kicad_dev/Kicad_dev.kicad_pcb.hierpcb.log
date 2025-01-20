@@ -1,0 +1,80 @@
+Plugin v0.0.1 running on KiCad 8.0.8-8.0.8-0~ubuntu24.10.1 and Python 3.12.7 (main, Nov  6 2024, 18:29:01) [GCC 14.2.0] on linux.
+Config file /home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/Kicad_dev/Kicad_dev.kicad_pcb.hierpcb.json not found. Creating new one.
+Imported /home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/Kicad_dev/Kicad_dev.kicad_pcb, with 73 footprints, 0 tracks, and 0 drawings.
+Racine (+ PCB /home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/Kicad_dev/Kicad_dev.kicad_pcb)
+├─ Connectors
+├─ MCU
+PCB /home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/Kicad_dev/Kicad_dev.kicad_pcb
+  /9dd95c8f: L1
+  /57e385fe: S3
+  /fe42b065: U3
+  /ffd48830: U5
+  /86572671: U24
+  /2f977b43: JP2
+  /e87200fc: D2
+  /b80e085f: C2
+  /49ad0306: J2
+  /56e1359e: TP2
+  /c6f64109: JP1
+  /21d5d623: U8
+  /980b7841: S1
+  /087b36a6: S4
+  /53cd9c00: TP1
+  /233c38d7/48ef1058: J14
+  /4539ccd5: R4
+  /256bdc87: U27
+  /f2928d1d: U25
+  /cc439d48: U1
+  /a2af7e1c: U4
+  /ba5c14af: U14
+  /233c38d7/cfe6328e: J15
+  /8e7aae67: R2
+  /f2dc5b27: D1
+  /cd3075ae: U12
+  /dd32261a: S5
+  /210c297a: U2
+  /bc3d5978/db98d9cb: U19
+  /4b96645c: D5
+  /bc3d5978/cf653b7a: U17
+  /088fe24f: J3
+  /233c38d7/9f276615: J4
+  /f1132cdf: U9
+  /233c38d7/0ea1e34c: J16
+  /233c38d7/f37f9ea4: J9
+  /ce690b05: SERVO_SG3
+  /233c38d7/d9c530ea: J12
+  /100a265e: U6
+  /e8b9d8cd: HS1
+  /e6819776: U13
+  /5d83b9a7: U11
+  /7378c8a4: Q2
+  /e7f385a6: Q1
+  /96b65e3c: U26
+  /e8c69404: J11
+  /e9be1fb3: R3
+  /bc3d5978/a6f472e4: U20
+  /78aeb459: U7
+  /803dd6ce: SW3
+  /233c38d7/7181a8d1: J5
+  /cd5ad2d7: SW1
+  /233c38d7/65158dbd: J10
+  /cd2bf031: U23
+  /e726fdfc: RV1
+  /233c38d7/de2b632a: J7
+  /233c38d7/9963741e: J6
+  /46f44adf: S2
+  /db532940: D3
+  /bc3d5978/4ea1d265: U18
+  /775edaf8: U15
+  /233c38d7/df1f1565: J13
+  /d7570b3c: J1
+  /4734ea90: Q3
+  /bc3d5978/d39a60a8: U16
+  /90bc06f3: R1
+  /a5463b9a: SW4
+  /24a1581d: V1
+  /f4949f65: U22
+  /21624022: OLED1
+  /1128a3ff: D4
+  /7c6ecad4: BT2
+  /233c38d7/df751381: J8
