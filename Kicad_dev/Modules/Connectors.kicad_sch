@@ -995,7 +995,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
+			(property "ki_keywords" "screw terminal 2.54mm CREPP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1369,7 +1369,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
+			(property "ki_keywords" "screw terminal CREPP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1849,7 +1849,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
+			(property "ki_keywords" "screw terminal CREPP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2435,7 +2435,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
+			(property "ki_keywords" "screw terminal CREPP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3341,7 +3341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 109.22 50.8 0)
 			(effects
 				(font
@@ -3411,7 +3411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 130.81 36.83 0)
 			(effects
 				(font

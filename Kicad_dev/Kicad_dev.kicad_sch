@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(property "Description" "Low-Power, Dual Operational Amplifiers, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "dual opamp"
+			(property "ki_keywords" "dual opamp CREPP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -301,7 +301,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -555,7 +555,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "BMS device for Lithium cell"
 				(at 0 0 0)
 				(effects
 					(font
@@ -992,7 +992,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-cell battery"
+			(property "Description" "Single-cell battery holder - Lithium "
 				(at 0 0 0)
 				(effects
 					(font
@@ -1001,7 +1001,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "battery cell"
+			(property "ki_keywords" "battery cell CREPP Lithium"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1277,7 +1277,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch lever"
+			(property "ki_keywords" "switch lever cerpp SMT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8347,92 +8347,6 @@
 				)
 			)
 		)
-		(symbol "CREPP_Screens:OLED_0.96{dblquote}_PCB_mounting"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "OLED_"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "CREPP_Screens:SSD1306_OLED_Display_PCB_Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OLED_0.96{dblquote}_PCB_mounting_0_1"
-				(rectangle
-					(start -6.35 -2.54)
-					(end 6.35 8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 -2.54)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "OLED_0.96{dblquote}_PCB_mounting_1_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 37 38 132 1)
-					)
-				)
-			)
-		)
 		(symbol "CREPP_Screens:OLED_SSD1306_0.96"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10616,7 +10530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CREPP_Spacers:Spacer_M3_FF_20mm"
+		(property "Footprint" "CREPP_Spacers:Spacer_M3_MF_05mm"
 			(at 243.84 237.49 0)
 			(effects
 				(font
@@ -11314,7 +11228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8"
 			(at 74.93 133.35 0)
 			(effects
 				(font
@@ -11489,70 +11403,6 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CREPP_Screens:OLED_0.96{dblquote}_PCB_mounting")
-		(at 144.78 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43743d1c-02bb-492b-8bcd-c43f8ee92abf")
-		(property "Reference" "OLED_1"
-			(at 152.4 150.4949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 152.4 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CREPP_Screens:SSD1306_OLED_Display_PCB_Mount"
-			(at 144.78 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061"
-					(reference "OLED_1")
 					(unit 1)
 				)
 			)
@@ -11761,7 +11611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CREPP_Spacers:Spacer_M3_FF_10mm"
+		(property "Footprint" "CREPP_Spacers:Spacer_M3_MF_05mm"
 			(at 243.84 224.79 0)
 			(effects
 				(font
@@ -12179,7 +12029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" "Low-Power, Dual Operational Amplifiers, SOIC-8"
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -12392,7 +12242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CREPP_Spacers:Spacer_M3_FF_15mm"
+		(property "Footprint" "CREPP_Spacers:Spacer_M3_MF_05mm"
 			(at 215.9 237.49 0)
 			(effects
 				(font
@@ -12999,7 +12849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "Single-cell battery holder - Lithium"
 			(at 24.13 110.49 0)
 			(effects
 				(font
@@ -13359,7 +13209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" "Low-Power, Dual Operational Amplifiers, SOIC-8"
 			(at 109.22 54.61 0)
 			(effects
 				(font
@@ -13586,7 +13436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BMS device for Lithium cell"
 			(at -86.36 76.2 0)
 			(effects
 				(font
@@ -13770,7 +13620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CREPP_Spacers:Spacer_M3_FF_05mm"
+		(property "Footprint" "CREPP_Spacers:Spacer_M3_MF_05mm"
 			(at 215.9 224.79 0)
 			(effects
 				(font
@@ -15650,7 +15500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" "Low-Power, Dual Operational Amplifiers, SOIC-8"
 			(at 120.65 55.88 0)
 			(effects
 				(font
@@ -15806,7 +15656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8"
 			(at 82.55 148.59 0)
 			(effects
 				(font
@@ -15996,7 +15846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8"
 			(at 95.25 133.35 0)
 			(effects
 				(font

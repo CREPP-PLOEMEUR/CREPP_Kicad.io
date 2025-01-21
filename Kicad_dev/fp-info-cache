@@ -1,4 +1,4 @@
-23821408178256903
+23821408217742252
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2709,19 +2709,19 @@ SMA
 5
 2
 CREPP_Screens
+SSD1306_OLED_0.96_PCB
+Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
+display OLED SSD1306 128x64
+0
+0
+0
+CREPP_Screens
 SSD1306_OLED_Display(128x64)
 Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
 display OLED SSD1306 128x64
 0
 4
 4
-CREPP_Screens
-SSD1306_OLED_Display_PCB_Mount
-Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
-display OLED SSD1306 128x64
-0
-0
-0
 CREPP_Screens
 SSD1306_OLED_Display_VIRTUAL_128_64
 Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
