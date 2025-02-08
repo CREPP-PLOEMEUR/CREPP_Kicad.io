@@ -209,15 +209,15 @@
 		(remove_unused_layers no)
 		(uuid "1df8a64e-639b-4df4-92ab-ee7c84b48931")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CREPP_LEDs/5mm/LED_5mm_green.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 1.27 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 180)
 		)
 	)
 )
