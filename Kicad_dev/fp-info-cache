@@ -1,4 +1,4 @@
-23821408236854219
+23791888355151990
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2554,13 +2554,6 @@ SOP127P600X175-9N
 0
 9
 9
-CREPP_BNC
-BNC_Amphenol_B6252HB-NPP3G-50_Horizontal
-http://www.farnell.com/datasheets/612848.pdf
-BNC Amphenol Horizontal
-0
-4
-2
 CREPP_Batteries_holders
 BK-18650
 
@@ -2596,13 +2589,6 @@ C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Elec
 0
 2
 2
-CREPP_Connector_Picoblade
-MOLEX_530470510
-
-
-0
-5
-5
 CREPP_Connectors_MURATA
 MM8130-2600
 
@@ -2617,41 +2603,6 @@ USB Type-C Receptacle Through-hole Right angle
 0
 20
 17
-CREPP_DIP
-DIP-8_W7.62mm
-8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil
-0
-0
-0
-CREPP_GNSS
-ublox_MAX
-ublox MAX 6/7/8, (https://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareIntegrationManual_%28UBX-15030059%29.pdf)
-GPS ublox MAX 6/7/8
-0
-18
-18
-CREPP_GNSS
-ublox_NEO
-ublox NEO 6/7/8, (https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HardwareIntegrationManual_%28UBX-15029985%29_0.pdf)
-GPS ublox NEO 6/7/8
-0
-24
-24
-CREPP_Heatsinks
-HeastSink_MOSFET_15mm_10mm_20mm
-
-
-0
-0
-0
-CREPP_Joysticks
-XDCR_COM-09032_V2
-
-
-0
-14
-14
 CREPP_Joysticks_SW
 XDCR_COM-09032
 
@@ -2659,34 +2610,55 @@ XDCR_COM-09032
 0
 14
 14
-CREPP_Jumpers
-Jumper_2.54mm_black
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
+CREPP_LEDs
+LED_D5.0mm_Blue
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
 0
+2
+2
+CREPP_LEDs
+LED_D5.0mm_Green
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
 0
+2
+2
+CREPP_LEDs
+LED_D5.0mm_Orange
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
 0
-CREPP_Jumpers
-Jumper_2.54mm_blue
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
+2
+2
+CREPP_LEDs
+LED_D5.0mm_Purple
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
 0
+2
+2
+CREPP_LEDs
+LED_D5.0mm_Red
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
 0
+2
+2
+CREPP_LEDs
+LED_D5.0mm_White
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
 0
-CREPP_Jumpers
-Jumper_2.54mm_green
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
+2
+2
+CREPP_LEDs
+LED_D5.0mm_Yellow
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
 0
-0
-0
-CREPP_Jumpers
-Jumper_2.54mm_red
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-0
-0
+2
+2
 CREPP_Potentiometers
 Potentiometer_Alps_RK09Y11_Single_Horizontal
 Potentiometer, horizontal, Long Life, Alps RK09Y11 Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09y11/rk09y11.pdf
@@ -2694,41 +2666,6 @@ Potentiometer horizontal Alps RK09Y11 Single
 0
 3
 3
-CREPP_RotaryEncoders
-RotaryEncoder
-Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
-rotary encoder
-0
-7
-6
-CREPP_SMA
-SMA_Amphenol_132289_EdgeMount
-http://www.amphenolrf.com/132289.html
-SMA
-0
-5
-2
-CREPP_Screens
-SSD1306_OLED_0.96_PCB
-Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
-display OLED SSD1306 128x64
-0
-0
-0
-CREPP_Screens
-SSD1306_OLED_Display(128x64)
-Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
-display OLED SSD1306 128x64
-0
-4
-4
-CREPP_Screens
-SSD1306_OLED_Display_VIRTUAL_128_64
-Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
-display OLED SSD1306 128x64
-0
-0
-0
 CREPP_Sensors_distance
 HC-SR04
 
@@ -2738,62 +2675,6 @@ HC-SR04
 0
 CREPP_Servo
 SG90_Servo
-
-
-0
-0
-0
-CREPP_Spacers
-Spacer_M3_FF_05mm
-
-
-0
-0
-0
-CREPP_Spacers
-Spacer_M3_FF_10mm
-
-
-0
-0
-0
-CREPP_Spacers
-Spacer_M3_FF_15mm
-
-
-0
-0
-0
-CREPP_Spacers
-Spacer_M3_FF_20mm
-
-
-0
-0
-0
-CREPP_Spacers
-Spacer_M3_MF_05mm
-
-
-0
-0
-0
-CREPP_Spacers
-Spacer_M3_MF_10mm
-
-
-0
-0
-0
-CREPP_Spacers
-Spacer_M3_MF_15mm
-
-
-0
-0
-0
-CREPP_Spacers
-Spacer_M3_MF_20mm
 
 
 0
