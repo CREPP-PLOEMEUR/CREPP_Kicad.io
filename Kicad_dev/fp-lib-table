@@ -18,4 +18,5 @@
   (lib (name "CREPP_PMOS_CMS")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/CREPP.Components/footprints/CREPP_PMOS_CMS.pretty")(options "")(descr ""))
   (lib (name "CREPP_Jumpers")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/CREPP.Components/footprints/CREPP_Jumpers.pretty")(options "")(descr ""))
   (lib (name "CREPP_NRF24")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/CREPP.Components/footprints/CREPP_NRF24.pretty")(options "")(descr ""))
+  (lib (name "CREPP_Screens")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/CREPP.Components/footprints/CREPP_Screens.pretty")(options "")(descr ""))
 )

@@ -249,14 +249,15 @@
 		(uuid "f8cbeaba-2b2c-441b-b362-e3f8822f21a3")
 	)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_crepp_library/CREPP_PMOS_CMS/ST890.step"
+		(hide yes)
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 90)
 		)
 	)
 )
