@@ -452,7 +452,10 @@
       "CREPP_Temperature_sensors",
       "CREPP_Batteries_holders",
       "CREPP_Connectors_MURATA",
-      "CREPP_Sensors_distance"
+      "CREPP_Sensors_distance",
+      "CREPP_PMOS_CMS",
+      "CREPP_LEDs",
+      "CREPP_NRF24"
     ],
     "pinned_symbol_libs": [
       "CREPP_Accelerometers",

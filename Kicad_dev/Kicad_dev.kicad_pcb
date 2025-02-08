@@ -1125,7 +1125,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SSOP?14* TSSOP?14*")
-		(path "/fe42b065-2cbb-4ed8-9314-2c0f89627813")
+		(path "/ac98b116-a8fe-4fc5-96e7-924225973d63")
 		(sheetname "Racine")
 		(sheetfile "Kicad_dev.kicad_sch")
 		(attr through_hole)
@@ -3714,6 +3714,141 @@
 			)
 		)
 	)
+	(footprint "CREPP_Jumpers:Jumper_2.54mm_green"
+		(layer "F.Cu")
+		(uuid "299d866d-c0c3-492a-b7e1-4456ddf2c3c1")
+		(at 72.31 58.73)
+		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x02 2.54mm single row")
+		(property "Reference" "JP5"
+			(at 0 -2.33 0)
+			(layer "User.1")
+			(hide yes)
+			(uuid "248ad7ac-20b2-4f88-bca7-d7985d5a09eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Jumper_2.54mm_green"
+			(at 0 4.87 0)
+			(layer "Dwgs.User")
+			(hide yes)
+			(uuid "29dd24ae-b64a-4606-9451-6f0876e1592d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "CREPP_Jumpers:Jumper_2.54mm_green"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27d72cc8-06ad-4973-932f-6b97f3dc0639")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cd12f50-858e-4195-8ec6-92923efed1c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd889860-b5e5-4977-9bc2-a8f5749033aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/5541d22f-39a8-4790-a5d3-78824eebf778")
+		(sheetname "Racine")
+		(sheetfile "Kicad_dev.kicad_sch")
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "d445ebd0-2e58-400c-ba76-e6a01ed1b2e2")
+		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "d0ca06a9-153c-4564-a388-c120bdfbd39a")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "478f66c2-86b5-49bc-93ca-6398d078c8e5")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "1e8083b1-4f75-4d60-b453-be73c41bc007")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "28833273-19c1-4e33-9e22-5296445e12db")
+		)
+		(model "../../3dmodels/CREPP_Jumpers_2.54mm/Jumper-green.step"
+			(offset
+				(xyz 0 -1.5 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
+	)
 	(footprint "CREPP_Connectors_MURATA:MM8130-2600"
 		(layer "F.Cu")
 		(uuid "2a28b86c-7505-4af7-8292-5362871e727e")
@@ -6174,7 +6309,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/f2928d1d-0578-4d34-b4b6-aa7d74ebeeec")
+		(path "/89060c28-2fc1-48c9-aca8-fae85d9b6c25")
 		(sheetname "Racine")
 		(sheetfile "Kicad_dev.kicad_sch")
 		(attr smd)
@@ -8710,6 +8845,141 @@
 			)
 		)
 	)
+	(footprint "CREPP_Jumpers:Jumper_2.54mm_black"
+		(layer "F.Cu")
+		(uuid "4faf7af8-ff14-4358-aaed-f118c3e16e23")
+		(at 65.03 58.73)
+		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x02 2.54mm single row")
+		(property "Reference" "JP3"
+			(at 0 -2.33 0)
+			(layer "User.1")
+			(hide yes)
+			(uuid "ca21eb62-dda7-43b2-8acc-ef13bb8b5539")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Jumper_2.54mm_black"
+			(at 0 4.87 0)
+			(layer "Dwgs.User")
+			(hide yes)
+			(uuid "f9ccbec0-3353-42e0-be3b-4f5e663c12cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "CREPP_Jumpers:Jumper_2.54mm_black"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "544b9966-a7b9-45cd-a2c0-2e146e0e1e8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90f16e9f-3a8c-464f-8880-2f6a1ade99cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daef5a90-ed26-4934-ad0c-55b8262b760f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/15a725cf-19e9-4c07-8bf4-c4a443bfc3e1")
+		(sheetname "Racine")
+		(sheetfile "Kicad_dev.kicad_sch")
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "2b89dbd6-4ad6-47ae-8149-576ceef02b18")
+		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "904fb7be-2395-4345-9b7e-78e886896082")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "882a71cf-1fd5-4354-8cdd-e92a20a0a0b9")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "a31126f9-95ed-45d4-869a-27fde8d32bd3")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "e981952d-a9cc-4401-b7ba-e2b4a6acc916")
+		)
+		(model "/home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/CREPP.Components/3dmodels/CREPP_Jumpers_2.54mm/Jumper.step"
+			(offset
+				(xyz 0 -1.5 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
+	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5176971a-e160-436f-91bf-95b12ae574bf")
@@ -9217,6 +9487,141 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "CREPP_Jumpers:Jumper_2.54mm_red"
+		(layer "F.Cu")
+		(uuid "580c20d2-4028-4aa0-b749-9ef17d464bf1")
+		(at 75.95 58.73)
+		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x02 2.54mm single row")
+		(property "Reference" "JP6"
+			(at 0 -2.33 0)
+			(layer "User.1")
+			(hide yes)
+			(uuid "23965c11-43ad-4e7c-9ad8-54d90b370bb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Jumper_2.54mm_red"
+			(at 0 4.87 0)
+			(layer "Dwgs.User")
+			(hide yes)
+			(uuid "c6299ffe-dac0-4825-b759-e7053b2efead")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "CREPP_Jumpers:Jumper_2.54mm_red"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02101ec7-16d5-4bd9-a879-ac63374bfc97")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05e64557-b53f-4fbb-a4d2-b7b570c17999")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "072247d4-22dd-473f-a9a1-5250c4ea7682")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/0e65ced6-b543-41aa-a185-2384c9807d9a")
+		(sheetname "Racine")
+		(sheetfile "Kicad_dev.kicad_sch")
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "4a9eb444-9e5c-4543-a179-6b0667e71fc8")
+		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "072971aa-61f3-45a1-90ff-3adf88e9b1eb")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "2ed6e978-0da3-427b-953a-5c8f238ae6d4")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "402195d3-7fea-4ac4-a2e9-428fe6397557")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "8f696d32-65cb-4c68-b7b4-6a1fab189146")
+		)
+		(model "../../3dmodels/CREPP_Jumpers_2.54mm/Jumper-red.step"
+			(offset
+				(xyz 0 -1.5 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
 			)
 		)
 	)
@@ -11835,6 +12240,141 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "CREPP_Jumpers:Jumper_2.54mm_blue"
+		(layer "F.Cu")
+		(uuid "605e657f-00df-448e-ba35-50b1aa6c7e97")
+		(at 68.67 58.73)
+		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x02 2.54mm single row")
+		(property "Reference" "JP4"
+			(at 0 -2.33 0)
+			(layer "User.1")
+			(hide yes)
+			(uuid "8144af9c-7279-4302-bcc4-8083f6872f07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Jumper_2.54mm_blue"
+			(at 0 4.87 0)
+			(layer "Dwgs.User")
+			(hide yes)
+			(uuid "18fde6cc-4b7b-4153-b719-9da49272e96a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "CREPP_Jumpers:Jumper_2.54mm_blue"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ab08545-d1ed-4963-807d-8e2e58a82006")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05fb3a50-ae14-4f0a-bf7a-10b8713b9da2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c792a9e6-cf26-4df1-9cb7-915ce144e6f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/f0a1531c-cc19-48ad-b5a1-de355a73c18f")
+		(sheetname "Racine")
+		(sheetfile "Kicad_dev.kicad_sch")
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "52d0756b-2ce6-4cfe-8370-d28708b0d217")
+		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "aa41c08d-6b59-4f41-92fe-ec9d782510d3")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "e44b3da3-a3b3-4dcf-a5bd-89f0dd2ff7a3")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "e566382e-8775-4c92-bd12-e53b26c3bebd")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "ffb9012a-4b94-4871-b01d-ffd2fecd9785")
+		)
+		(model "../../3dmodels/CREPP_Jumpers_2.54mm/Jumper-blue.step"
+			(offset
+				(xyz 0 -1.5 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
 			)
 		)
 	)
