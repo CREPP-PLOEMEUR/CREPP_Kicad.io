@@ -185,7 +185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b4a776-6786-468f-b690-33ef6aa49233")
-		(property "Reference" "D12"
+		(property "Reference" "D11"
 			(at 100.0125 86.36 0)
 			(effects
 				(font
@@ -234,6 +234,14 @@
 		(pin "1"
 			(uuid "70d554e2-e837-46bb-88a1-839cad592fd6")
 		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CREPP_LED:LED_5mm_Generic")
@@ -245,7 +253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4924abb4-f0f6-4e57-9275-df53518653f8")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 77.1525 64.77 0)
 			(effects
 				(font
@@ -294,6 +302,14 @@
 		(pin "1"
 			(uuid "eba2841f-2249-487f-a5f3-7587cc468e99")
 		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CREPP_LED:LED_5mm_Generic")
@@ -305,7 +321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72f5c32a-b5f0-49c9-8f3b-c4fa72c2c641")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 78.4225 86.36 0)
 			(effects
 				(font
@@ -354,6 +370,14 @@
 		(pin "2"
 			(uuid "1861d69f-f427-44b8-9651-b8f18fd1a229")
 		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CREPP_LED:LED_5mm_Generic")
@@ -365,7 +389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8695bd3c-50e2-4d6b-ac8e-9454dffc1a7a")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 78.4225 74.93 0)
 			(effects
 				(font
@@ -414,6 +438,14 @@
 		(pin "2"
 			(uuid "14fc045e-1a58-420d-b95d-e8f9c412eae0")
 		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CREPP_LED:LED_5mm_Generic")
@@ -425,7 +457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a6294e0-da19-42fa-ba8f-88a181eaaa6b")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 98.7425 74.93 0)
 			(effects
 				(font
@@ -474,6 +506,14 @@
 		(pin "2"
 			(uuid "c1a6948f-11ae-4c25-bea6-5aa4fc2b7fac")
 		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CREPP_LED:LED_5mm_Generic")
@@ -485,7 +525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e2038d4-8328-4491-9d6b-0b2ea56c99a7")
-		(property "Reference" "D10"
+		(property "Reference" "D9"
 			(at 98.7425 64.77 0)
 			(effects
 				(font
@@ -534,6 +574,14 @@
 		(pin "1"
 			(uuid "913b78b2-51d6-4f24-ae39-2eb748c8fadf")
 		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CREPP_LED:LED_5mm_Generic")
@@ -545,7 +593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb2e9659-a51a-4480-ab90-adbec2c72406")
-		(property "Reference" "D13"
+		(property "Reference" "D12"
 			(at 119.0625 63.5 0)
 			(effects
 				(font
@@ -593,6 +641,14 @@
 		)
 		(pin "2"
 			(uuid "09c6e4f4-13fe-4a56-9968-cf14009f4b41")
+		)
+		(instances
+			(project "Kicad_dev"
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

@@ -128,7 +128,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NRF24L01_Breakout [CREPP]"
+			(property "Value" "NRF24L01_Breakout"
 				(at 3.81 12.7 0)
 				(effects
 					(font
@@ -137,7 +137,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "RF_Module:nRF24L01_Breakout"
+			(property "Footprint" "CREPP_NRF24:nRF24L01_Breakout"
 				(at 3.81 15.24 0)
 				(effects
 					(font
@@ -403,6 +403,267 @@
 				)
 			)
 		)
+		(symbol "CREPP_NRF24:NRF24_Virtual"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.318 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NRF24_Virtual_0_1"
+				(rectangle
+					(start -5.08 10.16)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.635 6.985)
+					(mid 0 7.248)
+					(end -0.635 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 6.985)
+					(mid 0 7.7741)
+					(end -1.905 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.175 6.985)
+					(mid 0 8.3001)
+					(end -3.175 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NRF24_Virtual_1_1"
+				(text "NRF24\ndevice"
+					(at 0 2.794 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_NRF24:NRF24L01_Breakout ")
+		(at 189.23 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e9a3987-5af9-42f7-8bd6-ae3a6f6e4612")
+		(property "Reference" "U22"
+			(at 199.39 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NRF24L01_Breakout"
+			(at 199.39 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CREPP_NRF24:nRF24L01_Breakout"
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf"
+			(at 189.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra low power 2.4GHz RF Transceiver, Carrier PCB"
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4cb6379-9dff-4aa9-8831-9f6bac092034")
+		)
+		(pin "2"
+			(uuid "e4e24632-b2ed-4059-8a4a-22b91e49d719")
+		)
+		(pin "8"
+			(uuid "9b359857-2d36-46eb-920f-528fe0dafdd4")
+		)
+		(pin "5"
+			(uuid "ce13345c-6dfa-4d5a-8126-5a8d7bdf1a85")
+		)
+		(pin "3"
+			(uuid "93a39f5c-02be-4e7f-81ae-14eba4de8dc3")
+		)
+		(pin "6"
+			(uuid "dfa15714-b80d-4269-ae04-1013b44b9938")
+		)
+		(pin "7"
+			(uuid "d0e87bdf-f368-4514-9dda-069225e28ac8")
+		)
+		(pin "4"
+			(uuid "7a726fd2-5e8d-4245-9045-8a2c1f84b064")
+		)
+		(instances
+			(project ""
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/1034155c-8abf-469a-b01c-35ece3b3f3d3"
+					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_NRF24:NRF24_Virtual")
+		(at 148.59 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab60a82a-6d93-4b18-94c1-408fcc73504f")
+		(property "Reference" "U28"
+			(at 154.94 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 154.94 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/1034155c-8abf-469a-b01c-35ece3b3f3d3"
+					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CREPP_Bluetooth:Bluetooth HC-05 [CREPP_VIRTUAL]")
@@ -463,96 +724,6 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/1034155c-8abf-469a-b01c-35ece3b3f3d3"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CREPP_NRF24:NRF24L01_Breakout ")
-		(at 110.49 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5c3e8da-0cbf-41de-8220-d5acf2700527")
-		(property "Reference" "U30"
-			(at 120.65 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NRF24L01_Breakout [CREPP]"
-			(at 120.65 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CREPP_NRF24:nRF24L01_Breakout"
-			(at 114.3 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultra low power 2.4GHz RF Transceiver, Carrier PCB"
-			(at 110.49 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "b001de19-fe4b-4245-88af-877d59e96fc5")
-		)
-		(pin "3"
-			(uuid "007e9054-5ba3-4969-a5b7-9107a32040e8")
-		)
-		(pin "2"
-			(uuid "9b318109-79bc-4b37-bdc2-635284f2fff1")
-		)
-		(pin "1"
-			(uuid "3dadc040-90a2-44ae-b655-09211731fe1a")
-		)
-		(pin "7"
-			(uuid "637143e9-b156-44de-ad24-03383e1ae084")
-		)
-		(pin "4"
-			(uuid "6912012a-2f70-416b-a4db-30e4db52bf4f")
-		)
-		(pin "5"
-			(uuid "5dc4b752-088a-423e-a610-bebffef81c11")
-		)
-		(pin "6"
-			(uuid "f17315cf-a4dc-4439-81dd-b0b66eafdaa6")
-		)
-		(instances
-			(project ""
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/1034155c-8abf-469a-b01c-35ece3b3f3d3"
-					(reference "U30")
 					(unit 1)
 				)
 			)

@@ -962,7 +962,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
+			(property "Footprint" "CREPP_Potentiometers:Potentiometer_Alps_RK09Y11_Single_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1340,16 +1340,16 @@
 	)
 	(symbol
 		(lib_id "CREPP_Potentiometers_THT:R_Potentiometer")
-		(at 240.03 90.17 0)
+		(at 152.4 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "312f33fe-671e-4e2a-b732-fc3478a3374e")
+		(uuid "11317fb7-aa86-4cf0-92ee-42231c7a4a69")
 		(property "Reference" "RV1"
-			(at 237.49 88.8999 0)
+			(at 149.86 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1358,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer"
-			(at 237.49 91.4399 0)
+			(at 149.86 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,8 +1366,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
-			(at 240.03 90.17 0)
+		(property "Footprint" "CREPP_Potentiometers:Potentiometer_Alps_RK09Y11_Single_Horizontal"
+			(at 152.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1376,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 90.17 0)
+			(at 152.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1385,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 240.03 90.17 0)
+			(at 152.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,17 +1393,17 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "d1157a1f-1f13-49bf-a338-59b93bb6a173")
+		(pin "3"
+			(uuid "b4f47de3-1ba6-4bba-962b-a1e2ea20e8b3")
 		)
 		(pin "1"
-			(uuid "cc249132-5f95-4f2b-96db-1d94073e1b3d")
+			(uuid "100db817-8a9f-4740-aa36-9bc9b15f4df3")
 		)
-		(pin "3"
-			(uuid "490b0fbe-976f-41a6-baef-8f2f28cf2487")
+		(pin "2"
+			(uuid "853347b9-0862-4e2c-8e6d-6060e4a6c25e")
 		)
 		(instances
-			(project "Kicad_dev"
+			(project ""
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/7c3c07de-3c76-4af0-8fc4-525102bf82ab"
 					(reference "RV1")
 					(unit 1)
