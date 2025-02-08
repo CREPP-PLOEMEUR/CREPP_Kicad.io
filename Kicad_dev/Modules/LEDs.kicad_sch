@@ -229,18 +229,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1aeac43e-5665-46ae-9e0c-7751d28fc8fe")
+			(uuid "9258b5bd-0fbf-4c6a-af30-24cb86c02c8a")
 		)
 		(pin "1"
-			(uuid "7456b3c2-178d-4602-b79e-b1f74658b373")
-		)
-		(instances
-			(project ""
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "D12")
-					(unit 1)
-				)
-			)
+			(uuid "70d554e2-e837-46bb-88a1-839cad592fd6")
 		)
 	)
 	(symbol
@@ -297,18 +289,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3d2b7993-788e-4e0f-80fb-5bbfd2ba02d9")
+			(uuid "4cdd43a5-3343-4236-a033-ec17a2a8df5f")
 		)
 		(pin "1"
-			(uuid "4653fb82-b8a1-4855-a024-d73122d3aaa2")
-		)
-		(instances
-			(project ""
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "D7")
-					(unit 1)
-				)
-			)
+			(uuid "eba2841f-2249-487f-a5f3-7587cc468e99")
 		)
 	)
 	(symbol
@@ -365,18 +349,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ba8f465-4d71-4789-a506-c08c5dd4f7f7")
+			(uuid "c6bff5ac-482b-4f4b-a837-4180fafe1e61")
 		)
 		(pin "2"
-			(uuid "2b5f8af4-3948-4a1d-8fe6-537341e00ace")
-		)
-		(instances
-			(project ""
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "D9")
-					(unit 1)
-				)
-			)
+			(uuid "1861d69f-f427-44b8-9651-b8f18fd1a229")
 		)
 	)
 	(symbol
@@ -433,18 +409,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c407371a-8fd3-408f-8509-38568d54d93d")
+			(uuid "2897b462-a9cc-4e04-8738-5252ce43648c")
 		)
 		(pin "2"
-			(uuid "f2efbd04-3218-4419-9f06-0199ccd4ffe2")
-		)
-		(instances
-			(project ""
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "D8")
-					(unit 1)
-				)
-			)
+			(uuid "14fc045e-1a58-420d-b95d-e8f9c412eae0")
 		)
 	)
 	(symbol
@@ -501,18 +469,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1a4d2a1-8fa5-4435-b85a-ef286fb7f8dd")
+			(uuid "c76f4e2d-1912-4cc5-9e33-5c3459b9343e")
 		)
 		(pin "2"
-			(uuid "728d0d9d-659d-411c-bc0e-8ffe64804851")
-		)
-		(instances
-			(project ""
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "D11")
-					(unit 1)
-				)
-			)
+			(uuid "c1a6948f-11ae-4c25-bea6-5aa4fc2b7fac")
 		)
 	)
 	(symbol
@@ -569,18 +529,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ce8190af-4220-48d6-b15b-ea1f58bacbf6")
+			(uuid "10fd7724-8c41-440a-a910-a534e212e8ed")
 		)
 		(pin "1"
-			(uuid "55f0df90-8964-4c0a-b735-74beee7b6214")
-		)
-		(instances
-			(project ""
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "D10")
-					(unit 1)
-				)
-			)
+			(uuid "913b78b2-51d6-4f24-ae39-2eb748c8fadf")
 		)
 	)
 	(symbol
@@ -637,18 +589,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b27ccef-a68b-41d4-98e3-0cc3c3effc2c")
+			(uuid "b2b1bced-fec4-4ed4-a8d6-e67ce0950ea9")
 		)
 		(pin "2"
-			(uuid "3a06fd23-1c80-443e-9449-79c58aea2a30")
-		)
-		(instances
-			(project ""
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "D13")
-					(unit 1)
-				)
-			)
+			(uuid "09c6e4f4-13fe-4a56-9968-cf14009f4b41")
 		)
 	)
 )

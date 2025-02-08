@@ -673,6 +673,14 @@
     [
       "ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496",
       "LEDs"
+    ],
+    [
+      "1034155c-8abf-469a-b01c-35ece3b3f3d3",
+      "Signals"
+    ],
+    [
+      "c28eef6a-e9d7-4a6b-bd54-71506fe9b344",
+      "Transistors"
     ]
   ],
   "text_variables": {}

@@ -3155,10 +3155,6 @@
 					(reference "J16")
 					(unit 1)
 				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J26")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3235,10 +3231,6 @@
 					(reference "J14")
 					(unit 1)
 				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J24")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3307,10 +3299,6 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J10")
-					(unit 1)
-				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -3383,10 +3371,6 @@
 					(reference "J5")
 					(unit 1)
 				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J27")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3455,10 +3439,6 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J6")
-					(unit 1)
-				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -3581,10 +3561,6 @@
 					(reference "J4")
 					(unit 1)
 				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J17")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3653,10 +3629,6 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J15")
-					(unit 1)
-				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -3738,10 +3710,6 @@
 					(reference "J12")
 					(unit 1)
 				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J22")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3816,10 +3784,6 @@
 					(reference "J7")
 					(unit 1)
 				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J18")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3891,10 +3855,6 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J13")
-					(unit 1)
-				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -3973,10 +3933,6 @@
 					(reference "J8")
 					(unit 1)
 				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J19")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4048,10 +4004,6 @@
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J9")
-					(unit 1)
-				)
-				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
-					(reference "J20")
 					(unit 1)
 				)
 			)
