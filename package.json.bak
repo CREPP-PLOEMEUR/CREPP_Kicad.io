@@ -22,8 +22,8 @@
           "version": "0.2",
           "status": "development",
           "kicad_version": "8.00",
-          "download_sha256": "8c849cfdf0dcef4ee75bbdfe09d326fd3e4b36eaa139b3e3929180b1e157e1b8",
-          "download_size": 8254465,
+          "download_sha256": "ffac6dd8df15eabbbc3ba3708505716dbfe0f549f24b0a8ed9f1ac4157505c4b",
+          "download_size": 8254664,
           "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad.io/main/Library.zip",
           "install_size": 0
         }
@@ -51,8 +51,8 @@
           "version": "0.2",
           "status": "development",
           "kicad_version": "8.00",
-          "download_sha256": "8c849cfdf0dcef4ee75bbdfe09d326fd3e4b36eaa139b3e3929180b1e157e1b8",
-          "download_size": 8254465,
+          "download_sha256": "ffac6dd8df15eabbbc3ba3708505716dbfe0f549f24b0a8ed9f1ac4157505c4b",
+          "download_size": 8254664,
           "download_url": "https://raw.githubusercontent.com/CREPP-PLOEMEUR/CREPP_Kicad.io/main/Library.zip",
           "install_size": 0
         }
