@@ -3135,24 +3135,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "c012213d-c167-44c0-ad02-086449978161")
+			(uuid "50341add-8082-4109-93ab-bc318a751221")
 		)
 		(pin "1"
-			(uuid "c110905a-1d70-4125-99b6-790a34f6642e")
+			(uuid "b935f945-55db-4a17-b0e2-15371724691f")
 		)
 		(pin "2"
-			(uuid "038aecd8-6ae8-4cff-9179-cd601176be66")
+			(uuid "ab8b6476-d61c-4420-95e2-2acd3d506693")
 		)
 		(pin "5"
-			(uuid "fcd7f7aa-c084-486c-a5ea-527b429fa2db")
+			(uuid "f5a7733f-29a6-4111-a00f-6e1e0c737c45")
 		)
 		(pin "3"
-			(uuid "f6210902-381a-4b35-bcf4-5f8e9ab9597f")
+			(uuid "edac6ba9-2c07-4651-a5ca-3d367e472918")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J16")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -3214,21 +3218,25 @@
 			)
 		)
 		(pin "4"
-			(uuid "0fd96ca5-9bb2-4790-aeca-8fcf49a964f6")
+			(uuid "7f49dd90-2df3-4103-bac7-55d28f8a8e0e")
 		)
 		(pin "1"
-			(uuid "cf0b802a-feb6-4079-a6aa-0cf5af258f4c")
+			(uuid "e62d5273-20f9-448b-b7ac-437512a522d9")
 		)
 		(pin "3"
-			(uuid "2aee1f0e-3627-47bf-8acb-d7a580aaeb81")
+			(uuid "ac0061a2-85ac-411a-a748-6ae531c281c7")
 		)
 		(pin "2"
-			(uuid "52b6e900-e311-4426-800d-f32a05ccd369")
+			(uuid "53761b94-55d0-48e6-91cb-5e33a1ad7286")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J14")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -3290,15 +3298,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "527f8094-3116-428f-bbd1-e80b8c886f39")
+			(uuid "7d11b2d9-10a6-4b6c-b0cd-d560e1c9f45b")
 		)
 		(pin "1"
-			(uuid "d6927e0d-fb33-4dff-b45c-095ad89a774c")
+			(uuid "4eb528ab-15c1-410c-842e-e9c467d076ab")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J10")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -3360,15 +3372,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "db8da4fb-8117-44c0-a84b-284c71a1f004")
+			(uuid "99ac79ec-b077-43ce-b6a4-ce2b17d281f2")
 		)
 		(pin "1"
-			(uuid "db66dc99-d6c2-45a5-878e-cbdefef740a4")
+			(uuid "6b986ccb-88b9-41ed-a373-4740ccaf3d76")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J5")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -3430,15 +3446,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "a0b4ab88-754c-4bad-aa32-abb69afcf404")
+			(uuid "9f1d3db5-1fca-4b41-a315-b81def3f93c8")
 		)
 		(pin "1"
-			(uuid "9a3355bc-32a5-44a6-92bf-260de710f077")
+			(uuid "62f31291-cab0-481e-b372-a4b2f587c92c")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J6")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -3541,24 +3561,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "268837f2-a098-4c0e-b80e-025d28d443fb")
+			(uuid "c3c05861-9388-44a9-87f1-c5054b3aaa43")
 		)
 		(pin "2"
-			(uuid "05942846-d1e3-407a-9af0-573532ddb5c6")
+			(uuid "a10fa67f-d15f-4cdd-ba25-cfcd13fea8ff")
 		)
 		(pin "1"
-			(uuid "965f5ecc-abe1-4db3-bcb3-94db53a836ac")
+			(uuid "8dadbcb7-6c28-4fc6-bced-131ecd817836")
 		)
 		(pin "4"
-			(uuid "3e12ad33-5076-4b03-b471-f3e2983bd43e")
+			(uuid "7e58a887-3328-4403-9aa4-c637add893bc")
 		)
 		(pin "5"
-			(uuid "008fb0b4-105e-4fe6-a134-787d1cc5e330")
+			(uuid "8a023a54-e036-4162-821a-1bb2e15e1134")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J4")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -3620,15 +3644,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "b94b44be-cef0-4aa8-82e3-6bf1f62c635c")
+			(uuid "bbc65271-395a-46c2-ac35-b821bab1181a")
 		)
 		(pin "1"
-			(uuid "b6a95774-c106-46d9-9333-0308b9210add")
+			(uuid "ea3d7d3e-104b-49f3-8503-50f6e08dd3e6")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J15")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -3690,24 +3718,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2973f46-ff20-409e-b56b-e61e73498ba4")
+			(uuid "5eac4d17-480a-4475-a13f-8beb4c8ca547")
 		)
 		(pin "5"
-			(uuid "0c67ab06-d0e9-414e-b0cb-f77d600564d1")
+			(uuid "df78cd65-a233-42e0-8a95-ecdf6f8912f2")
 		)
 		(pin "4"
-			(uuid "a3249d71-d79b-4374-b078-ee23e8192477")
+			(uuid "0e66eea3-548c-4a85-830d-f387cf7b999f")
 		)
 		(pin "3"
-			(uuid "e0f19bb5-8e9c-4344-91b7-e6b98c0ad65b")
+			(uuid "bd987253-2723-4ebf-ada5-9205d092584f")
 		)
 		(pin "2"
-			(uuid "108e6034-2ef3-49ff-b573-f2ec346e5733")
+			(uuid "3f8b6582-5dcf-42fb-bb39-fd2dc7bdad6b")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J12")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -3767,21 +3799,25 @@
 			)
 		)
 		(pin "4"
-			(uuid "55dbbcf0-6716-45d9-b70a-748e802f44f3")
+			(uuid "9409665e-be82-4e2b-a5fc-bfcda59cb01c")
 		)
 		(pin "3"
-			(uuid "eee84b81-c1fe-4c9e-bf01-473b677b1128")
+			(uuid "ffea4eac-f8c8-4c13-a861-133721f6d43d")
 		)
 		(pin "2"
-			(uuid "dc744a2b-5b4e-4196-8432-0ad2963ce310")
+			(uuid "8bc37914-88ee-4af7-b4ea-916be570fca4")
 		)
 		(pin "1"
-			(uuid "dd138c85-30e6-4d4b-bf00-5a5951a85089")
+			(uuid "ab61f876-8d1a-4de0-b60a-cf25ea38d5bb")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J7")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -3843,18 +3879,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "8d7ff62e-a975-4686-83db-d00650c2d39b")
+			(uuid "5d93a160-dd8f-49d4-8c5d-14165caa182a")
 		)
 		(pin "2"
-			(uuid "7a675ac2-3b4b-42ad-b153-ca72b6090f66")
+			(uuid "d4cfccb1-f20c-4e2d-a007-9f4911bffc55")
 		)
 		(pin "1"
-			(uuid "9fa29af2-1a50-4f5d-afe5-4c5571e1f4d6")
+			(uuid "8cfe23b7-9dc0-4188-b73c-39cce865653a")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J13")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -3916,21 +3956,25 @@
 			)
 		)
 		(pin "2"
-			(uuid "d9c7ecdf-1890-4ead-95e6-bae269578b56")
+			(uuid "f48b43a6-2093-4edc-a968-9432c53e80f4")
 		)
 		(pin "3"
-			(uuid "cb277c02-35e4-460a-850a-bb8f8290ca67")
+			(uuid "cc7248b3-c7f2-4e86-8e60-adf224f9635e")
 		)
 		(pin "1"
-			(uuid "b1f95678-665a-4db9-adfc-d9c79699649e")
+			(uuid "058c5f1a-b4d5-40bd-9d96-a91b73686a62")
 		)
 		(pin "4"
-			(uuid "ec71deab-780c-4f19-9509-1a0bac0d818c")
+			(uuid "943804cb-658d-4cbe-ad1a-fbe7fceac08b")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J8")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -3992,18 +4036,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "43d8b7a0-fcb7-4ae6-ac3f-8c99c7bf01cc")
+			(uuid "ca98d4a7-38af-4b03-953f-d7cf5c60601c")
 		)
 		(pin "2"
-			(uuid "afa7eb97-3bb3-4f38-b71e-83d40eb95ed6")
+			(uuid "79219f3a-c8a9-4336-b244-817bcea19a86")
 		)
 		(pin "1"
-			(uuid "69b474d0-8745-4f93-82e0-622762dcd48a")
+			(uuid "e6873d2e-7dfd-44cf-9efd-a2a78fec4bd9")
 		)
 		(instances
 			(project "Kicad_dev"
 				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/233c38d7-f502-4562-9288-001249354de2"
 					(reference "J9")
+					(unit 1)
+				)
+				(path "/8104dfe2-da9a-40cd-b518-c622bfb26061/ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496"
+					(reference "J20")
 					(unit 1)
 				)
 			)

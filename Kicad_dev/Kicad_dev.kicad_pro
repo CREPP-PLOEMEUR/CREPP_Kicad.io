@@ -669,6 +669,10 @@
     [
       "7c3c07de-3c76-4af0-8fc4-525102bf82ab",
       "Sensors"
+    ],
+    [
+      "ed7748bb-2ec7-4bd2-99cf-7b5f9a4d5496",
+      "LEDs"
     ]
   ],
   "text_variables": {}

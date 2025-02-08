@@ -15,4 +15,7 @@
   (lib (name "CREPP_Sensors_distance")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Sensors_distance.pretty")(options "")(descr ""))
   (lib (name "CREPP_Servo")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP_Kicad/CREPP.Components/footprints/CREPP_Servo.pretty")(options "")(descr ""))
   (lib (name "CREPP_LEDs")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/CREPP.Components/footprints/CREPP_LEDs.pretty")(options "")(descr ""))
+  (lib (name "CREPP_PMOS_CMS")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/CREPP.Components/footprints/CREPP_PMOS_CMS.pretty")(options "")(descr ""))
+  (lib (name "CREPP_Jumpers")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/CREPP.Components/footprints/CREPP_Jumpers.pretty")(options "")(descr ""))
+  (lib (name "CREPP_NRF24")(type "KiCad")(uri "/home/nico/Documents/CREPP/CREPP.io/CREPP_Kicad.io/CREPP.Components/footprints/CREPP_NRF24.pretty")(options "")(descr ""))
 )
